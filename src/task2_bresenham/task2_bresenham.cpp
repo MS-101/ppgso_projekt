@@ -103,19 +103,18 @@ void drawLine(ppgso::Image& framebuffer, Point& from, Point& to) {
 
 int main()
 {
-  // Use ppgso::Image as our framebuffer
-  ppgso::Image framebuffer(SIZE, SIZE);
-  framebuffer.clear({255, 255, 255});
+    // Use ppgso::Image as our framebuffer
+    ppgso::Image framebuffer(SIZE, SIZE);
+    framebuffer.clear({255, 255, 255});
 
-  // TODO: Generate star points
-  std::vector<Point> points;
+    // TODO: Generate star points
+    std::vector<Point> points;
 
-  unsigned int vertices_count = 4;
-  unsigned int radius = 100;
-  int center_x = 200;
-  int center_y = 200;
+    unsigned int vertices_count = 4;
+    unsigned int radius = 100;
+    int center_x = 200;
+    int center_y = 200;
 
-  /*
     Point *firstPoint;
     for (unsigned int i = 0; i < vertices_count; i++) {
         int outer_x = center_x + (int)round(radius * cos(2*M_PI*i/vertices_count));
@@ -125,48 +124,21 @@ int main()
         }
         auto *outerPoint = new Point(outer_x, outer_y);
         points.push_back(*outerPoint);
-        std::cout << "Generated OUTER point (" << outer_x << ", " << outer_y << ")" << std::endl;
-
-        int inner_x = center_x + (int)round((double)radius/2 * cos(2*M_PI*i/vertices_count + M_PI/vertices_count));
-        int inner_y = center_y + (int)round((double)radius/2 * sin(2*M_PI*i/vertices_count + M_PI/vertices_count));
-        auto *innerPoint = new Point(inner_x, inner_y);
-        points.push_back(*innerPoint);
-        std::cout << "Generated INNER point (" << inner_x << ", " << inner_y << ")" << std::endl;
 
         if (i == vertices_count - 1) {
             points.push_back(*firstPoint);
         }
     }
-  */
 
-  Point *firstPoint;
-  for (unsigned int i = 0; i < vertices_count; i++) {
-      int x = center_x + (int)round(radius * cos(2*M_PI*i/vertices_count));
-      int y = center_y + (int)round(radius * sin(2*M_PI*i/vertices_count));
+    // Draw lines
+    for(unsigned int i = 0; i < points.size() - 1; i++) {
+        drawLine(framebuffer, points[i], points[i+1]);
+    }
 
-      if (i == 0) {
-          firstPoint = new Point(x, y);
-      }
+    // Save the result
+    std::cout << "Generating task2_bresenham.bmp file ..." << std::endl;
+    ppgso::image::saveBMP(framebuffer, "task2_bresenham.bmp");
 
-      auto *newPoint = new Point(x, y);
-      points.push_back(*newPoint);
-      std::cout << "Generated new point (" << x << ", " << y << ")" << std::endl;
-
-      if (i == vertices_count - 1) {
-          points.push_back(*firstPoint);
-      }
-  }
-
-  // Draw lines
-  for(unsigned int i = 0; i < points.size() - 1; i++) {
-    drawLine(framebuffer, points[i], points[i+1]);
-  }
-
-  // Save the result
-  std::cout << "Generating task2_bresenham.bmp file ..." << std::endl;
-  ppgso::image::saveBMP(framebuffer, "task2_bresenham.bmp");
-
-  std::cout << "Done." << std::endl;
-  return EXIT_SUCCESS;
+    std::cout << "Done." << std::endl;
+    return EXIT_SUCCESS;
 }
-

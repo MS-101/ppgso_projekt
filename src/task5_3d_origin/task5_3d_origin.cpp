@@ -21,7 +21,7 @@ const unsigned int SIZE = 512;
 class Cube {
 private:
     // 2D vectors define points/vertices of the shape
-    // TODO: Define cube vertices
+	 // TODO: Define cube vertices
     std::vector<glm::vec3> vertices = {
             {0, 0, 0},
             {1, 0, 0},
@@ -39,7 +39,7 @@ private:
     };
 
     // Indices define triangles that index into vertices
-    // TODO: Define cube indices
+	 // TODO: Define cube indices
     std::vector<Face> indices = {
             {0, 1, 2},
             {0, 2, 3},
@@ -110,7 +110,7 @@ public:
     // Set the object transformation matrix
     void updateModelMatrix() {
         // Compute transformation by scaling, rotating and then translating the shape
-        // TODO: Update model matrix: modelMatrix = ... use position, rotation and scale
+		 // TODO: Update model matrix: modelMatrix = ... use position, rotation and scale
         modelMatrix = glm::mat4 {1.0f};
         modelMatrix = glm::scale(modelMatrix, scale);
         modelMatrix = glm::translate(modelMatrix, position);
@@ -129,7 +129,7 @@ public:
         viewMatrix = glm::rotate(viewMatrix, viewRotation.z, glm::vec3 {0,0,1});
     }
 
-    void translateKocka(){
+    void rotateKocka(){
         modelMatrix = glm::translate(modelMatrix, glm::vec3 {0, 5, 0});
     }
 
@@ -149,28 +149,25 @@ public:
 class OriginWindow : public ppgso::Window {
 private:
     Cube axisX, axisY, axisZ;
-    Cube cube, plane;
+    Cube cube;
 
     glm::vec3 viewRotation{0,0,0};
 public:
     OriginWindow() : Window{"task5_3d_origin", SIZE, SIZE} {
 
-        // TODO: Set axis colors to red,green and blue...and cube color to grey
+		// TODO: Set axis colors to red,green and blue...and cube color to grey
         axisX.color = {1,0,0};
         axisY.color = {0,1,0};;
         axisZ.color = {0,0,1};
         cube.color = {0.5,0.5,0.5};
-        plane.color = {0.5, 0.5, 0};
 
         const float scaleMin = 0.03f;
         const float scaleMax = 10.00f;
 
-        // TODO: Set axis scaling in X,Y,Z directions...hint use scaleMin in tangent directions and scaleMax in the axis direction
-        axisX.scale = {scaleMax, scaleMin, scaleMin};
+		// TODO: Set axis scaling in X,Y,Z directions...hint use scaleMin in tangent directions and scaleMax in the axis direction
+        axisX.scale = {scaleMax, scaleMax, scaleMin};
         axisY.scale = {scaleMin, scaleMax, scaleMin};
         axisZ.scale = {scaleMin, scaleMin, scaleMax};
-        plane.scale = {scaleMax, scaleMax, scaleMin};
-
         cube.position = {scaleMax / 2,  scaleMax / 2, 0};
     }
 
@@ -187,32 +184,30 @@ public:
 
         // Set rotation and scale
         cube.rotation.x = t*2.0f;
-        viewRotation.x = 5.0f + t*0.1f;
+        viewRotation.x = t*0.1f;
         viewRotation.y = t*0.1f;
         viewRotation.z = t*0.1f;
 
-        // TODO: update view matrix of X,Y,Z axis and cube
-        // TODO: update model matrix
+		// TODO: update view matrix of X,Y,Z axis and cube
+		// TODO: update model matrix
         axisX.updateViewMatrix(viewRotation);
         axisY.updateViewMatrix(viewRotation);
         axisZ.updateViewMatrix(viewRotation);
         cube.updateViewMatrix(viewRotation);
-        plane.updateViewMatrix(viewRotation);
 
         axisX.updateModelMatrix();
         axisY.updateModelMatrix();
         axisZ.updateModelMatrix();
         cube.updateModelMatrix();
-        plane.updateModelMatrix();
 
-        cube.translateKocka();
+        cube.rotateKocka();
 
         cube.render();
         axisX.render();
         axisY.render();
         axisZ.render();
-        plane.render();
-    }
+        //_sleep(1000);
+     }
 };
 
 int main() {
