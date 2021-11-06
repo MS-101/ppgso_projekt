@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\marti\Downloads\ppgso-public\ppgso-public
+CMAKE_SOURCE_DIR = C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\marti\Downloads\ppgso-public\ppgso-public\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/task5_3d_origin.dir/depend.make
@@ -68,16 +68,16 @@ include CMakeFiles/task5_3d_origin.dir/flags.make
 CMakeFiles/task5_3d_origin.dir/src/task5_3d_origin/task5_3d_origin.cpp.obj: CMakeFiles/task5_3d_origin.dir/flags.make
 CMakeFiles/task5_3d_origin.dir/src/task5_3d_origin/task5_3d_origin.cpp.obj: CMakeFiles/task5_3d_origin.dir/includes_CXX.rsp
 CMakeFiles/task5_3d_origin.dir/src/task5_3d_origin/task5_3d_origin.cpp.obj: ../src/task5_3d_origin/task5_3d_origin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marti\Downloads\ppgso-public\ppgso-public\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/task5_3d_origin.dir/src/task5_3d_origin/task5_3d_origin.cpp.obj"
-	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\task5_3d_origin.dir\src\task5_3d_origin\task5_3d_origin.cpp.obj -c C:\Users\marti\Downloads\ppgso-public\ppgso-public\src\task5_3d_origin\task5_3d_origin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/task5_3d_origin.dir/src/task5_3d_origin/task5_3d_origin.cpp.obj"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\task5_3d_origin.dir\src\task5_3d_origin\task5_3d_origin.cpp.obj -c C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\task5_3d_origin\task5_3d_origin.cpp
 
 CMakeFiles/task5_3d_origin.dir/src/task5_3d_origin/task5_3d_origin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task5_3d_origin.dir/src/task5_3d_origin/task5_3d_origin.cpp.i"
-	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\marti\Downloads\ppgso-public\ppgso-public\src\task5_3d_origin\task5_3d_origin.cpp > CMakeFiles\task5_3d_origin.dir\src\task5_3d_origin\task5_3d_origin.cpp.i
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\task5_3d_origin\task5_3d_origin.cpp > CMakeFiles\task5_3d_origin.dir\src\task5_3d_origin\task5_3d_origin.cpp.i
 
 CMakeFiles/task5_3d_origin.dir/src/task5_3d_origin/task5_3d_origin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task5_3d_origin.dir/src/task5_3d_origin/task5_3d_origin.cpp.s"
-	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\marti\Downloads\ppgso-public\ppgso-public\src\task5_3d_origin\task5_3d_origin.cpp -o CMakeFiles\task5_3d_origin.dir\src\task5_3d_origin\task5_3d_origin.cpp.s
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\task5_3d_origin\task5_3d_origin.cpp -o CMakeFiles\task5_3d_origin.dir\src\task5_3d_origin\task5_3d_origin.cpp.s
 
 # Object files for target task5_3d_origin
 task5_3d_origin_OBJECTS = \
@@ -95,9 +95,9 @@ task5_3d_origin.exe: ../dependencies/lib/mingw/libglew32.a
 task5_3d_origin.exe: CMakeFiles/task5_3d_origin.dir/linklibs.rsp
 task5_3d_origin.exe: CMakeFiles/task5_3d_origin.dir/objects1.rsp
 task5_3d_origin.exe: CMakeFiles/task5_3d_origin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\marti\Downloads\ppgso-public\ppgso-public\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable task5_3d_origin.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable task5_3d_origin.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\task5_3d_origin.dir\link.txt --verbose=$(VERBOSE)
-	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E copy_directory C:/Users/marti/Downloads/ppgso-public/ppgso-public/data/ C:/Users/marti/Downloads/ppgso-public/ppgso-public/cmake-build-debug
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E copy_directory C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/data/ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug
 
 # Rule to build all files generated by this target.
 CMakeFiles/task5_3d_origin.dir/build: task5_3d_origin.exe
@@ -108,6 +108,6 @@ CMakeFiles/task5_3d_origin.dir/clean:
 .PHONY : CMakeFiles/task5_3d_origin.dir/clean
 
 CMakeFiles/task5_3d_origin.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\marti\Downloads\ppgso-public\ppgso-public C:\Users\marti\Downloads\ppgso-public\ppgso-public C:\Users\marti\Downloads\ppgso-public\ppgso-public\cmake-build-debug C:\Users\marti\Downloads\ppgso-public\ppgso-public\cmake-build-debug C:\Users\marti\Downloads\ppgso-public\ppgso-public\cmake-build-debug\CMakeFiles\task5_3d_origin.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles\task5_3d_origin.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/task5_3d_origin.dir/depend
 

@@ -1,20 +1,9 @@
-"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\marti\Downloads\ppgso-public\ppgso-public
--- The CXX compiler identification is GNU 8.1.0
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: C:/mingw-w64/mingw64/bin/g++.exe - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Found GLFW3: C:/Users/marti/Downloads/ppgso-public/ppgso-public/dependencies/lib/mingw/libglfw3.a
-FIND_PATH C:/Users/marti/Downloads/ppgso-public/ppgso-public/dependencies/include
--- Found GLEW: C:/Users/marti/Downloads/ppgso-public/ppgso-public/dependencies/include  
--- Found GLEW: C:/Users/marti/Downloads/ppgso-public/ppgso-public/dependencies/include
--- GLEW_LIBRARIES: C:/Users/marti/Downloads/ppgso-public/ppgso-public/dependencies/lib/mingw/libglew32.a
--- Found GLM: C:/Users/marti/Downloads/ppgso-public/ppgso-public/dependencies/include  
--- GLM_INCLUDE_DIR = C:/Users/marti/Downloads/ppgso-public/ppgso-public/dependencies/include
--- Found OpenGL: opengl32   
--- Found OpenMP_CXX: -fopenmp (found version "4.5") 
--- Found OpenMP: TRUE (found version "4.5")  
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso
+-- Found GLFW3: C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/dependencies/lib/mingw/libglfw3.a
+FIND_PATH C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/dependencies/include
+-- Found GLEW: C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/dependencies/include
+-- GLEW_LIBRARIES: C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/dependencies/lib/mingw/libglew32.a
+-- GLM_INCLUDE_DIR = C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/dependencies/include
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/marti/Downloads/ppgso-public/ppgso-public/cmake-build-debug
+-- Build files have been written to: C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug

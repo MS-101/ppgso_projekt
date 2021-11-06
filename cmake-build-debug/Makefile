@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\marti\Downloads\ppgso-public\ppgso-public
+CMAKE_SOURCE_DIR = C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\marti\Downloads\ppgso-public\ppgso-public\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,9 +131,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marti\Downloads\ppgso-public\ppgso-public\cmake-build-debug\CMakeFiles C:\Users\marti\Downloads\ppgso-public\ppgso-public\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marti\Downloads\ppgso-public\ppgso-public\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -198,6 +198,19 @@ ppgso: cmake_check_build_system
 ppgso/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppgso.dir\build.make CMakeFiles/ppgso.dir/build
 .PHONY : ppgso/fast
+
+#=============================================================================
+# Target rules for targets named gl10_projekt
+
+# Build rule for target.
+gl10_projekt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gl10_projekt
+.PHONY : gl10_projekt
+
+# fast build rule for target.
+gl10_projekt/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/build
+.PHONY : gl10_projekt/fast
 
 #=============================================================================
 # Target rules for targets named gl4_transform
@@ -842,6 +855,102 @@ shaders/texture_vert_glsl.s: shaders/texture_vert_glsl.cpp.s
 shaders/texture_vert_glsl.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\shaders.dir\build.make CMakeFiles/shaders.dir/shaders/texture_vert_glsl.cpp.s
 .PHONY : shaders/texture_vert_glsl.cpp.s
+
+src/gl10_projekt/camera.obj: src/gl10_projekt/camera.cpp.obj
+.PHONY : src/gl10_projekt/camera.obj
+
+# target to build an object file
+src/gl10_projekt/camera.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/camera.cpp.obj
+.PHONY : src/gl10_projekt/camera.cpp.obj
+
+src/gl10_projekt/camera.i: src/gl10_projekt/camera.cpp.i
+.PHONY : src/gl10_projekt/camera.i
+
+# target to preprocess a source file
+src/gl10_projekt/camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/camera.cpp.i
+.PHONY : src/gl10_projekt/camera.cpp.i
+
+src/gl10_projekt/camera.s: src/gl10_projekt/camera.cpp.s
+.PHONY : src/gl10_projekt/camera.s
+
+# target to generate assembly for a file
+src/gl10_projekt/camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/camera.cpp.s
+.PHONY : src/gl10_projekt/camera.cpp.s
+
+src/gl10_projekt/gl10_scene.obj: src/gl10_projekt/gl10_scene.cpp.obj
+.PHONY : src/gl10_projekt/gl10_scene.obj
+
+# target to build an object file
+src/gl10_projekt/gl10_scene.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.obj
+.PHONY : src/gl10_projekt/gl10_scene.cpp.obj
+
+src/gl10_projekt/gl10_scene.i: src/gl10_projekt/gl10_scene.cpp.i
+.PHONY : src/gl10_projekt/gl10_scene.i
+
+# target to preprocess a source file
+src/gl10_projekt/gl10_scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.i
+.PHONY : src/gl10_projekt/gl10_scene.cpp.i
+
+src/gl10_projekt/gl10_scene.s: src/gl10_projekt/gl10_scene.cpp.s
+.PHONY : src/gl10_projekt/gl10_scene.s
+
+# target to generate assembly for a file
+src/gl10_projekt/gl10_scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.s
+.PHONY : src/gl10_projekt/gl10_scene.cpp.s
+
+src/gl10_projekt/object.obj: src/gl10_projekt/object.cpp.obj
+.PHONY : src/gl10_projekt/object.obj
+
+# target to build an object file
+src/gl10_projekt/object.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/object.cpp.obj
+.PHONY : src/gl10_projekt/object.cpp.obj
+
+src/gl10_projekt/object.i: src/gl10_projekt/object.cpp.i
+.PHONY : src/gl10_projekt/object.i
+
+# target to preprocess a source file
+src/gl10_projekt/object.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/object.cpp.i
+.PHONY : src/gl10_projekt/object.cpp.i
+
+src/gl10_projekt/object.s: src/gl10_projekt/object.cpp.s
+.PHONY : src/gl10_projekt/object.s
+
+# target to generate assembly for a file
+src/gl10_projekt/object.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/object.cpp.s
+.PHONY : src/gl10_projekt/object.cpp.s
+
+src/gl10_projekt/scene.obj: src/gl10_projekt/scene.cpp.obj
+.PHONY : src/gl10_projekt/scene.obj
+
+# target to build an object file
+src/gl10_projekt/scene.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene.cpp.obj
+.PHONY : src/gl10_projekt/scene.cpp.obj
+
+src/gl10_projekt/scene.i: src/gl10_projekt/scene.cpp.i
+.PHONY : src/gl10_projekt/scene.i
+
+# target to preprocess a source file
+src/gl10_projekt/scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene.cpp.i
+.PHONY : src/gl10_projekt/scene.cpp.i
+
+src/gl10_projekt/scene.s: src/gl10_projekt/scene.cpp.s
+.PHONY : src/gl10_projekt/scene.s
+
+# target to generate assembly for a file
+src/gl10_projekt/scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene.cpp.s
+.PHONY : src/gl10_projekt/scene.cpp.s
 
 src/gl1_gradient/gl1_gradient.obj: src/gl1_gradient/gl1_gradient.cpp.obj
 .PHONY : src/gl1_gradient/gl1_gradient.obj
@@ -1575,6 +1684,7 @@ help:
 	@echo ... install/strip
 	@echo ... list_install_components
 	@echo ... rebuild_cache
+	@echo ... gl10_projekt
 	@echo ... gl1_gradient
 	@echo ... gl2_texture
 	@echo ... gl3_animate
@@ -1646,6 +1756,18 @@ help:
 	@echo ... shaders/texture_vert_glsl.obj
 	@echo ... shaders/texture_vert_glsl.i
 	@echo ... shaders/texture_vert_glsl.s
+	@echo ... src/gl10_projekt/camera.obj
+	@echo ... src/gl10_projekt/camera.i
+	@echo ... src/gl10_projekt/camera.s
+	@echo ... src/gl10_projekt/gl10_scene.obj
+	@echo ... src/gl10_projekt/gl10_scene.i
+	@echo ... src/gl10_projekt/gl10_scene.s
+	@echo ... src/gl10_projekt/object.obj
+	@echo ... src/gl10_projekt/object.i
+	@echo ... src/gl10_projekt/object.s
+	@echo ... src/gl10_projekt/scene.obj
+	@echo ... src/gl10_projekt/scene.i
+	@echo ... src/gl10_projekt/scene.s
 	@echo ... src/gl1_gradient/gl1_gradient.obj
 	@echo ... src/gl1_gradient/gl1_gradient.i
 	@echo ... src/gl1_gradient/gl1_gradient.s

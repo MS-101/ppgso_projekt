@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/marti/Downloads/ppgso-public/ppgso-public/src/gl7_diffuse/gl7_diffuse.cpp" "C:/Users/marti/Downloads/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/gl7_diffuse.dir/src/gl7_diffuse/gl7_diffuse.cpp.obj"
+  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl7_diffuse/gl7_diffuse.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl7_diffuse.dir/src/gl7_diffuse/gl7_diffuse.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -32,8 +32,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/marti/Downloads/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/ppgso.dir/DependInfo.cmake"
-  "C:/Users/marti/Downloads/ppgso-public/ppgso-public/cmake-build-debug/CMakeFiles/shaders.dir/DependInfo.cmake"
+  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/ppgso.dir/DependInfo.cmake"
+  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/shaders.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
