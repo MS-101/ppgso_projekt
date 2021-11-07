@@ -22,10 +22,11 @@ private:
 
   ppgso::Texture sphereTexture = {ppgso::image::loadBMP("sphere.bmp")};
   ppgso::Texture cursorTexture = {ppgso::image::loadBMP("lena.bmp")};
+  ppgso::Texture lampaTexture = {ppgso::image::loadBMP("lampa.bmp")};
 
   ppgso::Mesh sphere = {"sphere.obj"};
   ppgso::Mesh cursor = {"quad.obj"};
-  ppgso::Mesh cube = {"cube.obj"};
+  ppgso::Mesh cube = {"lampa.obj"};
 
   bool animationEnabled = true;
   double cursorX = 0.0;
@@ -99,7 +100,7 @@ public:
     program.setUniform("ProjectionMatrix", glm::perspective((ppgso::PI / 180.f) * 60.0f, 1.0f, 0.1f, 10.0f));
 
     // Render objects
-    program.setUniform("Texture", sphereTexture);
+    program.setUniform("Texture", lampaTexture);
 
     // Central box
     program.setUniform("ModelMatrix", cubeMat);

@@ -182,7 +182,7 @@ add_executable(gl10_projekt
         src/gl10_projekt/gl10_scene.cpp
         src/gl10_projekt/object.cpp
         src/gl10_projekt/scene.cpp
-        src/gl10_projekt/camera.cpp)
+        src/gl10_projekt/camera.cpp src/gl10_projekt/lampa.cpp src/gl10_projekt/lampa.h)
 target_link_libraries(gl10_projekt ppgso shaders)
 install(TARGETS gl10_projekt DESTINATION .)
 

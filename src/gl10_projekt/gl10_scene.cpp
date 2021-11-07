@@ -14,6 +14,8 @@
 
 #include "camera.h"
 #include "scene.h"
+#include "lampa.h"
+
 
 const unsigned int SIZE = 512;
 
@@ -33,9 +35,12 @@ private:
     scene.objects.clear();
 
     // Create a camera
-    auto camera = std::make_unique<Camera>(60.0f, 1.0f, 0.1f, 100.0f);
+    auto camera = std::make_unique<Camera>(90.0f, 1.0f, 0.1f, 100.0f);
     camera->position.z = -15.0f;
     scene.camera = move(camera);
+
+    auto lampa = std::make_unique<Lampa>();
+    scene.objects.push_back(std::move(lampa));
   }
 
 public:

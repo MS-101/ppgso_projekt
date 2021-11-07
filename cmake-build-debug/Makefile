@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso
+CMAKE_SOURCE_DIR = H:\Reposits\ppgso_projekt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug
+CMAKE_BINARY_DIR = H:\Reposits\ppgso_projekt\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,7 +86,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -96,44 +96,44 @@ edit_cache/fast: edit_cache
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Reposits\ppgso_projekt\cmake-build-debug\CMakeFiles H:\Reposits\ppgso_projekt\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Reposits\ppgso_projekt\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -903,6 +903,30 @@ src/gl10_projekt/gl10_scene.s: src/gl10_projekt/gl10_scene.cpp.s
 src/gl10_projekt/gl10_scene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.s
 .PHONY : src/gl10_projekt/gl10_scene.cpp.s
+
+src/gl10_projekt/lampa.obj: src/gl10_projekt/lampa.cpp.obj
+.PHONY : src/gl10_projekt/lampa.obj
+
+# target to build an object file
+src/gl10_projekt/lampa.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lampa.cpp.obj
+.PHONY : src/gl10_projekt/lampa.cpp.obj
+
+src/gl10_projekt/lampa.i: src/gl10_projekt/lampa.cpp.i
+.PHONY : src/gl10_projekt/lampa.i
+
+# target to preprocess a source file
+src/gl10_projekt/lampa.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lampa.cpp.i
+.PHONY : src/gl10_projekt/lampa.cpp.i
+
+src/gl10_projekt/lampa.s: src/gl10_projekt/lampa.cpp.s
+.PHONY : src/gl10_projekt/lampa.s
+
+# target to generate assembly for a file
+src/gl10_projekt/lampa.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lampa.cpp.s
+.PHONY : src/gl10_projekt/lampa.cpp.s
 
 src/gl10_projekt/object.obj: src/gl10_projekt/object.cpp.obj
 .PHONY : src/gl10_projekt/object.obj
@@ -1762,6 +1786,9 @@ help:
 	@echo ... src/gl10_projekt/gl10_scene.obj
 	@echo ... src/gl10_projekt/gl10_scene.i
 	@echo ... src/gl10_projekt/gl10_scene.s
+	@echo ... src/gl10_projekt/lampa.obj
+	@echo ... src/gl10_projekt/lampa.i
+	@echo ... src/gl10_projekt/lampa.s
 	@echo ... src/gl10_projekt/object.obj
 	@echo ... src/gl10_projekt/object.i
 	@echo ... src/gl10_projekt/object.s

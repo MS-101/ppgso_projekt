@@ -1004,7 +1004,7 @@ GL/glew.h
 GLFW/glfw3.h
 -
 
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/camera.h
+H:/Reposits/ppgso_projekt/src/gl10_projekt/camera.h
 memory
 -
 glm/glm.hpp
@@ -1012,7 +1012,7 @@ glm/glm.hpp
 ppgso/ppgso.h
 -
 
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/gl10_scene.cpp
+H:/Reposits/ppgso_projekt/src/gl10_projekt/gl10_scene.cpp
 iostream
 -
 map
@@ -1022,11 +1022,19 @@ list
 ppgso/ppgso.h
 -
 camera.h
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/camera.h
+H:/Reposits/ppgso_projekt/src/gl10_projekt/camera.h
 scene.h
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/scene.h
+H:/Reposits/ppgso_projekt/src/gl10_projekt/scene.h
+lampa.h
+H:/Reposits/ppgso_projekt/src/gl10_projekt/lampa.h
 
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/object.h
+H:/Reposits/ppgso_projekt/src/gl10_projekt/lampa.h
+ppgso/ppgso.h
+-
+object.h
+H:/Reposits/ppgso_projekt/src/gl10_projekt/object.h
+
+H:/Reposits/ppgso_projekt/src/gl10_projekt/object.h
 memory
 -
 list
@@ -1036,7 +1044,7 @@ map
 glm/glm.hpp
 -
 
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/scene.h
+H:/Reposits/ppgso_projekt/src/gl10_projekt/scene.h
 memory
 -
 map
@@ -1044,7 +1052,7 @@ map
 list
 -
 object.h
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/object.h
+H:/Reposits/ppgso_projekt/src/gl10_projekt/object.h
 camera.h
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/camera.h
+H:/Reposits/ppgso_projekt/src/gl10_projekt/camera.h
 
