@@ -904,6 +904,54 @@ src/gl10_projekt/gl10_scene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.s
 .PHONY : src/gl10_projekt/gl10_scene.cpp.s
 
+src/gl10_projekt/knaz.obj: src/gl10_projekt/knaz.cpp.obj
+.PHONY : src/gl10_projekt/knaz.obj
+
+# target to build an object file
+src/gl10_projekt/knaz.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz.cpp.obj
+.PHONY : src/gl10_projekt/knaz.cpp.obj
+
+src/gl10_projekt/knaz.i: src/gl10_projekt/knaz.cpp.i
+.PHONY : src/gl10_projekt/knaz.i
+
+# target to preprocess a source file
+src/gl10_projekt/knaz.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz.cpp.i
+.PHONY : src/gl10_projekt/knaz.cpp.i
+
+src/gl10_projekt/knaz.s: src/gl10_projekt/knaz.cpp.s
+.PHONY : src/gl10_projekt/knaz.s
+
+# target to generate assembly for a file
+src/gl10_projekt/knaz.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz.cpp.s
+.PHONY : src/gl10_projekt/knaz.cpp.s
+
+src/gl10_projekt/kostol.obj: src/gl10_projekt/kostol.cpp.obj
+.PHONY : src/gl10_projekt/kostol.obj
+
+# target to build an object file
+src/gl10_projekt/kostol.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kostol.cpp.obj
+.PHONY : src/gl10_projekt/kostol.cpp.obj
+
+src/gl10_projekt/kostol.i: src/gl10_projekt/kostol.cpp.i
+.PHONY : src/gl10_projekt/kostol.i
+
+# target to preprocess a source file
+src/gl10_projekt/kostol.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kostol.cpp.i
+.PHONY : src/gl10_projekt/kostol.cpp.i
+
+src/gl10_projekt/kostol.s: src/gl10_projekt/kostol.cpp.s
+.PHONY : src/gl10_projekt/kostol.s
+
+# target to generate assembly for a file
+src/gl10_projekt/kostol.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kostol.cpp.s
+.PHONY : src/gl10_projekt/kostol.cpp.s
+
 src/gl10_projekt/lampa.obj: src/gl10_projekt/lampa.cpp.obj
 .PHONY : src/gl10_projekt/lampa.obj
 
@@ -1786,6 +1834,12 @@ help:
 	@echo ... src/gl10_projekt/gl10_scene.obj
 	@echo ... src/gl10_projekt/gl10_scene.i
 	@echo ... src/gl10_projekt/gl10_scene.s
+	@echo ... src/gl10_projekt/knaz.obj
+	@echo ... src/gl10_projekt/knaz.i
+	@echo ... src/gl10_projekt/knaz.s
+	@echo ... src/gl10_projekt/kostol.obj
+	@echo ... src/gl10_projekt/kostol.i
+	@echo ... src/gl10_projekt/kostol.s
 	@echo ... src/gl10_projekt/lampa.obj
 	@echo ... src/gl10_projekt/lampa.i
 	@echo ... src/gl10_projekt/lampa.s

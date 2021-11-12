@@ -18,9 +18,6 @@ private:
 
     glm::vec3 rotMomentum;
 public:
-    /*
-     * Create new projectile
-     */
     Lampa();
 
     /*!
@@ -36,5 +33,4 @@ public:
      * @param scene Scene to render in
      */
     void render(Scene &scene) override;
-
 };

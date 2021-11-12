@@ -15,9 +15,11 @@
 #include "camera.h"
 #include "scene.h"
 #include "lampa.h"
+#include "knaz.h"
+#include "kostol.h"
 
 
-const unsigned int SIZE = 512;
+const unsigned int SIZE = 800;
 
 /*!
  * Custom windows for our simple game
@@ -40,7 +42,11 @@ private:
     scene.camera = move(camera);
 
     auto lampa = std::make_unique<Lampa>();
-    scene.objects.push_back(std::move(lampa));
+    auto knaz = std::make_unique<Knaz>();
+    auto kostol = std::make_unique<Kostol>();
+    scene.objects.push_back(std::move(knaz));
+    //scene.objects.push_back(std::move(lampa));
+    //scene.objects.push_back(std::move(kostol));
   }
 
 public:

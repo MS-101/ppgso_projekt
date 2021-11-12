@@ -1481,6 +1481,18 @@
 		<Unit filename="H:/Reposits/ppgso_projekt/src/gl10_projekt/gl10_scene.cpp">
 			<Option target="gl10_projekt"/>
 		</Unit>
+		<Unit filename="H:/Reposits/ppgso_projekt/src/gl10_projekt/knaz.cpp">
+			<Option target="gl10_projekt"/>
+		</Unit>
+		<Unit filename="H:/Reposits/ppgso_projekt/src/gl10_projekt/knaz.h">
+			<Option target="gl10_projekt"/>
+		</Unit>
+		<Unit filename="H:/Reposits/ppgso_projekt/src/gl10_projekt/kostol.cpp">
+			<Option target="gl10_projekt"/>
+		</Unit>
+		<Unit filename="H:/Reposits/ppgso_projekt/src/gl10_projekt/kostol.h">
+			<Option target="gl10_projekt"/>
+		</Unit>
 		<Unit filename="H:/Reposits/ppgso_projekt/src/gl10_projekt/lampa.cpp">
 			<Option target="gl10_projekt"/>
 		</Unit>
