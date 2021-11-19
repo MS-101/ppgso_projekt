@@ -19,7 +19,8 @@ Kostol::Kostol() {
 }
 
 bool Kostol::update(Scene &scene, float dt) {
-    rotation += rotMomentum * dt;
+    //rotation += rotMomentum * dt;
+    scale *= 0.01;
     generateModelMatrix();
     return true;
 }

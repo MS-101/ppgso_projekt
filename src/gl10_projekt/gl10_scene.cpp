@@ -44,9 +44,9 @@ private:
     auto lampa = std::make_unique<Lampa>();
     auto knaz = std::make_unique<Knaz>();
     auto kostol = std::make_unique<Kostol>();
-    scene.objects.push_back(std::move(knaz));
+    //scene.objects.push_back(std::move(knaz));
     //scene.objects.push_back(std::move(lampa));
-    //scene.objects.push_back(std::move(kostol));
+    scene.objects.push_back(std::move(kostol));
   }
 
 public:
@@ -109,6 +109,7 @@ public:
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
     // Update and render all objects
+    scene.camera->position = {0,0,-15+3* sin(time)};
     scene.update(dt);
     scene.render();
   }
