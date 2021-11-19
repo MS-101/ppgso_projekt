@@ -1012,17 +1012,39 @@ glm/glm.hpp
 ppgso/ppgso.h
 -
 
-H:/Reposits/ppgso_projekt/src/gl10_projekt/kostol.cpp
-kostol.h
-H:/Reposits/ppgso_projekt/src/gl10_projekt/kostol.h
-shaders/diffuse_vert_glsl.h
+H:/Reposits/ppgso_projekt/src/gl10_projekt/gl10_scene.cpp
+iostream
 -
-shaders/diffuse_frag_glsl.h
+map
 -
+list
+-
+ppgso/ppgso.h
+-
+camera.h
+H:/Reposits/ppgso_projekt/src/gl10_projekt/camera.h
 scene.h
 H:/Reposits/ppgso_projekt/src/gl10_projekt/scene.h
+lampa.h
+H:/Reposits/ppgso_projekt/src/gl10_projekt/lampa.h
+knaz.h
+H:/Reposits/ppgso_projekt/src/gl10_projekt/knaz.h
+kostol.h
+H:/Reposits/ppgso_projekt/src/gl10_projekt/kostol.h
+
+H:/Reposits/ppgso_projekt/src/gl10_projekt/knaz.h
+ppgso/ppgso.h
+-
+object.h
+H:/Reposits/ppgso_projekt/src/gl10_projekt/object.h
 
 H:/Reposits/ppgso_projekt/src/gl10_projekt/kostol.h
+ppgso/ppgso.h
+-
+object.h
+H:/Reposits/ppgso_projekt/src/gl10_projekt/object.h
+
+H:/Reposits/ppgso_projekt/src/gl10_projekt/lampa.h
 ppgso/ppgso.h
 -
 object.h
@@ -1049,12 +1071,4 @@ object.h
 H:/Reposits/ppgso_projekt/src/gl10_projekt/object.h
 camera.h
 H:/Reposits/ppgso_projekt/src/gl10_projekt/camera.h
-
-shaders/diffuse_frag_glsl.h
-string
--
-
-shaders/diffuse_vert_glsl.h
-string
--
 

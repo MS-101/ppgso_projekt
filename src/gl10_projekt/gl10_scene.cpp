@@ -109,7 +109,7 @@ public:
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
     // Update and render all objects
-    scene.camera->position = {0,0,-15+3* sin(time)};
+    scene.camera->position = {0,5,-20};
     scene.update(dt);
     scene.render();
   }
