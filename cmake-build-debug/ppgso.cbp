@@ -1511,6 +1511,12 @@
 		<Unit filename="H:/Reposits/ppgso_projekt/src/gl10_projekt/scene.h">
 			<Option target="gl10_projekt"/>
 		</Unit>
+		<Unit filename="H:/Reposits/ppgso_projekt/src/gl10_projekt/skybox.cpp">
+			<Option target="gl10_projekt"/>
+		</Unit>
+		<Unit filename="H:/Reposits/ppgso_projekt/src/gl10_projekt/skybox.h">
+			<Option target="gl10_projekt"/>
+		</Unit>
 		<Unit filename="H:/Reposits/ppgso_projekt/src/gl1_gradient/gl1_gradient.cpp">
 			<Option target="gl1_gradient"/>
 		</Unit>

@@ -121,6 +121,11 @@
 },
 {
   "directory": "H:/Reposits/ppgso_projekt/cmake-build-debug",
+  "command": "H:\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DGLEW_STATIC -DGLM_FORCE_RADIANS @CMakeFiles/gl10_projekt.dir/includes_CXX.rsp -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter -std=gnu++14 -o CMakeFiles\\gl10_projekt.dir\\src\\gl10_projekt\\skybox.cpp.obj -c H:\\Reposits\\ppgso_projekt\\src\\gl10_projekt\\skybox.cpp",
+  "file": "H:/Reposits/ppgso_projekt/src/gl10_projekt/skybox.cpp"
+},
+{
+  "directory": "H:/Reposits/ppgso_projekt/cmake-build-debug",
   "command": "H:\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe -DGLEW_STATIC -DGLM_FORCE_RADIANS @CMakeFiles/gl4_transform.dir/includes_CXX.rsp -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter -std=gnu++14 -o CMakeFiles\\gl4_transform.dir\\src\\gl4_transform\\gl4_transform.cpp.obj -c H:\\Reposits\\ppgso_projekt\\src\\gl4_transform\\gl4_transform.cpp",
   "file": "H:/Reposits/ppgso_projekt/src/gl4_transform/gl4_transform.cpp"
 },

@@ -1024,6 +1024,30 @@ src/gl10_projekt/scene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene.cpp.s
 .PHONY : src/gl10_projekt/scene.cpp.s
 
+src/gl10_projekt/skybox.obj: src/gl10_projekt/skybox.cpp.obj
+.PHONY : src/gl10_projekt/skybox.obj
+
+# target to build an object file
+src/gl10_projekt/skybox.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/skybox.cpp.obj
+.PHONY : src/gl10_projekt/skybox.cpp.obj
+
+src/gl10_projekt/skybox.i: src/gl10_projekt/skybox.cpp.i
+.PHONY : src/gl10_projekt/skybox.i
+
+# target to preprocess a source file
+src/gl10_projekt/skybox.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/skybox.cpp.i
+.PHONY : src/gl10_projekt/skybox.cpp.i
+
+src/gl10_projekt/skybox.s: src/gl10_projekt/skybox.cpp.s
+.PHONY : src/gl10_projekt/skybox.s
+
+# target to generate assembly for a file
+src/gl10_projekt/skybox.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/skybox.cpp.s
+.PHONY : src/gl10_projekt/skybox.cpp.s
+
 src/gl1_gradient/gl1_gradient.obj: src/gl1_gradient/gl1_gradient.cpp.obj
 .PHONY : src/gl1_gradient/gl1_gradient.obj
 
@@ -1849,6 +1873,9 @@ help:
 	@echo ... src/gl10_projekt/scene.obj
 	@echo ... src/gl10_projekt/scene.i
 	@echo ... src/gl10_projekt/scene.s
+	@echo ... src/gl10_projekt/skybox.obj
+	@echo ... src/gl10_projekt/skybox.i
+	@echo ... src/gl10_projekt/skybox.s
 	@echo ... src/gl1_gradient/gl1_gradient.obj
 	@echo ... src/gl1_gradient/gl1_gradient.i
 	@echo ... src/gl1_gradient/gl1_gradient.s

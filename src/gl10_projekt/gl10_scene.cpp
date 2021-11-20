@@ -17,6 +17,7 @@
 #include "lampa.h"
 #include "knaz.h"
 #include "kostol.h"
+#include "skybox.h"
 
 
 const unsigned int SIZE = 800;
@@ -44,9 +45,11 @@ private:
     auto lampa = std::make_unique<Lampa>();
     auto knaz = std::make_unique<Knaz>();
     auto kostol = std::make_unique<Kostol>();
+    auto skybox = std::make_unique<Skybox>();
     //scene.objects.push_back(std::move(knaz));
     //scene.objects.push_back(std::move(lampa));
     scene.objects.push_back(std::move(kostol));
+    scene.objects.push_back(std::move(skybox));
   }
 
 public:
@@ -109,7 +112,9 @@ public:
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
     // Update and render all objects
-    scene.camera->position = {0,5,-20};
+    scene.camera->position = {0,5,-25};
+    float distance = 10;
+    scene.camera->back = {distance * sin(time), distance * cos(time), -5};
     scene.update(dt);
     scene.render();
   }
