@@ -114,7 +114,7 @@ public:
     // Update and render all objects
     scene.camera->position = {0,5,-25};
     float distance = 10;
-    scene.camera->back = {distance * sin(time), distance * cos(time), -5};
+    //scene.camera->back = {distance * sin(time), distance * cos(time), -5};
     scene.update(dt);
     scene.render();
   }

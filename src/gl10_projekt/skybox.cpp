@@ -30,8 +30,6 @@ bool Skybox::update(Scene &scene, float dt) {
 
 void Skybox::render(Scene &scene) {
     shader->use();
-    // Set up light
-    shader->setUniform("LightDirection", scene.skyLight);
 
     // use camera
     shader->setUniform("ProjectionMatrix", scene.camera->projectionMatrix);
