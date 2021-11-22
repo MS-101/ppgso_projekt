@@ -11,15 +11,15 @@ std::unique_ptr<ppgso::Shader> Knaz::shader;
 std::unique_ptr<ppgso::Texture> Knaz::texture;
 
 Knaz::Knaz() {
-    rotMomentum = {0.0f, 0.0f,glm::linearRand(-ppgso::PI/4.0f, ppgso::PI/4.0f)};
     // Initialize static resources if needed
     if (!shader) shader = std::make_unique<ppgso::Shader>(diffuse_vert_glsl, diffuse_frag_glsl);
     if (!texture) texture = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("knaz.bmp"));
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("knaz.obj");
+    position = {0,1,-10};
+    scale = {0.25,0.25,0.25};
 }
 
 bool Knaz::update(Scene &scene, float dt) {
-    rotation += rotMomentum * dt;
     generateModelMatrix();
     return true;
 }

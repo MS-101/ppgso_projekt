@@ -46,7 +46,7 @@ private:
     auto knaz = std::make_unique<Knaz>();
     auto kostol = std::make_unique<Kostol>();
     auto skybox = std::make_unique<Skybox>();
-    //scene.objects.push_back(std::move(knaz));
+    scene.objects.push_back(std::move(knaz));
     //scene.objects.push_back(std::move(lampa));
     scene.objects.push_back(std::move(kostol));
     scene.objects.push_back(std::move(skybox));
@@ -74,27 +74,6 @@ public:
   }
 
   /*!
-   * Handles pressed key when the window is focused
-   * @param key Key code of the key being pressed/released
-   * @param scanCode Scan code of the key being pressed/released
-   * @param action Action indicating the key state change
-   * @param mods Additional modifiers to consider
-   */
-  void onKey(int key, int scanCode, int action, int mods) override {
-    scene.keyboard[key] = action;
-
-    // Reset
-    if (key == GLFW_KEY_R && action == GLFW_PRESS) {
-      initScene();
-    }
-
-    // Pause
-    if (key == GLFW_KEY_P && action == GLFW_PRESS) {
-      animate = !animate;
-    }
-  }
-
-  /*!
    * Window update implementation that will be called automatically from pollEvents
    */
   void onIdle() override {
@@ -102,7 +81,7 @@ public:
     static auto time = (float) glfwGetTime();
 
     // Compute time delta
-    float dt = animate ? (float) glfwGetTime() - time : 0;
+    float dt =  0;
 
     time = (float) glfwGetTime();
 
@@ -112,7 +91,7 @@ public:
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
     // Update and render all objects
-    scene.camera->position = {0,5,-25};
+    scene.camera->position = {0,5,-20};
     float distance = 10;
     //scene.camera->back = {distance * sin(time), distance * cos(time), -5};
     scene.update(dt);

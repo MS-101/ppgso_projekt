@@ -1004,7 +1004,7 @@ GL/glew.h
 GLFW/glfw3.h
 -
 
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/camera.h
+H:/Reposits/ppgso_projekt/src/gl10_projekt/camera.h
 memory
 -
 glm/glm.hpp
@@ -1012,47 +1012,23 @@ glm/glm.hpp
 ppgso/ppgso.h
 -
 
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/gl10_scene.cpp
-iostream
--
-map
--
-list
--
-ppgso/ppgso.h
--
-camera.h
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/camera.h
-scene.h
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/scene.h
-lampa.h
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/lampa.h
+H:/Reposits/ppgso_projekt/src/gl10_projekt/knaz.cpp
 knaz.h
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/knaz.h
-kostol.h
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/kostol.h
-skybox.h
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/skybox.h
+H:/Reposits/ppgso_projekt/src/gl10_projekt/knaz.h
+shaders/diffuse_vert_glsl.h
+-
+shaders/diffuse_frag_glsl.h
+-
+scene.h
+H:/Reposits/ppgso_projekt/src/gl10_projekt/scene.h
 
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/knaz.h
+H:/Reposits/ppgso_projekt/src/gl10_projekt/knaz.h
 ppgso/ppgso.h
 -
 object.h
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/object.h
+H:/Reposits/ppgso_projekt/src/gl10_projekt/object.h
 
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/kostol.h
-ppgso/ppgso.h
--
-object.h
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/object.h
-
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/lampa.h
-ppgso/ppgso.h
--
-object.h
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/object.h
-
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/object.h
+H:/Reposits/ppgso_projekt/src/gl10_projekt/object.h
 memory
 -
 list
@@ -1062,7 +1038,7 @@ map
 glm/glm.hpp
 -
 
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/scene.h
+H:/Reposits/ppgso_projekt/src/gl10_projekt/scene.h
 memory
 -
 map
@@ -1070,13 +1046,15 @@ map
 list
 -
 object.h
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/object.h
+H:/Reposits/ppgso_projekt/src/gl10_projekt/object.h
 camera.h
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/camera.h
+H:/Reposits/ppgso_projekt/src/gl10_projekt/camera.h
 
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/skybox.h
-ppgso/ppgso.h
+shaders/diffuse_frag_glsl.h
+string
 -
-object.h
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/object.h
+
+shaders/diffuse_vert_glsl.h
+string
+-
 
