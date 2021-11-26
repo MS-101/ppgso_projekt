@@ -1499,6 +1499,12 @@
 		<Unit filename="H:/Reposits/ppgso_projekt/src/gl10_projekt/lampa.h">
 			<Option target="gl10_projekt"/>
 		</Unit>
+		<Unit filename="H:/Reposits/ppgso_projekt/src/gl10_projekt/muz.cpp">
+			<Option target="gl10_projekt"/>
+		</Unit>
+		<Unit filename="H:/Reposits/ppgso_projekt/src/gl10_projekt/muz.h">
+			<Option target="gl10_projekt"/>
+		</Unit>
 		<Unit filename="H:/Reposits/ppgso_projekt/src/gl10_projekt/object.cpp">
 			<Option target="gl10_projekt"/>
 		</Unit>

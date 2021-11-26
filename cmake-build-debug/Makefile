@@ -976,6 +976,30 @@ src/gl10_projekt/lampa.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lampa.cpp.s
 .PHONY : src/gl10_projekt/lampa.cpp.s
 
+src/gl10_projekt/muz.obj: src/gl10_projekt/muz.cpp.obj
+.PHONY : src/gl10_projekt/muz.obj
+
+# target to build an object file
+src/gl10_projekt/muz.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/muz.cpp.obj
+.PHONY : src/gl10_projekt/muz.cpp.obj
+
+src/gl10_projekt/muz.i: src/gl10_projekt/muz.cpp.i
+.PHONY : src/gl10_projekt/muz.i
+
+# target to preprocess a source file
+src/gl10_projekt/muz.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/muz.cpp.i
+.PHONY : src/gl10_projekt/muz.cpp.i
+
+src/gl10_projekt/muz.s: src/gl10_projekt/muz.cpp.s
+.PHONY : src/gl10_projekt/muz.s
+
+# target to generate assembly for a file
+src/gl10_projekt/muz.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/muz.cpp.s
+.PHONY : src/gl10_projekt/muz.cpp.s
+
 src/gl10_projekt/object.obj: src/gl10_projekt/object.cpp.obj
 .PHONY : src/gl10_projekt/object.obj
 
@@ -1867,6 +1891,9 @@ help:
 	@echo ... src/gl10_projekt/lampa.obj
 	@echo ... src/gl10_projekt/lampa.i
 	@echo ... src/gl10_projekt/lampa.s
+	@echo ... src/gl10_projekt/muz.obj
+	@echo ... src/gl10_projekt/muz.i
+	@echo ... src/gl10_projekt/muz.s
 	@echo ... src/gl10_projekt/object.obj
 	@echo ... src/gl10_projekt/object.i
 	@echo ... src/gl10_projekt/object.s

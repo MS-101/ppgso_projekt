@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz.cpp.obj"
   "CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kostol.cpp.obj"
   "CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lampa.cpp.obj"
+  "CMakeFiles/gl10_projekt.dir/src/gl10_projekt/muz.cpp.obj"
   "CMakeFiles/gl10_projekt.dir/src/gl10_projekt/object.cpp.obj"
   "CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene.cpp.obj"
   "CMakeFiles/gl10_projekt.dir/src/gl10_projekt/skybox.cpp.obj"

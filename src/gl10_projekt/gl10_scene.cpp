@@ -18,6 +18,7 @@
 #include "knaz.h"
 #include "kostol.h"
 #include "skybox.h"
+#include "muz.h"
 
 
 const unsigned int SIZE = 800;
@@ -46,7 +47,10 @@ private:
     auto knaz = std::make_unique<Knaz>();
     auto kostol = std::make_unique<Kostol>();
     auto skybox = std::make_unique<Skybox>();
+    auto muz = std::make_unique<Muz>();
+
     scene.objects.push_back(std::move(knaz));
+    scene.objects.push_back(std::move(muz));
     //scene.objects.push_back(std::move(lampa));
     scene.objects.push_back(std::move(kostol));
     scene.objects.push_back(std::move(skybox));

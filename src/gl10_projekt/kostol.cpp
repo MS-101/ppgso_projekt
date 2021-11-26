@@ -17,11 +17,11 @@ Kostol::Kostol() {
     if (!texture) texture = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("kostol.bmp"));
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("kostol.obj");
     position = {0,0,0};
+    rotation = {-1.57,0,3.14};
 }
 
 bool Kostol::update(Scene &scene, float dt) {
     //rotation += rotMomentum * dt;
-    rotation = {-1.57,0,3.14};
     scale = {0.008,0.008,0.008};
     generateModelMatrix();
     return true;

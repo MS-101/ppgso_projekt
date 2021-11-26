@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "H:/Reposits/ppgso_projekt/src/gl10_projekt/knaz.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz.cpp.obj"
   "H:/Reposits/ppgso_projekt/src/gl10_projekt/kostol.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kostol.cpp.obj"
   "H:/Reposits/ppgso_projekt/src/gl10_projekt/lampa.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lampa.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/muz.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/muz.cpp.obj"
   "H:/Reposits/ppgso_projekt/src/gl10_projekt/object.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/object.cpp.obj"
   "H:/Reposits/ppgso_projekt/src/gl10_projekt/scene.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene.cpp.obj"
   "H:/Reposits/ppgso_projekt/src/gl10_projekt/skybox.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/skybox.cpp.obj"

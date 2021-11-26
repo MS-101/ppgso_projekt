@@ -182,7 +182,7 @@ add_executable(gl10_projekt
         src/gl10_projekt/gl10_scene.cpp
         src/gl10_projekt/object.cpp
         src/gl10_projekt/scene.cpp
-        src/gl10_projekt/camera.cpp src/gl10_projekt/lampa.cpp src/gl10_projekt/lampa.h src/gl10_projekt/knaz.cpp src/gl10_projekt/knaz.h src/gl10_projekt/kostol.cpp src/gl10_projekt/kostol.h src/gl10_projekt/skybox.cpp src/gl10_projekt/skybox.h)
+        src/gl10_projekt/camera.cpp src/gl10_projekt/lampa.cpp src/gl10_projekt/lampa.h src/gl10_projekt/knaz.cpp src/gl10_projekt/knaz.h src/gl10_projekt/kostol.cpp src/gl10_projekt/kostol.h src/gl10_projekt/skybox.cpp src/gl10_projekt/skybox.h src/gl10_projekt/muz.cpp src/gl10_projekt/muz.h)
 target_link_libraries(gl10_projekt ppgso shaders)
 install(TARGETS gl10_projekt DESTINATION .)
 

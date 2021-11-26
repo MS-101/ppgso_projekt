@@ -13,10 +13,11 @@ std::unique_ptr<ppgso::Texture> Knaz::texture;
 Knaz::Knaz() {
     // Initialize static resources if needed
     if (!shader) shader = std::make_unique<ppgso::Shader>(diffuse_vert_glsl, diffuse_frag_glsl);
-    if (!texture) texture = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("knaz.bmp"));
-    if (!mesh) mesh = std::make_unique<ppgso::Mesh>("knaz.obj");
+    if (!texture) texture = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("kengura.bmp"));
+    if (!mesh) mesh = std::make_unique<ppgso::Mesh>("kengura.obj");
     position = {0,1,-10};
-    scale = {0.25,0.25,0.25};
+    scale = {0.007,0.007,0.007};
+    rotation = {-1.57,0,0};
 }
 
 bool Knaz::update(Scene &scene, float dt) {
