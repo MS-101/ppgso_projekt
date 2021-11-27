@@ -17,7 +17,7 @@ Knaz::Knaz() {
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("kengura.obj");
     position = {0,1,-10};
     scale = {0.007,0.007,0.007};
-    rotation = {-1.57,0,0};
+    rotation = {-1.57,0,-1.57};
 }
 
 bool Knaz::update(Scene &scene, float dt) {

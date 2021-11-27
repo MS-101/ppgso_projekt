@@ -47,13 +47,29 @@ private:
     auto knaz = std::make_unique<Knaz>();
     auto kostol = std::make_unique<Kostol>();
     auto skybox = std::make_unique<Skybox>();
-    auto muz = std::make_unique<Muz>();
+
+    glm::vec3 position_man = {2,1,-10};
+    auto man = std::make_unique<Muz>(position_man);
+
+    position_man = {-2,1,-10};
+    auto man2 = std::make_unique<Muz>(position_man);
+
+    position_man = {-1,1,-12};
+    auto man3 = std::make_unique<Muz>(position_man);
+
+    position_man = {1,1,-12};
+    auto man4 = std::make_unique<Muz>(position_man);
 
     scene.objects.push_back(std::move(knaz));
-    scene.objects.push_back(std::move(muz));
-    //scene.objects.push_back(std::move(lampa));
+
+    scene.objects.push_back(std::move(man));
+    scene.objects.push_back(std::move(man2));
+    scene.objects.push_back(std::move(man3));
+    scene.objects.push_back(std::move(man4));
+
     scene.objects.push_back(std::move(kostol));
     scene.objects.push_back(std::move(skybox));
+    //scene.objects.push_back(std::move(lampa));
   }
 
 public:

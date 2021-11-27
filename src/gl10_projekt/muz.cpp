@@ -14,13 +14,13 @@ std::unique_ptr<ppgso::Mesh> Muz::mesh;
 std::unique_ptr<ppgso::Shader> Muz::shader;
 std::unique_ptr<ppgso::Texture> Muz::texture;
 
-Muz::Muz() {
+Muz::Muz(glm::vec3 position_of_object) {
     // Initialize static resources if needed
     if (!shader) shader = std::make_unique<ppgso::Shader>(diffuse_vert_glsl, diffuse_frag_glsl);
     if (!texture) texture = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("man.bmp"));
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("man.obj");
-    position = {2,1,-10};
-    scale = {2.0,2.0,2.0};
+    position = position_of_object;
+    scale = {1.7,1.7,1.7};
 }
 
 bool Muz::update(Scene &scene, float dt) {
