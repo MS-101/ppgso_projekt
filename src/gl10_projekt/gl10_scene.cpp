@@ -33,6 +33,9 @@ private:
   float last_time = 0;
   float counter = 0;
 
+  bool time_1_passed = false;
+  bool time_2_passed = false;
+
   /*!
    * Reset and initialize the game scene
    * Creating unique smart pointers to objects that are stored in the scene object list
@@ -106,15 +109,29 @@ public:
       float dt =  current_time - last_time;
       last_time = current_time;
 
-      float time_1 = 8;
+      float time_1 = 20;
+      float time_2 = 5;
 
-      float distance = 16;
-
-      if (counter < time_1) {
+      // otacanie kamery okolo kostola
+      if (!time_1_passed && counter < time_1) {
+          float distance = 15;
           counter += dt;
+
           scene.camera->back = {sin(2*M_PI*counter/time_1), 0, -cos(2*M_PI*counter/time_1)};
-          scene.camera->position = {distance * sin(2*M_PI*counter/time_1), 5, distance * -cos(2*M_PI*counter/time_1)};
+          scene.camera->position = {distance * sin(2*M_PI*counter/time_1), 2, distance * -cos(2*M_PI*counter/time_1)};
+      } else if (!time_1_passed) {
+          counter = 0;
+          time_1_passed = true;
+          // priblizovanie ku dveram kostola
+      } else if (!time_2_passed && counter < time_2) {
+          counter += dt;
+
+          scene.camera->position = {0, 2, -15 + 8*counter/time_2};
+      } else if (!time_2_passed){
+          counter = 0;
+          time_2_passed = true;
       }
+
 
       // Set gray background
       glClearColor(.5f, .5f, .5f, 0);

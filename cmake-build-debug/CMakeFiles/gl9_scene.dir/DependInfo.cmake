@@ -8,16 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "H:/Reposits/ppgso_projekt/src/gl9_scene/asteroid.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl9_scene.dir/src/gl9_scene/asteroid.cpp.obj"
-  "H:/Reposits/ppgso_projekt/src/gl9_scene/camera.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl9_scene.dir/src/gl9_scene/camera.cpp.obj"
-  "H:/Reposits/ppgso_projekt/src/gl9_scene/explosion.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl9_scene.dir/src/gl9_scene/explosion.cpp.obj"
-  "H:/Reposits/ppgso_projekt/src/gl9_scene/generator.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl9_scene.dir/src/gl9_scene/generator.cpp.obj"
-  "H:/Reposits/ppgso_projekt/src/gl9_scene/gl9_scene.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl9_scene.dir/src/gl9_scene/gl9_scene.cpp.obj"
-  "H:/Reposits/ppgso_projekt/src/gl9_scene/object.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl9_scene.dir/src/gl9_scene/object.cpp.obj"
-  "H:/Reposits/ppgso_projekt/src/gl9_scene/player.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl9_scene.dir/src/gl9_scene/player.cpp.obj"
-  "H:/Reposits/ppgso_projekt/src/gl9_scene/projectile.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl9_scene.dir/src/gl9_scene/projectile.cpp.obj"
-  "H:/Reposits/ppgso_projekt/src/gl9_scene/scene.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl9_scene.dir/src/gl9_scene/scene.cpp.obj"
-  "H:/Reposits/ppgso_projekt/src/gl9_scene/space.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl9_scene.dir/src/gl9_scene/space.cpp.obj"
+  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl9_scene/asteroid.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl9_scene.dir/src/gl9_scene/asteroid.cpp.obj"
+  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl9_scene/camera.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl9_scene.dir/src/gl9_scene/camera.cpp.obj"
+  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl9_scene/explosion.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl9_scene.dir/src/gl9_scene/explosion.cpp.obj"
+  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl9_scene/generator.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl9_scene.dir/src/gl9_scene/generator.cpp.obj"
+  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl9_scene/gl9_scene.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl9_scene.dir/src/gl9_scene/gl9_scene.cpp.obj"
+  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl9_scene/object.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl9_scene.dir/src/gl9_scene/object.cpp.obj"
+  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl9_scene/player.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl9_scene.dir/src/gl9_scene/player.cpp.obj"
+  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl9_scene/projectile.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl9_scene.dir/src/gl9_scene/projectile.cpp.obj"
+  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl9_scene/scene.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl9_scene.dir/src/gl9_scene/scene.cpp.obj"
+  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl9_scene/space.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl9_scene.dir/src/gl9_scene/space.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -41,8 +41,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/DependInfo.cmake"
-  "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/shaders.dir/DependInfo.cmake"
+  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/ppgso.dir/DependInfo.cmake"
+  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/shaders.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = H:\Reposits\ppgso_projekt
+CMAKE_SOURCE_DIR = C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = H:\Reposits\ppgso_projekt\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/playground.dir/depend.make
@@ -68,16 +68,16 @@ include CMakeFiles/playground.dir/flags.make
 CMakeFiles/playground.dir/src/playground/playground.cpp.obj: CMakeFiles/playground.dir/flags.make
 CMakeFiles/playground.dir/src/playground/playground.cpp.obj: CMakeFiles/playground.dir/includes_CXX.rsp
 CMakeFiles/playground.dir/src/playground/playground.cpp.obj: ../src/playground/playground.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Reposits\ppgso_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/playground.dir/src/playground/playground.cpp.obj"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\playground.dir\src\playground\playground.cpp.obj -c H:\Reposits\ppgso_projekt\src\playground\playground.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/playground.dir/src/playground/playground.cpp.obj"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\playground.dir\src\playground\playground.cpp.obj -c C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\playground\playground.cpp
 
 CMakeFiles/playground.dir/src/playground/playground.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/playground.dir/src/playground/playground.cpp.i"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\Reposits\ppgso_projekt\src\playground\playground.cpp > CMakeFiles\playground.dir\src\playground\playground.cpp.i
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\playground\playground.cpp > CMakeFiles\playground.dir\src\playground\playground.cpp.i
 
 CMakeFiles/playground.dir/src/playground/playground.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/playground.dir/src/playground/playground.cpp.s"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Reposits\ppgso_projekt\src\playground\playground.cpp -o CMakeFiles\playground.dir\src\playground\playground.cpp.s
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\playground\playground.cpp -o CMakeFiles\playground.dir\src\playground\playground.cpp.s
 
 # Object files for target playground
 playground_OBJECTS = \
@@ -95,9 +95,9 @@ playground.exe: ../dependencies/lib/mingw/libglew32.a
 playground.exe: CMakeFiles/playground.dir/linklibs.rsp
 playground.exe: CMakeFiles/playground.dir/objects1.rsp
 playground.exe: CMakeFiles/playground.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=H:\Reposits\ppgso_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable playground.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable playground.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\playground.dir\link.txt --verbose=$(VERBOSE)
-	"H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E copy_directory H:/Reposits/ppgso_projekt/data/ H:/Reposits/ppgso_projekt/cmake-build-debug
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E copy_directory C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/data/ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug
 
 # Rule to build all files generated by this target.
 CMakeFiles/playground.dir/build: playground.exe
@@ -108,6 +108,6 @@ CMakeFiles/playground.dir/clean:
 .PHONY : CMakeFiles/playground.dir/clean
 
 CMakeFiles/playground.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" H:\Reposits\ppgso_projekt H:\Reposits\ppgso_projekt H:\Reposits\ppgso_projekt\cmake-build-debug H:\Reposits\ppgso_projekt\cmake-build-debug H:\Reposits\ppgso_projekt\cmake-build-debug\CMakeFiles\playground.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles\playground.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/playground.dir/depend
 

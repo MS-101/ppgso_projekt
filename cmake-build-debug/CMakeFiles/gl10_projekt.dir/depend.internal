@@ -118,8 +118,8 @@ CMakeFiles/gl10_projekt.dir/src/gl10_projekt/camera.cpp.obj
  ../ppgso/texture.h
  ../ppgso/tiny_obj_loader.h
  ../ppgso/window.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/camera.cpp
- H:/Reposits/ppgso_projekt/src/gl10_projekt/camera.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/camera.cpp
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/camera.h
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.obj
  ../dependencies/include/GL/glew.h
  ../dependencies/include/GLFW/glfw3.h
@@ -237,17 +237,17 @@ CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.obj
  ../ppgso/texture.h
  ../ppgso/tiny_obj_loader.h
  ../ppgso/window.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/camera.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/gl10_scene.cpp
- H:/Reposits/ppgso_projekt/src/gl10_projekt/interier.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/knaz.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/kostol.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/lampa.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/muz.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/object.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/scene.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/skybox.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/slnko.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/camera.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/gl10_scene.cpp
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/interier.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/knaz.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/kostol.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/lampa.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/muz.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/object.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/scene.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/skybox.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/slnko.h
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interier.cpp.obj
  ../dependencies/include/GL/glew.h
  ../dependencies/include/GLFW/glfw3.h
@@ -365,11 +365,11 @@ CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interier.cpp.obj
  ../ppgso/texture.h
  ../ppgso/tiny_obj_loader.h
  ../ppgso/window.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/camera.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/interier.cpp
- H:/Reposits/ppgso_projekt/src/gl10_projekt/interier.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/object.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/scene.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/camera.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/interier.cpp
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/interier.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/object.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/scene.h
  shaders/texture_frag_glsl.h
  shaders/texture_vert_glsl.h
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz.cpp.obj
@@ -489,11 +489,11 @@ CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz.cpp.obj
  ../ppgso/texture.h
  ../ppgso/tiny_obj_loader.h
  ../ppgso/window.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/camera.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/knaz.cpp
- H:/Reposits/ppgso_projekt/src/gl10_projekt/knaz.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/object.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/scene.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/camera.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/knaz.cpp
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/knaz.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/object.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/scene.h
  shaders/diffuse_frag_glsl.h
  shaders/diffuse_vert_glsl.h
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kostol.cpp.obj
@@ -613,11 +613,11 @@ CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kostol.cpp.obj
  ../ppgso/texture.h
  ../ppgso/tiny_obj_loader.h
  ../ppgso/window.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/camera.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/kostol.cpp
- H:/Reposits/ppgso_projekt/src/gl10_projekt/kostol.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/object.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/scene.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/camera.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/kostol.cpp
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/kostol.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/object.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/scene.h
  shaders/diffuse_frag_glsl.h
  shaders/diffuse_vert_glsl.h
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lampa.cpp.obj
@@ -737,11 +737,11 @@ CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lampa.cpp.obj
  ../ppgso/texture.h
  ../ppgso/tiny_obj_loader.h
  ../ppgso/window.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/camera.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/lampa.cpp
- H:/Reposits/ppgso_projekt/src/gl10_projekt/lampa.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/object.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/scene.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/camera.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/lampa.cpp
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/lampa.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/object.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/scene.h
  shaders/diffuse_frag_glsl.h
  shaders/diffuse_vert_glsl.h
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/muz.cpp.obj
@@ -861,11 +861,11 @@ CMakeFiles/gl10_projekt.dir/src/gl10_projekt/muz.cpp.obj
  ../ppgso/texture.h
  ../ppgso/tiny_obj_loader.h
  ../ppgso/window.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/camera.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/muz.cpp
- H:/Reposits/ppgso_projekt/src/gl10_projekt/muz.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/object.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/scene.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/camera.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/muz.cpp
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/muz.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/object.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/scene.h
  shaders/diffuse_frag_glsl.h
  shaders/diffuse_vert_glsl.h
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/object.cpp.obj
@@ -974,8 +974,8 @@ CMakeFiles/gl10_projekt.dir/src/gl10_projekt/object.cpp.obj
  ../dependencies/include/glm/vec3.hpp
  ../dependencies/include/glm/vec4.hpp
  ../dependencies/include/glm/vector_relational.hpp
- H:/Reposits/ppgso_projekt/src/gl10_projekt/object.cpp
- H:/Reposits/ppgso_projekt/src/gl10_projekt/object.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/object.cpp
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/object.h
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene.cpp.obj
  ../dependencies/include/GL/glew.h
  ../dependencies/include/GLFW/glfw3.h
@@ -1093,10 +1093,10 @@ CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene.cpp.obj
  ../ppgso/texture.h
  ../ppgso/tiny_obj_loader.h
  ../ppgso/window.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/camera.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/object.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/scene.cpp
- H:/Reposits/ppgso_projekt/src/gl10_projekt/scene.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/camera.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/object.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/scene.cpp
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/scene.h
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/skybox.cpp.obj
  ../dependencies/include/GL/glew.h
  ../dependencies/include/GLFW/glfw3.h
@@ -1214,11 +1214,11 @@ CMakeFiles/gl10_projekt.dir/src/gl10_projekt/skybox.cpp.obj
  ../ppgso/texture.h
  ../ppgso/tiny_obj_loader.h
  ../ppgso/window.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/camera.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/object.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/scene.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/skybox.cpp
- H:/Reposits/ppgso_projekt/src/gl10_projekt/skybox.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/camera.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/object.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/scene.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/skybox.cpp
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/skybox.h
  shaders/texture_frag_glsl.h
  shaders/texture_vert_glsl.h
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/slnko.cpp.obj
@@ -1338,10 +1338,10 @@ CMakeFiles/gl10_projekt.dir/src/gl10_projekt/slnko.cpp.obj
  ../ppgso/texture.h
  ../ppgso/tiny_obj_loader.h
  ../ppgso/window.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/camera.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/object.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/scene.h
- H:/Reposits/ppgso_projekt/src/gl10_projekt/slnko.cpp
- H:/Reposits/ppgso_projekt/src/gl10_projekt/slnko.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/camera.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/object.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/scene.h
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/slnko.cpp
+ C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/slnko.h
  shaders/texture_frag_glsl.h
  shaders/texture_vert_glsl.h
