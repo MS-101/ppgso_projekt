@@ -21,11 +21,10 @@ Knaz::Knaz() {
 }
 
 bool Knaz::update(Scene &scene, float dt) {
-    position = {0,0,baseZ};
-    baseZ = baseZ + 0.0003f;
+    position.z = position.z + 0.0003f;
 
-    if (baseZ > -6){
-        baseZ = -6;
+    if (position.z > -6){
+        position.z = -6;
         return false;
     }
     generateModelMatrix();

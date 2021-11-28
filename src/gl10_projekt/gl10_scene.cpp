@@ -55,16 +55,16 @@ private:
     auto slnko = std::make_unique<Slnko>();
     //auto interier = std::make_unique<Interier>();
 
-    glm::vec3 position_man = {2,0,-10};
+    glm::vec3 position_man = {2,0,-21};
     auto man = std::make_unique<Muz>(position_man);
 
-    position_man = {-2,0,-10};
+    position_man = {-2,0,-22};
     auto man2 = std::make_unique<Muz>(position_man);
 
-    position_man = {-1,0,-12};
+    position_man = {-1,0,-23};
     auto man3 = std::make_unique<Muz>(position_man);
 
-    position_man = {1,0,-12};
+    position_man = {1,0,-24};
     auto man4 = std::make_unique<Muz>(position_man);
 
     scene.objects.push_back(std::move(knaz));
