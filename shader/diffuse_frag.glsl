@@ -24,10 +24,6 @@ void main() {
   // Compute diffuse lighting
   float diffuse = max(dot(normal, vec4(normalize(LightDirection), 1.0f)), 0.0f);
 
-  if (LightDirection.x == 0.0f && LightDirection.y == 0.0f && LightDirection.z == 0.0f) {
-    diffuse = 1.0f;
-  }
-
   // Lookup the color in Texture on coordinates given by texCoord
   // NOTE: Texture coordinate is inverted vertically for compatibility with OBJ
   FragmentColor = texture(Texture, vec2(texCoord.x, 1.0 - texCoord.y) + TextureOffset) * diffuse;

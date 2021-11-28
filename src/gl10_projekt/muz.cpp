@@ -24,6 +24,12 @@ Muz::Muz(glm::vec3 position_of_object) {
 }
 
 bool Muz::update(Scene &scene, float dt) {
+    position = {position.x,position.y,baseZ};
+    baseZ = baseZ + 0.0002f;
+    if (baseZ > -8){
+        baseZ = -8;
+        //return false;
+    }
     generateModelMatrix();
     return true;
 }

@@ -1481,6 +1481,12 @@
 		<Unit filename="H:/Reposits/ppgso_projekt/src/gl10_projekt/gl10_scene.cpp">
 			<Option target="gl10_projekt"/>
 		</Unit>
+		<Unit filename="H:/Reposits/ppgso_projekt/src/gl10_projekt/interier.cpp">
+			<Option target="gl10_projekt"/>
+		</Unit>
+		<Unit filename="H:/Reposits/ppgso_projekt/src/gl10_projekt/interier.h">
+			<Option target="gl10_projekt"/>
+		</Unit>
 		<Unit filename="H:/Reposits/ppgso_projekt/src/gl10_projekt/knaz.cpp">
 			<Option target="gl10_projekt"/>
 		</Unit>
@@ -1521,6 +1527,12 @@
 			<Option target="gl10_projekt"/>
 		</Unit>
 		<Unit filename="H:/Reposits/ppgso_projekt/src/gl10_projekt/skybox.h">
+			<Option target="gl10_projekt"/>
+		</Unit>
+		<Unit filename="H:/Reposits/ppgso_projekt/src/gl10_projekt/slnko.cpp">
+			<Option target="gl10_projekt"/>
+		</Unit>
+		<Unit filename="H:/Reposits/ppgso_projekt/src/gl10_projekt/slnko.h">
 			<Option target="gl10_projekt"/>
 		</Unit>
 		<Unit filename="H:/Reposits/ppgso_projekt/src/gl1_gradient/gl1_gradient.cpp">

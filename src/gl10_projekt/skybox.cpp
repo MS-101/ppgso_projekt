@@ -5,8 +5,8 @@
 // Created by Kefalin on 12. 11. 2021.
 //
 #include "skybox.h"
-#include <shaders/diffuse_vert_glsl.h>
-#include <shaders/diffuse_frag_glsl.h>
+#include <shaders/texture_frag_glsl.h>
+#include <shaders/texture_vert_glsl.h>
 #include "scene.h"
 
 std::unique_ptr<ppgso::Mesh> Skybox::mesh;
@@ -15,7 +15,7 @@ std::unique_ptr<ppgso::Texture> Skybox::texture;
 
 Skybox::Skybox() {
     // Initialize static resources if needed
-    if (!shader) shader = std::make_unique<ppgso::Shader>(diffuse_vert_glsl, diffuse_frag_glsl);
+    if (!shader) shader = std::make_unique<ppgso::Shader>(texture_vert_glsl, texture_frag_glsl);
     if (!texture) texture = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("skybox.bmp"));
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("skybox.obj");
     scale = {50,50,50};

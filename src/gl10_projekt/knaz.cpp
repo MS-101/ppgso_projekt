@@ -15,12 +15,19 @@ Knaz::Knaz() {
     if (!shader) shader = std::make_unique<ppgso::Shader>(diffuse_vert_glsl, diffuse_frag_glsl);
     if (!texture) texture = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("kengura.bmp"));
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("kengura.obj");
-    position = {0,1,-10};
+    position = {0,0,-20};
     scale = {0.007,0.007,0.007};
     rotation = {-1.57,0,-1.57};
 }
 
 bool Knaz::update(Scene &scene, float dt) {
+    position = {0,0,baseZ};
+    baseZ = baseZ + 0.0003f;
+
+    if (baseZ > -6){
+        baseZ = -6;
+        return false;
+    }
     generateModelMatrix();
     return true;
 }

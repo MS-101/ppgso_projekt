@@ -904,6 +904,30 @@ src/gl10_projekt/gl10_scene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.s
 .PHONY : src/gl10_projekt/gl10_scene.cpp.s
 
+src/gl10_projekt/interier.obj: src/gl10_projekt/interier.cpp.obj
+.PHONY : src/gl10_projekt/interier.obj
+
+# target to build an object file
+src/gl10_projekt/interier.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interier.cpp.obj
+.PHONY : src/gl10_projekt/interier.cpp.obj
+
+src/gl10_projekt/interier.i: src/gl10_projekt/interier.cpp.i
+.PHONY : src/gl10_projekt/interier.i
+
+# target to preprocess a source file
+src/gl10_projekt/interier.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interier.cpp.i
+.PHONY : src/gl10_projekt/interier.cpp.i
+
+src/gl10_projekt/interier.s: src/gl10_projekt/interier.cpp.s
+.PHONY : src/gl10_projekt/interier.s
+
+# target to generate assembly for a file
+src/gl10_projekt/interier.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interier.cpp.s
+.PHONY : src/gl10_projekt/interier.cpp.s
+
 src/gl10_projekt/knaz.obj: src/gl10_projekt/knaz.cpp.obj
 .PHONY : src/gl10_projekt/knaz.obj
 
@@ -1071,6 +1095,30 @@ src/gl10_projekt/skybox.s: src/gl10_projekt/skybox.cpp.s
 src/gl10_projekt/skybox.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/skybox.cpp.s
 .PHONY : src/gl10_projekt/skybox.cpp.s
+
+src/gl10_projekt/slnko.obj: src/gl10_projekt/slnko.cpp.obj
+.PHONY : src/gl10_projekt/slnko.obj
+
+# target to build an object file
+src/gl10_projekt/slnko.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/slnko.cpp.obj
+.PHONY : src/gl10_projekt/slnko.cpp.obj
+
+src/gl10_projekt/slnko.i: src/gl10_projekt/slnko.cpp.i
+.PHONY : src/gl10_projekt/slnko.i
+
+# target to preprocess a source file
+src/gl10_projekt/slnko.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/slnko.cpp.i
+.PHONY : src/gl10_projekt/slnko.cpp.i
+
+src/gl10_projekt/slnko.s: src/gl10_projekt/slnko.cpp.s
+.PHONY : src/gl10_projekt/slnko.s
+
+# target to generate assembly for a file
+src/gl10_projekt/slnko.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/slnko.cpp.s
+.PHONY : src/gl10_projekt/slnko.cpp.s
 
 src/gl1_gradient/gl1_gradient.obj: src/gl1_gradient/gl1_gradient.cpp.obj
 .PHONY : src/gl1_gradient/gl1_gradient.obj
@@ -1882,6 +1930,9 @@ help:
 	@echo ... src/gl10_projekt/gl10_scene.obj
 	@echo ... src/gl10_projekt/gl10_scene.i
 	@echo ... src/gl10_projekt/gl10_scene.s
+	@echo ... src/gl10_projekt/interier.obj
+	@echo ... src/gl10_projekt/interier.i
+	@echo ... src/gl10_projekt/interier.s
 	@echo ... src/gl10_projekt/knaz.obj
 	@echo ... src/gl10_projekt/knaz.i
 	@echo ... src/gl10_projekt/knaz.s
@@ -1903,6 +1954,9 @@ help:
 	@echo ... src/gl10_projekt/skybox.obj
 	@echo ... src/gl10_projekt/skybox.i
 	@echo ... src/gl10_projekt/skybox.s
+	@echo ... src/gl10_projekt/slnko.obj
+	@echo ... src/gl10_projekt/slnko.i
+	@echo ... src/gl10_projekt/slnko.s
 	@echo ... src/gl1_gradient/gl1_gradient.obj
 	@echo ... src/gl1_gradient/gl1_gradient.i
 	@echo ... src/gl1_gradient/gl1_gradient.s

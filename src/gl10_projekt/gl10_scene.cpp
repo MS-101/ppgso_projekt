@@ -19,7 +19,8 @@
 #include "kostol.h"
 #include "skybox.h"
 #include "muz.h"
-
+#include "slnko.h"
+#include "interier.h"
 
 const unsigned int SIZE = 800;
 
@@ -29,7 +30,8 @@ const unsigned int SIZE = 800;
 class SceneWindow : public ppgso::Window {
 private:
   Scene scene;
-  bool animate = true;
+  float last_time = 0;
+  float counter = 0;
 
   /*!
    * Reset and initialize the game scene
@@ -47,17 +49,19 @@ private:
     auto knaz = std::make_unique<Knaz>();
     auto kostol = std::make_unique<Kostol>();
     auto skybox = std::make_unique<Skybox>();
+    auto slnko = std::make_unique<Slnko>();
+    //auto interier = std::make_unique<Interier>();
 
-    glm::vec3 position_man = {2,1,-10};
+    glm::vec3 position_man = {2,0,-10};
     auto man = std::make_unique<Muz>(position_man);
 
-    position_man = {-2,1,-10};
+    position_man = {-2,0,-10};
     auto man2 = std::make_unique<Muz>(position_man);
 
-    position_man = {-1,1,-12};
+    position_man = {-1,0,-12};
     auto man3 = std::make_unique<Muz>(position_man);
 
-    position_man = {1,1,-12};
+    position_man = {1,0,-12};
     auto man4 = std::make_unique<Muz>(position_man);
 
     scene.objects.push_back(std::move(knaz));
@@ -69,6 +73,7 @@ private:
 
     scene.objects.push_back(std::move(kostol));
     scene.objects.push_back(std::move(skybox));
+    scene.objects.push_back(std::move(slnko));
     //scene.objects.push_back(std::move(lampa));
   }
 
@@ -97,25 +102,29 @@ public:
    * Window update implementation that will be called automatically from pollEvents
    */
   void onIdle() override {
-    // Track time
-    static auto time = (float) glfwGetTime();
+      auto current_time = (float) glfwGetTime();
+      float dt =  current_time - last_time;
+      last_time = current_time;
 
-    // Compute time delta
-    float dt =  0;
+      float time_1 = 8;
 
-    time = (float) glfwGetTime();
+      float distance = 16;
 
-    // Set gray background
-    glClearColor(.5f, .5f, .5f, 0);
-    // Clear depth and color buffers
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+      if (counter < time_1) {
+          counter += dt;
+          scene.camera->back = {sin(2*M_PI*counter/time_1), 0, -cos(2*M_PI*counter/time_1)};
+          scene.camera->position = {distance * sin(2*M_PI*counter/time_1), 5, distance * -cos(2*M_PI*counter/time_1)};
+      }
 
-    // Update and render all objects
-    scene.camera->position = {0,5,-20};
-    float distance = 10;
-    //scene.camera->back = {distance * sin(time), distance * cos(time), -5};
-    scene.update(dt);
-    scene.render();
+      // Set gray background
+      glClearColor(.5f, .5f, .5f, 0);
+      // Clear depth and color buffers
+      glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+      // Update and render all objects
+
+      scene.update((float)dt);
+      scene.render();
   }
 };
 
