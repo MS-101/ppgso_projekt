@@ -1,8 +1,4 @@
 //
-// Created by Kefalin on 26. 11. 2021.
-//
-
-//
 // Created by Kefalin on 12. 11. 2021.
 //
 #include "muz.h"

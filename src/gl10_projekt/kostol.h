@@ -7,9 +7,6 @@
 
 #include "object.h"
 
-/*!
- * Object representing a rocket projectile that will accelerate from the ship one created
- */
 class Kostol final : public Object {
 private:
     static std::unique_ptr<ppgso::Shader> shader;
@@ -20,17 +17,7 @@ private:
 public:
     Kostol();
 
-    /*!
-     * Update projectile position
-     * @param scene Scene to update
-     * @param dt Time delta
-     * @return true to delete the object
-     */
     bool update(Scene &scene, float dt) override;
 
-    /*!
-     * Render projectile
-     * @param scene Scene to render in
-     */
     void render(Scene &scene) override;
 };

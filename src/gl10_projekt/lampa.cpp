@@ -17,10 +17,12 @@ Lampa::Lampa() {
     if (!shader) shader = std::make_unique<ppgso::Shader>(diffuse_vert_glsl, diffuse_frag_glsl);
     if (!texture) texture = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("lampa.bmp"));
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("lampa.obj");
+    scale = {0.05,0.05,0.05};
+    rotation = {-1.57,0,0};
 }
 
 bool Lampa::update(Scene &scene, float dt) {
-    rotation += rotMomentum * dt;
+    //rotation += rotMomentum * dt;
     generateModelMatrix();
     return true;
 }

@@ -10,15 +10,17 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "H:/Reposits/ppgso_projekt/src/gl10_projekt/camera.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/camera.cpp.obj"
   "H:/Reposits/ppgso_projekt/src/gl10_projekt/gl10_scene.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.obj"
-  "H:/Reposits/ppgso_projekt/src/gl10_projekt/interier.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interier.cpp.obj"
   "H:/Reposits/ppgso_projekt/src/gl10_projekt/knaz.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz.cpp.obj"
   "H:/Reposits/ppgso_projekt/src/gl10_projekt/kostol.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kostol.cpp.obj"
   "H:/Reposits/ppgso_projekt/src/gl10_projekt/lampa.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lampa.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/lavicka.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lavicka.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/luster.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/luster.cpp.obj"
   "H:/Reposits/ppgso_projekt/src/gl10_projekt/muz.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/muz.cpp.obj"
   "H:/Reposits/ppgso_projekt/src/gl10_projekt/object.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/object.cpp.obj"
   "H:/Reposits/ppgso_projekt/src/gl10_projekt/scene.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene.cpp.obj"
   "H:/Reposits/ppgso_projekt/src/gl10_projekt/skybox.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/skybox.cpp.obj"
   "H:/Reposits/ppgso_projekt/src/gl10_projekt/slnko.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/slnko.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/stol.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/stol.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

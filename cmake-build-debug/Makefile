@@ -904,30 +904,6 @@ src/gl10_projekt/gl10_scene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.s
 .PHONY : src/gl10_projekt/gl10_scene.cpp.s
 
-src/gl10_projekt/interier.obj: src/gl10_projekt/interier.cpp.obj
-.PHONY : src/gl10_projekt/interier.obj
-
-# target to build an object file
-src/gl10_projekt/interier.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interier.cpp.obj
-.PHONY : src/gl10_projekt/interier.cpp.obj
-
-src/gl10_projekt/interier.i: src/gl10_projekt/interier.cpp.i
-.PHONY : src/gl10_projekt/interier.i
-
-# target to preprocess a source file
-src/gl10_projekt/interier.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interier.cpp.i
-.PHONY : src/gl10_projekt/interier.cpp.i
-
-src/gl10_projekt/interier.s: src/gl10_projekt/interier.cpp.s
-.PHONY : src/gl10_projekt/interier.s
-
-# target to generate assembly for a file
-src/gl10_projekt/interier.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interier.cpp.s
-.PHONY : src/gl10_projekt/interier.cpp.s
-
 src/gl10_projekt/knaz.obj: src/gl10_projekt/knaz.cpp.obj
 .PHONY : src/gl10_projekt/knaz.obj
 
@@ -999,6 +975,54 @@ src/gl10_projekt/lampa.s: src/gl10_projekt/lampa.cpp.s
 src/gl10_projekt/lampa.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lampa.cpp.s
 .PHONY : src/gl10_projekt/lampa.cpp.s
+
+src/gl10_projekt/lavicka.obj: src/gl10_projekt/lavicka.cpp.obj
+.PHONY : src/gl10_projekt/lavicka.obj
+
+# target to build an object file
+src/gl10_projekt/lavicka.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lavicka.cpp.obj
+.PHONY : src/gl10_projekt/lavicka.cpp.obj
+
+src/gl10_projekt/lavicka.i: src/gl10_projekt/lavicka.cpp.i
+.PHONY : src/gl10_projekt/lavicka.i
+
+# target to preprocess a source file
+src/gl10_projekt/lavicka.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lavicka.cpp.i
+.PHONY : src/gl10_projekt/lavicka.cpp.i
+
+src/gl10_projekt/lavicka.s: src/gl10_projekt/lavicka.cpp.s
+.PHONY : src/gl10_projekt/lavicka.s
+
+# target to generate assembly for a file
+src/gl10_projekt/lavicka.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lavicka.cpp.s
+.PHONY : src/gl10_projekt/lavicka.cpp.s
+
+src/gl10_projekt/luster.obj: src/gl10_projekt/luster.cpp.obj
+.PHONY : src/gl10_projekt/luster.obj
+
+# target to build an object file
+src/gl10_projekt/luster.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/luster.cpp.obj
+.PHONY : src/gl10_projekt/luster.cpp.obj
+
+src/gl10_projekt/luster.i: src/gl10_projekt/luster.cpp.i
+.PHONY : src/gl10_projekt/luster.i
+
+# target to preprocess a source file
+src/gl10_projekt/luster.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/luster.cpp.i
+.PHONY : src/gl10_projekt/luster.cpp.i
+
+src/gl10_projekt/luster.s: src/gl10_projekt/luster.cpp.s
+.PHONY : src/gl10_projekt/luster.s
+
+# target to generate assembly for a file
+src/gl10_projekt/luster.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/luster.cpp.s
+.PHONY : src/gl10_projekt/luster.cpp.s
 
 src/gl10_projekt/muz.obj: src/gl10_projekt/muz.cpp.obj
 .PHONY : src/gl10_projekt/muz.obj
@@ -1119,6 +1143,30 @@ src/gl10_projekt/slnko.s: src/gl10_projekt/slnko.cpp.s
 src/gl10_projekt/slnko.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/slnko.cpp.s
 .PHONY : src/gl10_projekt/slnko.cpp.s
+
+src/gl10_projekt/stol.obj: src/gl10_projekt/stol.cpp.obj
+.PHONY : src/gl10_projekt/stol.obj
+
+# target to build an object file
+src/gl10_projekt/stol.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/stol.cpp.obj
+.PHONY : src/gl10_projekt/stol.cpp.obj
+
+src/gl10_projekt/stol.i: src/gl10_projekt/stol.cpp.i
+.PHONY : src/gl10_projekt/stol.i
+
+# target to preprocess a source file
+src/gl10_projekt/stol.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/stol.cpp.i
+.PHONY : src/gl10_projekt/stol.cpp.i
+
+src/gl10_projekt/stol.s: src/gl10_projekt/stol.cpp.s
+.PHONY : src/gl10_projekt/stol.s
+
+# target to generate assembly for a file
+src/gl10_projekt/stol.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/stol.cpp.s
+.PHONY : src/gl10_projekt/stol.cpp.s
 
 src/gl1_gradient/gl1_gradient.obj: src/gl1_gradient/gl1_gradient.cpp.obj
 .PHONY : src/gl1_gradient/gl1_gradient.obj
@@ -1930,9 +1978,6 @@ help:
 	@echo ... src/gl10_projekt/gl10_scene.obj
 	@echo ... src/gl10_projekt/gl10_scene.i
 	@echo ... src/gl10_projekt/gl10_scene.s
-	@echo ... src/gl10_projekt/interier.obj
-	@echo ... src/gl10_projekt/interier.i
-	@echo ... src/gl10_projekt/interier.s
 	@echo ... src/gl10_projekt/knaz.obj
 	@echo ... src/gl10_projekt/knaz.i
 	@echo ... src/gl10_projekt/knaz.s
@@ -1942,6 +1987,12 @@ help:
 	@echo ... src/gl10_projekt/lampa.obj
 	@echo ... src/gl10_projekt/lampa.i
 	@echo ... src/gl10_projekt/lampa.s
+	@echo ... src/gl10_projekt/lavicka.obj
+	@echo ... src/gl10_projekt/lavicka.i
+	@echo ... src/gl10_projekt/lavicka.s
+	@echo ... src/gl10_projekt/luster.obj
+	@echo ... src/gl10_projekt/luster.i
+	@echo ... src/gl10_projekt/luster.s
 	@echo ... src/gl10_projekt/muz.obj
 	@echo ... src/gl10_projekt/muz.i
 	@echo ... src/gl10_projekt/muz.s
@@ -1957,6 +2008,9 @@ help:
 	@echo ... src/gl10_projekt/slnko.obj
 	@echo ... src/gl10_projekt/slnko.i
 	@echo ... src/gl10_projekt/slnko.s
+	@echo ... src/gl10_projekt/stol.obj
+	@echo ... src/gl10_projekt/stol.i
+	@echo ... src/gl10_projekt/stol.s
 	@echo ... src/gl1_gradient/gl1_gradient.obj
 	@echo ... src/gl1_gradient/gl1_gradient.i
 	@echo ... src/gl1_gradient/gl1_gradient.s

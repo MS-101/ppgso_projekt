@@ -15,23 +15,11 @@
  */
 class Scene {
   public:
-    /*!
-     * Update all objects in the scene
-     * @param time
-     */
+
     void update(float time);
 
-    /*!
-     * Render all objects in the scene
-     */
     void render();
 
-    /*!
-     * Pick objects using a ray
-     * @param position - Position in the scene to pick object from
-     * @param direction - Direction to pick objects from
-     * @return Objects - Vector of pointers to intersected objects
-     */
     std::vector<Object*> intersect(const glm::vec3 &position, const glm::vec3 &direction);
 
     // Camera object

@@ -20,13 +20,12 @@
 #include "skybox.h"
 #include "muz.h"
 #include "slnko.h"
-#include "interier.h"
+#include "lavicka.h"
+#include "stol.h"
+#include "luster.h"
 
 const unsigned int SIZE = 800;
 
-/*!
- * Custom windows for our simple game
- */
 class SceneWindow : public ppgso::Window {
 private:
   Scene scene;
@@ -36,10 +35,6 @@ private:
   bool time_1_passed = false;
   bool time_2_passed = false;
 
-  /*!
-   * Reset and initialize the game scene
-   * Creating unique smart pointers to objects that are stored in the scene object list
-   */
   void initScene() {
     scene.objects.clear();
 
@@ -53,7 +48,7 @@ private:
     auto kostol = std::make_unique<Kostol>();
     auto skybox = std::make_unique<Skybox>();
     auto slnko = std::make_unique<Slnko>();
-    //auto interier = std::make_unique<Interier>();
+    auto stol = std::make_unique<Stol>();
 
     glm::vec3 position_man = {2,0,-21};
     auto man = std::make_unique<Muz>(position_man);
@@ -81,15 +76,8 @@ private:
   }
 
 public:
-  /*!
-   * Construct custom game window
-   */
   SceneWindow() : Window{"gl10_projekt", SIZE, SIZE} {
-    //hideCursor();
-    glfwSetInputMode(window, GLFW_STICKY_KEYS, 1);
 
-    // Initialize OpenGL state
-    // Enable Z-buffer
     glEnable(GL_DEPTH_TEST);
     glDepthFunc(GL_LEQUAL);
 
@@ -101,9 +89,6 @@ public:
     initScene();
   }
 
-  /*!
-   * Window update implementation that will be called automatically from pollEvents
-   */
   void onIdle() override {
       auto current_time = (float) glfwGetTime();
       float dt =  current_time - last_time;
