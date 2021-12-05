@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "H:/Reposits/ppgso_projekt/src/gl4_transform/gl4_transform.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl4_transform.dir/src/gl4_transform/gl4_transform.cpp.obj"
+  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl4_transform/gl4_transform.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl4_transform.dir/src/gl4_transform/gl4_transform.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -32,8 +32,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/DependInfo.cmake"
-  "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/shaders.dir/DependInfo.cmake"
+  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/ppgso.dir/DependInfo.cmake"
+  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/shaders.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

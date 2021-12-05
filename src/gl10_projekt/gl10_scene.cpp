@@ -1,3 +1,11 @@
+// Example gl_scene
+// - Introduces the concept of a dynamic scene of objects
+// - Uses abstract object interface for Update and Render steps
+// - Creates a simple game scene with Player, Asteroid and Space objects
+// - Contains a generator object that does not render but adds Asteroids to the scene
+// - Some objects use shared resources and all object deallocations are handled automatically
+// - Controls: LEFT, RIGHT, "R" to reset, SPACE to fire
+
 #include <iostream>
 #include <map>
 #include <list>
@@ -15,10 +23,15 @@
 #include "lavicka.h"
 #include "stol.h"
 #include "luster.h"
-#include "interior.h"
-#include "knaz_interior.h"
+#include "grass_plane.h"
+#include "interier.h"
 
 const unsigned int SIZE = 800;
+
+template<typename Base, typename T>
+inline bool instanceof(const T*) {
+    return std::is_base_of<Base, T>::value;
+}
 
 class SceneWindow : public ppgso::Window {
 private:
@@ -28,81 +41,91 @@ private:
 
   bool time_1_passed = false;
   bool time_2_passed = false;
+  bool time_3_passed = false;
 
-  void initScene() {
+  int active_scene = 1;
+
+  void initScene(int scene_id) {
     scene.objects.clear();
+    active_scene = scene_id;
 
     // Create a camera
     auto camera = std::make_unique<Camera>(90.0f, 1.0f, 0.1f, 100.0f);
     camera->position.z = -15.0f;
     scene.camera = move(camera);
 
-    auto lampa = std::make_unique<Lampa>();
+    if (active_scene == 1) {
+        glm::vec3 position_priest = {0,0,-15};
+        auto knaz = std::make_unique<Knaz>(position_priest, "Dusan");
 
-    auto knaz = std::make_unique<Knaz>();
+        auto kostol = std::make_unique<Kostol>();
+        auto skybox = std::make_unique<Skybox>();
+        auto slnko = std::make_unique<Slnko>();
+        auto stol = std::make_unique<Stol>();
+        auto grass = std::make_unique<grass_plane>();
 
-    auto kostol = std::make_unique<Kostol>();
-    auto skybox = std::make_unique<Skybox>();
-    auto slnko = std::make_unique<Slnko>();
+        glm::vec3 position_man = {1,0,-16};
+        auto man = std::make_unique<Muz>(position_man, "anon1");
 
-    glm::vec3 position_man = {2,0,-21};
-    auto man = std::make_unique<Muz>(position_man);
+        position_man = {-1,0,-16};
+        auto man2 = std::make_unique<Muz>(position_man, "anon2");
 
-    position_man = {-2,0,-22};
-    auto man2 = std::make_unique<Muz>(position_man);
+        position_man = {1,0,-17};
+        auto man3 = std::make_unique<Muz>(position_man, "anon3");
 
-    position_man = {-1,0,-23};
-    auto man3 = std::make_unique<Muz>(position_man);
+        position_man = {-1,0,-17};
+        auto man4 = std::make_unique<Muz>(position_man, "anon4");
 
-    position_man = {1,0,-24};
-    auto man4 = std::make_unique<Muz>(position_man);
+        scene.objects.push_back(std::move(knaz));
 
-    //scene.objects.push_back(std::move(knaz));
-    //scene.objects.push_back(std::move(man));
-    //scene.objects.push_back(std::move(man2));
-    //scene.objects.push_back(std::move(man3));
-    //scene.objects.push_back(std::move(man4));
+        scene.objects.push_back(std::move(man));
+        scene.objects.push_back(std::move(man2));
+        scene.objects.push_back(std::move(man3));
+        scene.objects.push_back(std::move(man4));
 
-    //scene.objects.push_back(std::move(kostol));
-    //scene.objects.push_back(std::move(skybox));
-    //scene.objects.push_back(std::move(slnko));
+        scene.objects.push_back(std::move(kostol));
+        scene.objects.push_back(std::move(skybox));
+        scene.objects.push_back(std::move(slnko));
+        scene.objects.push_back(std::move(grass));
+    } else if (active_scene == 2) {
+        glm::vec3 position_priest = {0,0,0};
+        auto knaz = std::make_unique<Knaz>(position_priest, "Dusan");
 
-    auto stol = std::make_unique<Stol>();
-    auto interier = std::make_unique<Interier>();
-    auto knaz_interier = std::make_unique<Knaz_interier>();
-    auto luster = std::make_unique<Luster>();
+        auto stol = std::make_unique<Stol>();
+        auto interier = std::make_unique<Interier>();
+        auto luster = std::make_unique<Luster>();
 
-    glm::vec3 position_lavicka = {3,0,7};
-    auto lavicka = std::make_unique<Lavicka>(position_lavicka);
+        glm::vec3 position_lavicka = {3,0,7};
+        auto lavicka = std::make_unique<Lavicka>(position_lavicka);
 
-    position_lavicka = {-3,0,7};
-    auto lavicka2 = std::make_unique<Lavicka>(position_lavicka);
+        position_lavicka = {-3,0,7};
+        auto lavicka2 = std::make_unique<Lavicka>(position_lavicka);
 
-    position_lavicka = {3,0,9};
-    auto lavicka3 = std::make_unique<Lavicka>(position_lavicka);
+        position_lavicka = {3,0,9};
+        auto lavicka3 = std::make_unique<Lavicka>(position_lavicka);
 
-    position_lavicka = {-3,0,9};
-    auto lavicka4 = std::make_unique<Lavicka>(position_lavicka);
+        position_lavicka = {-3,0,9};
+        auto lavicka4 = std::make_unique<Lavicka>(position_lavicka);
 
-    position_lavicka = {3,0,11};
-    auto lavicka5 = std::make_unique<Lavicka>(position_lavicka);
+        position_lavicka = {3,0,11};
+        auto lavicka5 = std::make_unique<Lavicka>(position_lavicka);
 
-    position_lavicka = {-3,0,11};
-    auto lavicka6 = std::make_unique<Lavicka>(position_lavicka);
+        position_lavicka = {-3,0,11};
+        auto lavicka6 = std::make_unique<Lavicka>(position_lavicka);
 
-    scene.objects.push_back(std::move(interier));
-    scene.objects.push_back(std::move(stol));
+        scene.objects.push_back(std::move(interier));
+        scene.objects.push_back(std::move(stol));
 
-    scene.objects.push_back(std::move(lavicka));
-    scene.objects.push_back(std::move(lavicka2));
-    scene.objects.push_back(std::move(lavicka3));
-    scene.objects.push_back(std::move(lavicka4));
-    scene.objects.push_back(std::move(lavicka5));
-    scene.objects.push_back(std::move(lavicka6));
+        scene.objects.push_back(std::move(lavicka));
+        scene.objects.push_back(std::move(lavicka2));
+        scene.objects.push_back(std::move(lavicka3));
+        scene.objects.push_back(std::move(lavicka4));
+        scene.objects.push_back(std::move(lavicka5));
+        scene.objects.push_back(std::move(lavicka6));
 
-    scene.objects.push_back(std::move(knaz_interier));
-    scene.objects.push_back(std::move(luster));
-
+        scene.objects.push_back(std::move(knaz));
+        scene.objects.push_back(std::move(luster));
+    }
   }
 
 public:
@@ -116,7 +139,7 @@ public:
     glFrontFace(GL_CCW);
     glCullFace(GL_BACK);
 
-    initScene();
+    initScene(1);
   }
 
   void onIdle() override {
@@ -124,28 +147,73 @@ public:
       float dt =  current_time - last_time;
       last_time = current_time;
 
-      float time_1 = 20;
-      float time_2 = 5;
+      // scena 1 je v exterieri kostola
+      if (active_scene == 1) {
+          float time_1 = 20;
+          float time_2 = 5;
+          float time_3 = 5;
 
-      // otacanie kamery okolo kostola
-      if (!time_1_passed && counter < time_1) {
-          float distance = 15;
-          counter += dt;
+          // otacanie kamery okolo kostola
+          if (!time_1_passed && counter < time_1) {
+              float distance = 15;
+              counter += dt;
 
-          scene.camera->back = {sin(2*M_PI*counter/time_1), 0, -cos(2*M_PI*counter/time_1)};
-          scene.camera->position = {distance * sin(2*M_PI*counter/time_1), 2, distance * -cos(2*M_PI*counter/time_1)};
-      } else if (!time_1_passed) {
-          counter = 0;
-          time_1_passed = true;
+              scene.camera->back = {sin(2 * M_PI * counter / time_1), 0, -cos(2 * M_PI * counter / time_1)};
+              scene.camera->position = {distance * sin(2 * M_PI * counter / time_1), 2,
+                                        distance * -cos(2 * M_PI * counter / time_1)};
+          } else if (!time_1_passed) {
+              counter = 0;
+              time_1_passed = true;
+          // knaz a veriaci vstupuju do kostola
+          } else if (!time_2_passed && counter < time_2) {
+              counter += dt;
+
+              scene.camera->back = {0, 0, -1};
+              scene.camera->position = {0, 2, -15};
+
+              for (auto& picked_object: scene.objects) {
+                  if (strcmp(picked_object->name.c_str(), "Dusan") == 0) {
+                      picked_object->position.z = -15 + 9 * counter / time_2;
+                  } else if (strcmp(picked_object->name.c_str(), "anon1") == 0) {
+                      picked_object->position.z = -16 + 9 * counter / time_2;
+                  } else if (strcmp(picked_object->name.c_str(), "anon2") == 0) {
+                      picked_object->position.z = -16 + 9 * counter / time_2;
+                  } else if (strcmp(picked_object->name.c_str(), "anon3") == 0) {
+                      picked_object->position.z = -17 + 9 * counter / time_2;
+                  } else if (strcmp(picked_object->name.c_str(), "anon4") == 0) {
+                      picked_object->position.z = -17 + 9 * counter / time_2;
+                  }
+              }
+          } else if (!time_2_passed) {
+              counter = 0;
+              time_2_passed = true;
+
+              for (auto& picked_object: scene.objects) {
+                  if (strcmp(picked_object->name.c_str(), "Dusan") == 0) {
+                      picked_object->is_alive = false;
+                  }
+              }
           // priblizovanie ku dveram kostola
-      } else if (!time_2_passed && counter < time_2) {
-          counter += dt;
+          } else if (!time_3_passed && counter < time_3) {
+              counter += dt;
 
-          scene.camera->position = {0, 2, -15 + 8*counter/time_2};
-      } else if (!time_2_passed){
-          counter = 0;
-          time_2_passed = true;
+              scene.camera->back = {0, 0, -1};
+              scene.camera->position = {0, 2, -15 + 8 * counter / time_3};
+          } else if (!time_3_passed) {
+              counter = 0;
+              time_3_passed = true;
+
+              time_1_passed = false;
+              time_2_passed = false;
+              time_3_passed = false;
+              initScene(2);
+          }
+      // scena 2 je v interieri kostola
+      } else if (active_scene == 2) {
+          scene.camera->back = {0, 0, 1};
+          scene.camera->position = {0, 2, 15};
       }
+
 
 
       // Set gray background

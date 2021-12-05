@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = H:\Reposits\ppgso_projekt
+CMAKE_SOURCE_DIR = C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = H:\Reposits\ppgso_projekt\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = H:\Reposits\ppgso_projekt\cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,7 +86,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -96,44 +96,44 @@ edit_cache/fast: edit_cache
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start H:\Reposits\ppgso_projekt\cmake-build-debug\CMakeFiles H:\Reposits\ppgso_projekt\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start H:\Reposits\ppgso_projekt\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -904,29 +904,53 @@ src/gl10_projekt/gl10_scene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.s
 .PHONY : src/gl10_projekt/gl10_scene.cpp.s
 
-src/gl10_projekt/interior.obj: src/gl10_projekt/interior.cpp.obj
-.PHONY : src/gl10_projekt/interior.obj
+src/gl10_projekt/grass_plane.obj: src/gl10_projekt/grass_plane.cpp.obj
+.PHONY : src/gl10_projekt/grass_plane.obj
 
 # target to build an object file
-src/gl10_projekt/interior.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interior.cpp.obj
-.PHONY : src/gl10_projekt/interior.cpp.obj
+src/gl10_projekt/grass_plane.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/grass_plane.cpp.obj
+.PHONY : src/gl10_projekt/grass_plane.cpp.obj
 
-src/gl10_projekt/interior.i: src/gl10_projekt/interior.cpp.i
-.PHONY : src/gl10_projekt/interior.i
+src/gl10_projekt/grass_plane.i: src/gl10_projekt/grass_plane.cpp.i
+.PHONY : src/gl10_projekt/grass_plane.i
 
 # target to preprocess a source file
-src/gl10_projekt/interior.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interior.cpp.i
-.PHONY : src/gl10_projekt/interior.cpp.i
+src/gl10_projekt/grass_plane.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/grass_plane.cpp.i
+.PHONY : src/gl10_projekt/grass_plane.cpp.i
 
-src/gl10_projekt/interior.s: src/gl10_projekt/interior.cpp.s
-.PHONY : src/gl10_projekt/interior.s
+src/gl10_projekt/grass_plane.s: src/gl10_projekt/grass_plane.cpp.s
+.PHONY : src/gl10_projekt/grass_plane.s
 
 # target to generate assembly for a file
-src/gl10_projekt/interior.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interior.cpp.s
-.PHONY : src/gl10_projekt/interior.cpp.s
+src/gl10_projekt/grass_plane.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/grass_plane.cpp.s
+.PHONY : src/gl10_projekt/grass_plane.cpp.s
+
+src/gl10_projekt/interier.obj: src/gl10_projekt/interier.cpp.obj
+.PHONY : src/gl10_projekt/interier.obj
+
+# target to build an object file
+src/gl10_projekt/interier.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interier.cpp.obj
+.PHONY : src/gl10_projekt/interier.cpp.obj
+
+src/gl10_projekt/interier.i: src/gl10_projekt/interier.cpp.i
+.PHONY : src/gl10_projekt/interier.i
+
+# target to preprocess a source file
+src/gl10_projekt/interier.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interier.cpp.i
+.PHONY : src/gl10_projekt/interier.cpp.i
+
+src/gl10_projekt/interier.s: src/gl10_projekt/interier.cpp.s
+.PHONY : src/gl10_projekt/interier.s
+
+# target to generate assembly for a file
+src/gl10_projekt/interier.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interier.cpp.s
+.PHONY : src/gl10_projekt/interier.cpp.s
 
 src/gl10_projekt/knaz.obj: src/gl10_projekt/knaz.cpp.obj
 .PHONY : src/gl10_projekt/knaz.obj
@@ -951,30 +975,6 @@ src/gl10_projekt/knaz.s: src/gl10_projekt/knaz.cpp.s
 src/gl10_projekt/knaz.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz.cpp.s
 .PHONY : src/gl10_projekt/knaz.cpp.s
-
-src/gl10_projekt/knaz_interior.obj: src/gl10_projekt/knaz_interior.cpp.obj
-.PHONY : src/gl10_projekt/knaz_interior.obj
-
-# target to build an object file
-src/gl10_projekt/knaz_interior.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz_interior.cpp.obj
-.PHONY : src/gl10_projekt/knaz_interior.cpp.obj
-
-src/gl10_projekt/knaz_interior.i: src/gl10_projekt/knaz_interior.cpp.i
-.PHONY : src/gl10_projekt/knaz_interior.i
-
-# target to preprocess a source file
-src/gl10_projekt/knaz_interior.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz_interior.cpp.i
-.PHONY : src/gl10_projekt/knaz_interior.cpp.i
-
-src/gl10_projekt/knaz_interior.s: src/gl10_projekt/knaz_interior.cpp.s
-.PHONY : src/gl10_projekt/knaz_interior.s
-
-# target to generate assembly for a file
-src/gl10_projekt/knaz_interior.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz_interior.cpp.s
-.PHONY : src/gl10_projekt/knaz_interior.cpp.s
 
 src/gl10_projekt/kostol.obj: src/gl10_projekt/kostol.cpp.obj
 .PHONY : src/gl10_projekt/kostol.obj
@@ -2026,15 +2026,15 @@ help:
 	@echo ... src/gl10_projekt/gl10_scene.obj
 	@echo ... src/gl10_projekt/gl10_scene.i
 	@echo ... src/gl10_projekt/gl10_scene.s
-	@echo ... src/gl10_projekt/interior.obj
-	@echo ... src/gl10_projekt/interior.i
-	@echo ... src/gl10_projekt/interior.s
+	@echo ... src/gl10_projekt/grass_plane.obj
+	@echo ... src/gl10_projekt/grass_plane.i
+	@echo ... src/gl10_projekt/grass_plane.s
+	@echo ... src/gl10_projekt/interier.obj
+	@echo ... src/gl10_projekt/interier.i
+	@echo ... src/gl10_projekt/interier.s
 	@echo ... src/gl10_projekt/knaz.obj
 	@echo ... src/gl10_projekt/knaz.i
 	@echo ... src/gl10_projekt/knaz.s
-	@echo ... src/gl10_projekt/knaz_interior.obj
-	@echo ... src/gl10_projekt/knaz_interior.i
-	@echo ... src/gl10_projekt/knaz_interior.s
 	@echo ... src/gl10_projekt/kostol.obj
 	@echo ... src/gl10_projekt/kostol.i
 	@echo ... src/gl10_projekt/kostol.s

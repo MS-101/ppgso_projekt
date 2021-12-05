@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gl10_projekt.dir/src/gl10_projekt/camera.cpp.obj"
   "CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.obj"
-  "CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interior.cpp.obj"
+  "CMakeFiles/gl10_projekt.dir/src/gl10_projekt/grass_plane.cpp.obj"
+  "CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interier.cpp.obj"
   "CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz.cpp.obj"
-  "CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz_interior.cpp.obj"
   "CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kostol.cpp.obj"
   "CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lampa.cpp.obj"
   "CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lavicka.cpp.obj"

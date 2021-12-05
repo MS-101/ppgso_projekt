@@ -10,25 +10,23 @@ std::unique_ptr<ppgso::Mesh> Muz::mesh;
 std::unique_ptr<ppgso::Shader> Muz::shader;
 std::unique_ptr<ppgso::Texture> Muz::texture;
 
-Muz::Muz(glm::vec3 position_of_object) {
+Muz::Muz(glm::vec3 position_of_object, std::string my_name) {
     // Initialize static resources if needed
     if (!shader) shader = std::make_unique<ppgso::Shader>(diffuse_vert_glsl, diffuse_frag_glsl);
     if (!texture) texture = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("man.bmp"));
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("man.obj");
     position = position_of_object;
     scale = {1.7,1.7,1.7};
+    name = std::move(my_name);
 }
 
 bool Muz::update(Scene &scene, float dt) {
-    position.z = position.z + 0.0002f;
-    if (position.z > -8){
-        position.x = 0;
-    }
-    if (position.z  > -5.5){
+    if (is_alive) {
+        generateModelMatrix();
+        return true;
+    } else {
         return false;
     }
-    generateModelMatrix();
-    return true;
 }
 
 void Muz::render(Scene &scene) {

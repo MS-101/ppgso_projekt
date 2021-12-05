@@ -14,7 +14,7 @@ private:
 
 public:
 
-    explicit Muz(glm::vec3 position_of_object);
+    explicit Muz(glm::vec3 position_of_object, std::string my_name);
 
     bool update(Scene &scene, float dt) override;
 
