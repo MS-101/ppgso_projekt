@@ -1478,6 +1478,18 @@
 		<Unit filename="C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/camera.h">
 			<Option target="gl10_projekt"/>
 		</Unit>
+		<Unit filename="C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/carpet.cpp">
+			<Option target="gl10_projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/carpet.h">
+			<Option target="gl10_projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/floor.cpp">
+			<Option target="gl10_projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/floor.h">
+			<Option target="gl10_projekt"/>
+		</Unit>
 		<Unit filename="C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/gl10_scene.cpp">
 			<Option target="gl10_projekt"/>
 		</Unit>

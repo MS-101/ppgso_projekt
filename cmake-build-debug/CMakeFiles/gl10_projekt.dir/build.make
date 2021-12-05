@@ -303,6 +303,34 @@ CMakeFiles/gl10_projekt.dir/src/gl10_projekt/path.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gl10_projekt.dir/src/gl10_projekt/path.cpp.s"
 	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\path.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\path.cpp.s
 
+CMakeFiles/gl10_projekt.dir/src/gl10_projekt/carpet.cpp.obj: CMakeFiles/gl10_projekt.dir/flags.make
+CMakeFiles/gl10_projekt.dir/src/gl10_projekt/carpet.cpp.obj: CMakeFiles/gl10_projekt.dir/includes_CXX.rsp
+CMakeFiles/gl10_projekt.dir/src/gl10_projekt/carpet.cpp.obj: ../src/gl10_projekt/carpet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/carpet.cpp.obj"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\carpet.cpp.obj -c C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\carpet.cpp
+
+CMakeFiles/gl10_projekt.dir/src/gl10_projekt/carpet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gl10_projekt.dir/src/gl10_projekt/carpet.cpp.i"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\carpet.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\carpet.cpp.i
+
+CMakeFiles/gl10_projekt.dir/src/gl10_projekt/carpet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gl10_projekt.dir/src/gl10_projekt/carpet.cpp.s"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\carpet.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\carpet.cpp.s
+
+CMakeFiles/gl10_projekt.dir/src/gl10_projekt/floor.cpp.obj: CMakeFiles/gl10_projekt.dir/flags.make
+CMakeFiles/gl10_projekt.dir/src/gl10_projekt/floor.cpp.obj: CMakeFiles/gl10_projekt.dir/includes_CXX.rsp
+CMakeFiles/gl10_projekt.dir/src/gl10_projekt/floor.cpp.obj: ../src/gl10_projekt/floor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/floor.cpp.obj"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\floor.cpp.obj -c C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\floor.cpp
+
+CMakeFiles/gl10_projekt.dir/src/gl10_projekt/floor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gl10_projekt.dir/src/gl10_projekt/floor.cpp.i"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\floor.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\floor.cpp.i
+
+CMakeFiles/gl10_projekt.dir/src/gl10_projekt/floor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gl10_projekt.dir/src/gl10_projekt/floor.cpp.s"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\floor.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\floor.cpp.s
+
 # Object files for target gl10_projekt
 gl10_projekt_OBJECTS = \
 "CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.obj" \
@@ -321,7 +349,9 @@ gl10_projekt_OBJECTS = \
 "CMakeFiles/gl10_projekt.dir/src/gl10_projekt/grass_plane.cpp.obj" \
 "CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interier.cpp.obj" \
 "CMakeFiles/gl10_projekt.dir/src/gl10_projekt/tree.cpp.obj" \
-"CMakeFiles/gl10_projekt.dir/src/gl10_projekt/path.cpp.obj"
+"CMakeFiles/gl10_projekt.dir/src/gl10_projekt/path.cpp.obj" \
+"CMakeFiles/gl10_projekt.dir/src/gl10_projekt/carpet.cpp.obj" \
+"CMakeFiles/gl10_projekt.dir/src/gl10_projekt/floor.cpp.obj"
 
 # External object files for target gl10_projekt
 gl10_projekt_EXTERNAL_OBJECTS =
@@ -343,6 +373,8 @@ gl10_projekt.exe: CMakeFiles/gl10_projekt.dir/src/gl10_projekt/grass_plane.cpp.o
 gl10_projekt.exe: CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interier.cpp.obj
 gl10_projekt.exe: CMakeFiles/gl10_projekt.dir/src/gl10_projekt/tree.cpp.obj
 gl10_projekt.exe: CMakeFiles/gl10_projekt.dir/src/gl10_projekt/path.cpp.obj
+gl10_projekt.exe: CMakeFiles/gl10_projekt.dir/src/gl10_projekt/carpet.cpp.obj
+gl10_projekt.exe: CMakeFiles/gl10_projekt.dir/src/gl10_projekt/floor.cpp.obj
 gl10_projekt.exe: CMakeFiles/gl10_projekt.dir/build.make
 gl10_projekt.exe: libppgso.a
 gl10_projekt.exe: libshaders.a
@@ -351,7 +383,7 @@ gl10_projekt.exe: ../dependencies/lib/mingw/libglew32.a
 gl10_projekt.exe: CMakeFiles/gl10_projekt.dir/linklibs.rsp
 gl10_projekt.exe: CMakeFiles/gl10_projekt.dir/objects1.rsp
 gl10_projekt.exe: CMakeFiles/gl10_projekt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable gl10_projekt.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable gl10_projekt.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gl10_projekt.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -171,6 +171,16 @@
 },
 {
   "directory": "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug",
+  "command": "C:\\mingw-w64\\mingw64\\bin\\g++.exe -DGLEW_STATIC -DGLM_FORCE_RADIANS @CMakeFiles/gl10_projekt.dir/includes_CXX.rsp -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter -std=gnu++14 -o CMakeFiles\\gl10_projekt.dir\\src\\gl10_projekt\\carpet.cpp.obj -c C:\\Users\\marti\\Desktop\\School\\semester_5\\PPGSO\\Projekt\\ppgso\\src\\gl10_projekt\\carpet.cpp",
+  "file": "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/carpet.cpp"
+},
+{
+  "directory": "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug",
+  "command": "C:\\mingw-w64\\mingw64\\bin\\g++.exe -DGLEW_STATIC -DGLM_FORCE_RADIANS @CMakeFiles/gl10_projekt.dir/includes_CXX.rsp -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter -std=gnu++14 -o CMakeFiles\\gl10_projekt.dir\\src\\gl10_projekt\\floor.cpp.obj -c C:\\Users\\marti\\Desktop\\School\\semester_5\\PPGSO\\Projekt\\ppgso\\src\\gl10_projekt\\floor.cpp",
+  "file": "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/floor.cpp"
+},
+{
+  "directory": "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug",
   "command": "C:\\mingw-w64\\mingw64\\bin\\g++.exe -DGLEW_STATIC -DGLM_FORCE_RADIANS @CMakeFiles/gl4_transform.dir/includes_CXX.rsp -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter -std=gnu++14 -o CMakeFiles\\gl4_transform.dir\\src\\gl4_transform\\gl4_transform.cpp.obj -c C:\\Users\\marti\\Desktop\\School\\semester_5\\PPGSO\\Projekt\\ppgso\\src\\gl4_transform\\gl4_transform.cpp",
   "file": "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl4_transform/gl4_transform.cpp"
 },

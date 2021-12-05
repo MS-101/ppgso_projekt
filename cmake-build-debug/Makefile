@@ -880,6 +880,54 @@ src/gl10_projekt/camera.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/camera.cpp.s
 .PHONY : src/gl10_projekt/camera.cpp.s
 
+src/gl10_projekt/carpet.obj: src/gl10_projekt/carpet.cpp.obj
+.PHONY : src/gl10_projekt/carpet.obj
+
+# target to build an object file
+src/gl10_projekt/carpet.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/carpet.cpp.obj
+.PHONY : src/gl10_projekt/carpet.cpp.obj
+
+src/gl10_projekt/carpet.i: src/gl10_projekt/carpet.cpp.i
+.PHONY : src/gl10_projekt/carpet.i
+
+# target to preprocess a source file
+src/gl10_projekt/carpet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/carpet.cpp.i
+.PHONY : src/gl10_projekt/carpet.cpp.i
+
+src/gl10_projekt/carpet.s: src/gl10_projekt/carpet.cpp.s
+.PHONY : src/gl10_projekt/carpet.s
+
+# target to generate assembly for a file
+src/gl10_projekt/carpet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/carpet.cpp.s
+.PHONY : src/gl10_projekt/carpet.cpp.s
+
+src/gl10_projekt/floor.obj: src/gl10_projekt/floor.cpp.obj
+.PHONY : src/gl10_projekt/floor.obj
+
+# target to build an object file
+src/gl10_projekt/floor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/floor.cpp.obj
+.PHONY : src/gl10_projekt/floor.cpp.obj
+
+src/gl10_projekt/floor.i: src/gl10_projekt/floor.cpp.i
+.PHONY : src/gl10_projekt/floor.i
+
+# target to preprocess a source file
+src/gl10_projekt/floor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/floor.cpp.i
+.PHONY : src/gl10_projekt/floor.cpp.i
+
+src/gl10_projekt/floor.s: src/gl10_projekt/floor.cpp.s
+.PHONY : src/gl10_projekt/floor.s
+
+# target to generate assembly for a file
+src/gl10_projekt/floor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/floor.cpp.s
+.PHONY : src/gl10_projekt/floor.cpp.s
+
 src/gl10_projekt/gl10_scene.obj: src/gl10_projekt/gl10_scene.cpp.obj
 .PHONY : src/gl10_projekt/gl10_scene.obj
 
@@ -2071,6 +2119,12 @@ help:
 	@echo ... src/gl10_projekt/camera.obj
 	@echo ... src/gl10_projekt/camera.i
 	@echo ... src/gl10_projekt/camera.s
+	@echo ... src/gl10_projekt/carpet.obj
+	@echo ... src/gl10_projekt/carpet.i
+	@echo ... src/gl10_projekt/carpet.s
+	@echo ... src/gl10_projekt/floor.obj
+	@echo ... src/gl10_projekt/floor.i
+	@echo ... src/gl10_projekt/floor.s
 	@echo ... src/gl10_projekt/gl10_scene.obj
 	@echo ... src/gl10_projekt/gl10_scene.i
 	@echo ... src/gl10_projekt/gl10_scene.s

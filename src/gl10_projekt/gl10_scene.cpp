@@ -27,6 +27,8 @@
 #include "interier.h"
 #include "tree.h"
 #include "path.h"
+#include "carpet.h"
+#include "floor.h"
 
 const unsigned int SIZE = 800;
 
@@ -39,6 +41,7 @@ private:
   bool time_1_passed = false;
   bool time_2_passed = false;
   bool time_3_passed = false;
+  bool time_4_passed = false;
 
   int active_scene = 1;
 
@@ -104,6 +107,8 @@ private:
         auto stol = std::make_unique<Stol>();
         auto interier = std::make_unique<Interier>();
         auto luster = std::make_unique<Luster>();
+        auto carpet = std::make_unique<Carpet>();
+        auto floor = std::make_unique<Floor>();
 
         glm::vec3 position_lavicka = {3,0,7};
         auto lavicka = std::make_unique<Lavicka>(position_lavicka);
@@ -123,6 +128,8 @@ private:
         position_lavicka = {-3,0,11};
         auto lavicka6 = std::make_unique<Lavicka>(position_lavicka);
 
+        scene.objects.push_back(std::move(carpet));
+        scene.objects.push_back(std::move(floor));
         scene.objects.push_back(std::move(interier));
         scene.objects.push_back(std::move(stol));
 
@@ -157,11 +164,9 @@ public:
       float dt =  current_time - last_time;
       last_time = current_time;
 
-      scene.camera->back = {0, 0, -1};
-      scene.camera->position = {0, 2, -50};
       // scena 1 je v exterieri kostola
       if (active_scene == 1) {
-          float time_1 = 10;
+          float time_1 = 20;
           float time_2 = 5;
           float time_3 = 5;
 
@@ -222,8 +227,50 @@ public:
           }
       // scena 2 je v interieri kostola
       } else if (active_scene == 2) {
+          /*
           scene.camera->back = {0, 0, 1};
           scene.camera->position = {0, 2, 15};
+          */
+
+          float time_1 = 5;
+          float time_2 = 5;
+          float time_3 = 5;
+          float time_4 = 5;
+
+          // priblizovanie kamery ku oltaru
+          if (!time_1_passed && counter < time_1) {
+              counter += dt;
+
+              scene.camera->back = {0, 0, 1};
+              scene.camera->position = {0, 2, 15 - 13*counter/time_1};
+          } else if (!time_1_passed) {
+              counter = 0;
+              time_1_passed = true;
+          // otocenie kamery na veriacich
+          } else if (!time_2_passed && counter < time_2) {
+              counter += dt;
+
+              scene.camera->back = {sin(M_PI * counter / time_1), 0, cos(M_PI * counter / time_1)};
+              scene.camera->position = {0, 2, 2};
+          } else if (!time_2_passed) {
+              counter = 0;
+              time_2_passed = true;
+          // bohosluzba
+          } else if (!time_3_passed && counter < time_3) {
+              counter += dt;
+          } else if (!time_3_passed) {
+              counter = 0;
+              time_3_passed = true;
+          // odchod z kostola
+          } else if (!time_4_passed && counter < time_4) {
+              counter += dt;
+
+              scene.camera->back = {0, 0, -1};
+              scene.camera->position = {0, 2, 2 + 13 * counter / time_4};
+          } else if (!time_4_passed) {
+              counter = 0;
+              time_4_passed = true;
+          }
       }
 
       // Set gray background

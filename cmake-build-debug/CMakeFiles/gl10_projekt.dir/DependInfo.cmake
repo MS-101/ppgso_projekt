@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/camera.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/camera.cpp.obj"
+  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/carpet.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/carpet.cpp.obj"
+  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/floor.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/floor.cpp.obj"
   "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/gl10_scene.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.obj"
   "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/grass_plane.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/grass_plane.cpp.obj"
   "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/interier.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interier.cpp.obj"

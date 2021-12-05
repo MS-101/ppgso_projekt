@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gl10_projekt.dir/src/gl10_projekt/camera.cpp.obj"
+  "CMakeFiles/gl10_projekt.dir/src/gl10_projekt/carpet.cpp.obj"
+  "CMakeFiles/gl10_projekt.dir/src/gl10_projekt/floor.cpp.obj"
   "CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.obj"
   "CMakeFiles/gl10_projekt.dir/src/gl10_projekt/grass_plane.cpp.obj"
   "CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interier.cpp.obj"
