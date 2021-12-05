@@ -182,7 +182,7 @@ add_executable(gl10_projekt
         src/gl10_projekt/gl10_scene.cpp
         src/gl10_projekt/object.cpp
         src/gl10_projekt/scene.cpp
-        src/gl10_projekt/camera.cpp src/gl10_projekt/lampa.cpp src/gl10_projekt/lampa.h src/gl10_projekt/knaz.cpp src/gl10_projekt/knaz.h src/gl10_projekt/kostol.cpp src/gl10_projekt/kostol.h src/gl10_projekt/skybox.cpp src/gl10_projekt/skybox.h src/gl10_projekt/muz.cpp src/gl10_projekt/muz.h src/gl10_projekt/slnko.cpp src/gl10_projekt/slnko.h src/gl10_projekt/lavicka.cpp src/gl10_projekt/lavicka.h src/gl10_projekt/stol.cpp src/gl10_projekt/stol.h src/gl10_projekt/luster.cpp src/gl10_projekt/luster.h src/gl10_projekt/grass_plane.h src/gl10_projekt/grass_plane.cpp src/gl10_projekt/interier.h src/gl10_projekt/interier.cpp)
+        src/gl10_projekt/camera.cpp src/gl10_projekt/lampa.cpp src/gl10_projekt/lampa.h src/gl10_projekt/knaz.cpp src/gl10_projekt/knaz.h src/gl10_projekt/kostol.cpp src/gl10_projekt/kostol.h src/gl10_projekt/skybox.cpp src/gl10_projekt/skybox.h src/gl10_projekt/muz.cpp src/gl10_projekt/muz.h src/gl10_projekt/slnko.cpp src/gl10_projekt/slnko.h src/gl10_projekt/lavicka.cpp src/gl10_projekt/lavicka.h src/gl10_projekt/stol.cpp src/gl10_projekt/stol.h src/gl10_projekt/luster.cpp src/gl10_projekt/luster.h src/gl10_projekt/grass_plane.h src/gl10_projekt/grass_plane.cpp src/gl10_projekt/interier.h src/gl10_projekt/interier.cpp src/gl10_projekt/tree.h src/gl10_projekt/tree.cpp src/gl10_projekt/path.h src/gl10_projekt/path.cpp)
 target_link_libraries(gl10_projekt ppgso shaders)
 install(TARGETS gl10_projekt DESTINATION .)
 

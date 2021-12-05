@@ -25,13 +25,10 @@
 #include "luster.h"
 #include "grass_plane.h"
 #include "interier.h"
+#include "tree.h"
+#include "path.h"
 
 const unsigned int SIZE = 800;
-
-template<typename Base, typename T>
-inline bool instanceof(const T*) {
-    return std::is_base_of<Base, T>::value;
-}
 
 class SceneWindow : public ppgso::Window {
 private:
@@ -58,6 +55,7 @@ private:
         glm::vec3 position_priest = {0,0,-15};
         auto knaz = std::make_unique<Knaz>(position_priest, "Dusan");
 
+        auto path = std::make_unique<Path>();
         auto kostol = std::make_unique<Kostol>();
         auto skybox = std::make_unique<Skybox>();
         auto slnko = std::make_unique<Slnko>();
@@ -66,27 +64,39 @@ private:
 
         glm::vec3 position_man = {1,0,-16};
         auto man = std::make_unique<Muz>(position_man, "anon1");
-
         position_man = {-1,0,-16};
         auto man2 = std::make_unique<Muz>(position_man, "anon2");
-
         position_man = {1,0,-17};
         auto man3 = std::make_unique<Muz>(position_man, "anon3");
-
         position_man = {-1,0,-17};
         auto man4 = std::make_unique<Muz>(position_man, "anon4");
 
-        scene.objects.push_back(std::move(knaz));
+        glm::vec3 position_tree = {-10, 0, -5};
+        auto tree1 = std::make_unique<Tree>(position_tree);
+        position_tree = {-10, 0, 10};
+        auto tree2 = std::make_unique<Tree>(position_tree);
+        position_tree = {0, 0, 20};
+        auto tree3 = std::make_unique<Tree>(position_tree);
+        position_tree = {10, 0, -5};
+        auto tree4 = std::make_unique<Tree>(position_tree);
+        position_tree = {10, 0, 10};
+        auto tree5 = std::make_unique<Tree>(position_tree);
 
+        scene.objects.push_back(std::move(path));
+        scene.objects.push_back(std::move(knaz));
         scene.objects.push_back(std::move(man));
         scene.objects.push_back(std::move(man2));
         scene.objects.push_back(std::move(man3));
         scene.objects.push_back(std::move(man4));
-
         scene.objects.push_back(std::move(kostol));
         scene.objects.push_back(std::move(skybox));
-        scene.objects.push_back(std::move(slnko));
         scene.objects.push_back(std::move(grass));
+        scene.objects.push_back(std::move(slnko));
+        scene.objects.push_back(std::move(tree1));
+        scene.objects.push_back(std::move(tree2));
+        scene.objects.push_back(std::move(tree3));
+        scene.objects.push_back(std::move(tree4));
+        scene.objects.push_back(std::move(tree5));
     } else if (active_scene == 2) {
         glm::vec3 position_priest = {0,0,0};
         auto knaz = std::make_unique<Knaz>(position_priest, "Dusan");
@@ -147,9 +157,11 @@ public:
       float dt =  current_time - last_time;
       last_time = current_time;
 
+      scene.camera->back = {0, 0, -1};
+      scene.camera->position = {0, 2, -50};
       // scena 1 je v exterieri kostola
       if (active_scene == 1) {
-          float time_1 = 20;
+          float time_1 = 10;
           float time_2 = 5;
           float time_3 = 5;
 
@@ -213,8 +225,6 @@ public:
           scene.camera->back = {0, 0, 1};
           scene.camera->position = {0, 2, 15};
       }
-
-
 
       // Set gray background
       glClearColor(.5f, .5f, .5f, 0);

@@ -16,13 +16,12 @@ Kostol::Kostol() {
     if (!shader) shader = std::make_unique<ppgso::Shader>(diffuse_vert_glsl, diffuse_frag_glsl);
     if (!texture) texture = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("kostol.bmp"));
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("kostol.obj");
+    scale = {0.008,0.008,0.008};
     position = {0,0,0};
     rotation = {-1.57,0,3.14};
 }
 
 bool Kostol::update(Scene &scene, float dt) {
-    //rotation += rotMomentum * dt;
-    scale = {0.008,0.008,0.008};
     generateModelMatrix();
     return true;
 }

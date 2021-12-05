@@ -1120,6 +1120,30 @@ src/gl10_projekt/object.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/object.cpp.s
 .PHONY : src/gl10_projekt/object.cpp.s
 
+src/gl10_projekt/path.obj: src/gl10_projekt/path.cpp.obj
+.PHONY : src/gl10_projekt/path.obj
+
+# target to build an object file
+src/gl10_projekt/path.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/path.cpp.obj
+.PHONY : src/gl10_projekt/path.cpp.obj
+
+src/gl10_projekt/path.i: src/gl10_projekt/path.cpp.i
+.PHONY : src/gl10_projekt/path.i
+
+# target to preprocess a source file
+src/gl10_projekt/path.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/path.cpp.i
+.PHONY : src/gl10_projekt/path.cpp.i
+
+src/gl10_projekt/path.s: src/gl10_projekt/path.cpp.s
+.PHONY : src/gl10_projekt/path.s
+
+# target to generate assembly for a file
+src/gl10_projekt/path.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/path.cpp.s
+.PHONY : src/gl10_projekt/path.cpp.s
+
 src/gl10_projekt/scene.obj: src/gl10_projekt/scene.cpp.obj
 .PHONY : src/gl10_projekt/scene.obj
 
@@ -1215,6 +1239,30 @@ src/gl10_projekt/stol.s: src/gl10_projekt/stol.cpp.s
 src/gl10_projekt/stol.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/stol.cpp.s
 .PHONY : src/gl10_projekt/stol.cpp.s
+
+src/gl10_projekt/tree.obj: src/gl10_projekt/tree.cpp.obj
+.PHONY : src/gl10_projekt/tree.obj
+
+# target to build an object file
+src/gl10_projekt/tree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/tree.cpp.obj
+.PHONY : src/gl10_projekt/tree.cpp.obj
+
+src/gl10_projekt/tree.i: src/gl10_projekt/tree.cpp.i
+.PHONY : src/gl10_projekt/tree.i
+
+# target to preprocess a source file
+src/gl10_projekt/tree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/tree.cpp.i
+.PHONY : src/gl10_projekt/tree.cpp.i
+
+src/gl10_projekt/tree.s: src/gl10_projekt/tree.cpp.s
+.PHONY : src/gl10_projekt/tree.s
+
+# target to generate assembly for a file
+src/gl10_projekt/tree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/tree.cpp.s
+.PHONY : src/gl10_projekt/tree.cpp.s
 
 src/gl1_gradient/gl1_gradient.obj: src/gl1_gradient/gl1_gradient.cpp.obj
 .PHONY : src/gl1_gradient/gl1_gradient.obj
@@ -2053,6 +2101,9 @@ help:
 	@echo ... src/gl10_projekt/object.obj
 	@echo ... src/gl10_projekt/object.i
 	@echo ... src/gl10_projekt/object.s
+	@echo ... src/gl10_projekt/path.obj
+	@echo ... src/gl10_projekt/path.i
+	@echo ... src/gl10_projekt/path.s
 	@echo ... src/gl10_projekt/scene.obj
 	@echo ... src/gl10_projekt/scene.i
 	@echo ... src/gl10_projekt/scene.s
@@ -2065,6 +2116,9 @@ help:
 	@echo ... src/gl10_projekt/stol.obj
 	@echo ... src/gl10_projekt/stol.i
 	@echo ... src/gl10_projekt/stol.s
+	@echo ... src/gl10_projekt/tree.obj
+	@echo ... src/gl10_projekt/tree.i
+	@echo ... src/gl10_projekt/tree.s
 	@echo ... src/gl1_gradient/gl1_gradient.obj
 	@echo ... src/gl1_gradient/gl1_gradient.i
 	@echo ... src/gl1_gradient/gl1_gradient.s

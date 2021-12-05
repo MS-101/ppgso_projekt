@@ -1535,6 +1535,12 @@
 		<Unit filename="C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/object.h">
 			<Option target="gl10_projekt"/>
 		</Unit>
+		<Unit filename="C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/path.cpp">
+			<Option target="gl10_projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/path.h">
+			<Option target="gl10_projekt"/>
+		</Unit>
 		<Unit filename="C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/scene.cpp">
 			<Option target="gl10_projekt"/>
 		</Unit>
@@ -1557,6 +1563,12 @@
 			<Option target="gl10_projekt"/>
 		</Unit>
 		<Unit filename="C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/stol.h">
+			<Option target="gl10_projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/tree.cpp">
+			<Option target="gl10_projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/tree.h">
 			<Option target="gl10_projekt"/>
 		</Unit>
 		<Unit filename="C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl1_gradient/gl1_gradient.cpp">
