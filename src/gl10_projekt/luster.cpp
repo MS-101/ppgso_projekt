@@ -14,8 +14,9 @@ Luster::Luster() {
     if (!shader) shader = std::make_unique<ppgso::Shader>(diffuse_vert_glsl, diffuse_frag_glsl);
     if (!texture) texture = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("luster.bmp"));
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("luster.obj");
-    scale = {0.1,0.1,0.1};
+    scale = {0.05,0.05,0.05};
     rotation = {-1.57,0,0};
+    position = {0,10,0};
 }
 
 bool Luster::update(Scene &scene, float dt) {

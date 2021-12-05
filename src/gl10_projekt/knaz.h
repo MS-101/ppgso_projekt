@@ -12,6 +12,8 @@ private:
     static std::unique_ptr<ppgso::Mesh> mesh;
     static std::unique_ptr<ppgso::Texture> texture;
 
+
+
 public:
 
     Knaz();

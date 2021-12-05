@@ -16,6 +16,7 @@ Stol::Stol() {
     if (!texture) texture = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("stol.bmp"));
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("stol.obj");
     scale = {0.02,0.02,0.02};
+    rotation = {0,0,1.57};
 }
 
 bool Stol::update(Scene &scene, float dt) {

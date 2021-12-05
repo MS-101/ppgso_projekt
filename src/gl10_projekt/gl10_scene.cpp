@@ -1,11 +1,3 @@
-// Example gl_scene
-// - Introduces the concept of a dynamic scene of objects
-// - Uses abstract object interface for Update and Render steps
-// - Creates a simple game scene with Player, Asteroid and Space objects
-// - Contains a generator object that does not render but adds Asteroids to the scene
-// - Some objects use shared resources and all object deallocations are handled automatically
-// - Controls: LEFT, RIGHT, "R" to reset, SPACE to fire
-
 #include <iostream>
 #include <map>
 #include <list>
@@ -23,6 +15,8 @@
 #include "lavicka.h"
 #include "stol.h"
 #include "luster.h"
+#include "interior.h"
+#include "knaz_interior.h"
 
 const unsigned int SIZE = 800;
 
@@ -44,11 +38,12 @@ private:
     scene.camera = move(camera);
 
     auto lampa = std::make_unique<Lampa>();
+
     auto knaz = std::make_unique<Knaz>();
+
     auto kostol = std::make_unique<Kostol>();
     auto skybox = std::make_unique<Skybox>();
     auto slnko = std::make_unique<Slnko>();
-    auto stol = std::make_unique<Stol>();
 
     glm::vec3 position_man = {2,0,-21};
     auto man = std::make_unique<Muz>(position_man);
@@ -62,17 +57,52 @@ private:
     position_man = {1,0,-24};
     auto man4 = std::make_unique<Muz>(position_man);
 
-    scene.objects.push_back(std::move(knaz));
+    //scene.objects.push_back(std::move(knaz));
+    //scene.objects.push_back(std::move(man));
+    //scene.objects.push_back(std::move(man2));
+    //scene.objects.push_back(std::move(man3));
+    //scene.objects.push_back(std::move(man4));
 
-    scene.objects.push_back(std::move(man));
-    scene.objects.push_back(std::move(man2));
-    scene.objects.push_back(std::move(man3));
-    scene.objects.push_back(std::move(man4));
+    //scene.objects.push_back(std::move(kostol));
+    //scene.objects.push_back(std::move(skybox));
+    //scene.objects.push_back(std::move(slnko));
 
-    scene.objects.push_back(std::move(kostol));
-    scene.objects.push_back(std::move(skybox));
-    scene.objects.push_back(std::move(slnko));
-    //scene.objects.push_back(std::move(lampa));
+    auto stol = std::make_unique<Stol>();
+    auto interier = std::make_unique<Interier>();
+    auto knaz_interier = std::make_unique<Knaz_interier>();
+    auto luster = std::make_unique<Luster>();
+
+    glm::vec3 position_lavicka = {3,0,7};
+    auto lavicka = std::make_unique<Lavicka>(position_lavicka);
+
+    position_lavicka = {-3,0,7};
+    auto lavicka2 = std::make_unique<Lavicka>(position_lavicka);
+
+    position_lavicka = {3,0,9};
+    auto lavicka3 = std::make_unique<Lavicka>(position_lavicka);
+
+    position_lavicka = {-3,0,9};
+    auto lavicka4 = std::make_unique<Lavicka>(position_lavicka);
+
+    position_lavicka = {3,0,11};
+    auto lavicka5 = std::make_unique<Lavicka>(position_lavicka);
+
+    position_lavicka = {-3,0,11};
+    auto lavicka6 = std::make_unique<Lavicka>(position_lavicka);
+
+    scene.objects.push_back(std::move(interier));
+    scene.objects.push_back(std::move(stol));
+
+    scene.objects.push_back(std::move(lavicka));
+    scene.objects.push_back(std::move(lavicka2));
+    scene.objects.push_back(std::move(lavicka3));
+    scene.objects.push_back(std::move(lavicka4));
+    scene.objects.push_back(std::move(lavicka5));
+    scene.objects.push_back(std::move(lavicka6));
+
+    scene.objects.push_back(std::move(knaz_interier));
+    scene.objects.push_back(std::move(luster));
+
   }
 
 public:
