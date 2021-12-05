@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = H:\Reposits\ppgso_projekt
+CMAKE_SOURCE_DIR = C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = H:\Reposits\ppgso_projekt\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/gl10_projekt.dir/depend.make
@@ -68,184 +68,184 @@ include CMakeFiles/gl10_projekt.dir/flags.make
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.obj: CMakeFiles/gl10_projekt.dir/flags.make
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.obj: CMakeFiles/gl10_projekt.dir/includes_CXX.rsp
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.obj: ../src/gl10_projekt/gl10_scene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Reposits\ppgso_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.obj"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\gl10_scene.cpp.obj -c H:\Reposits\ppgso_projekt\src\gl10_projekt\gl10_scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.obj"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\gl10_scene.cpp.obj -c C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\gl10_scene.cpp
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.i"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\Reposits\ppgso_projekt\src\gl10_projekt\gl10_scene.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\gl10_scene.cpp.i
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\gl10_scene.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\gl10_scene.cpp.i
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.s"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Reposits\ppgso_projekt\src\gl10_projekt\gl10_scene.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\gl10_scene.cpp.s
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\gl10_scene.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\gl10_scene.cpp.s
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/object.cpp.obj: CMakeFiles/gl10_projekt.dir/flags.make
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/object.cpp.obj: CMakeFiles/gl10_projekt.dir/includes_CXX.rsp
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/object.cpp.obj: ../src/gl10_projekt/object.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Reposits\ppgso_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/object.cpp.obj"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\object.cpp.obj -c H:\Reposits\ppgso_projekt\src\gl10_projekt\object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/object.cpp.obj"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\object.cpp.obj -c C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\object.cpp
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/object.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gl10_projekt.dir/src/gl10_projekt/object.cpp.i"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\Reposits\ppgso_projekt\src\gl10_projekt\object.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\object.cpp.i
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\object.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\object.cpp.i
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gl10_projekt.dir/src/gl10_projekt/object.cpp.s"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Reposits\ppgso_projekt\src\gl10_projekt\object.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\object.cpp.s
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\object.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\object.cpp.s
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene.cpp.obj: CMakeFiles/gl10_projekt.dir/flags.make
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene.cpp.obj: CMakeFiles/gl10_projekt.dir/includes_CXX.rsp
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene.cpp.obj: ../src/gl10_projekt/scene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Reposits\ppgso_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene.cpp.obj"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\scene.cpp.obj -c H:\Reposits\ppgso_projekt\src\gl10_projekt\scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene.cpp.obj"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\scene.cpp.obj -c C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\scene.cpp
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene.cpp.i"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\Reposits\ppgso_projekt\src\gl10_projekt\scene.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\scene.cpp.i
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\scene.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\scene.cpp.i
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene.cpp.s"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Reposits\ppgso_projekt\src\gl10_projekt\scene.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\scene.cpp.s
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\scene.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\scene.cpp.s
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/camera.cpp.obj: CMakeFiles/gl10_projekt.dir/flags.make
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/camera.cpp.obj: CMakeFiles/gl10_projekt.dir/includes_CXX.rsp
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/camera.cpp.obj: ../src/gl10_projekt/camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Reposits\ppgso_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/camera.cpp.obj"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\camera.cpp.obj -c H:\Reposits\ppgso_projekt\src\gl10_projekt\camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/camera.cpp.obj"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\camera.cpp.obj -c C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\camera.cpp
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gl10_projekt.dir/src/gl10_projekt/camera.cpp.i"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\Reposits\ppgso_projekt\src\gl10_projekt\camera.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\camera.cpp.i
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\camera.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\camera.cpp.i
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gl10_projekt.dir/src/gl10_projekt/camera.cpp.s"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Reposits\ppgso_projekt\src\gl10_projekt\camera.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\camera.cpp.s
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\camera.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\camera.cpp.s
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lampa.cpp.obj: CMakeFiles/gl10_projekt.dir/flags.make
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lampa.cpp.obj: CMakeFiles/gl10_projekt.dir/includes_CXX.rsp
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lampa.cpp.obj: ../src/gl10_projekt/lampa.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Reposits\ppgso_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lampa.cpp.obj"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\lampa.cpp.obj -c H:\Reposits\ppgso_projekt\src\gl10_projekt\lampa.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lampa.cpp.obj"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\lampa.cpp.obj -c C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\lampa.cpp
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lampa.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lampa.cpp.i"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\Reposits\ppgso_projekt\src\gl10_projekt\lampa.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\lampa.cpp.i
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\lampa.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\lampa.cpp.i
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lampa.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lampa.cpp.s"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Reposits\ppgso_projekt\src\gl10_projekt\lampa.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\lampa.cpp.s
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\lampa.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\lampa.cpp.s
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz.cpp.obj: CMakeFiles/gl10_projekt.dir/flags.make
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz.cpp.obj: CMakeFiles/gl10_projekt.dir/includes_CXX.rsp
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz.cpp.obj: ../src/gl10_projekt/knaz.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Reposits\ppgso_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz.cpp.obj"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\knaz.cpp.obj -c H:\Reposits\ppgso_projekt\src\gl10_projekt\knaz.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz.cpp.obj"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\knaz.cpp.obj -c C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\knaz.cpp
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz.cpp.i"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\Reposits\ppgso_projekt\src\gl10_projekt\knaz.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\knaz.cpp.i
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\knaz.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\knaz.cpp.i
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz.cpp.s"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Reposits\ppgso_projekt\src\gl10_projekt\knaz.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\knaz.cpp.s
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\knaz.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\knaz.cpp.s
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kostol.cpp.obj: CMakeFiles/gl10_projekt.dir/flags.make
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kostol.cpp.obj: CMakeFiles/gl10_projekt.dir/includes_CXX.rsp
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kostol.cpp.obj: ../src/gl10_projekt/kostol.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Reposits\ppgso_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kostol.cpp.obj"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\kostol.cpp.obj -c H:\Reposits\ppgso_projekt\src\gl10_projekt\kostol.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kostol.cpp.obj"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\kostol.cpp.obj -c C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\kostol.cpp
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kostol.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kostol.cpp.i"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\Reposits\ppgso_projekt\src\gl10_projekt\kostol.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\kostol.cpp.i
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\kostol.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\kostol.cpp.i
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kostol.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kostol.cpp.s"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Reposits\ppgso_projekt\src\gl10_projekt\kostol.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\kostol.cpp.s
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\kostol.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\kostol.cpp.s
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/skybox.cpp.obj: CMakeFiles/gl10_projekt.dir/flags.make
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/skybox.cpp.obj: CMakeFiles/gl10_projekt.dir/includes_CXX.rsp
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/skybox.cpp.obj: ../src/gl10_projekt/skybox.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Reposits\ppgso_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/skybox.cpp.obj"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\skybox.cpp.obj -c H:\Reposits\ppgso_projekt\src\gl10_projekt\skybox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/skybox.cpp.obj"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\skybox.cpp.obj -c C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\skybox.cpp
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/skybox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gl10_projekt.dir/src/gl10_projekt/skybox.cpp.i"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\Reposits\ppgso_projekt\src\gl10_projekt\skybox.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\skybox.cpp.i
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\skybox.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\skybox.cpp.i
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/skybox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gl10_projekt.dir/src/gl10_projekt/skybox.cpp.s"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Reposits\ppgso_projekt\src\gl10_projekt\skybox.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\skybox.cpp.s
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\skybox.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\skybox.cpp.s
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/muz.cpp.obj: CMakeFiles/gl10_projekt.dir/flags.make
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/muz.cpp.obj: CMakeFiles/gl10_projekt.dir/includes_CXX.rsp
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/muz.cpp.obj: ../src/gl10_projekt/muz.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Reposits\ppgso_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/muz.cpp.obj"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\muz.cpp.obj -c H:\Reposits\ppgso_projekt\src\gl10_projekt\muz.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/muz.cpp.obj"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\muz.cpp.obj -c C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\muz.cpp
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/muz.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gl10_projekt.dir/src/gl10_projekt/muz.cpp.i"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\Reposits\ppgso_projekt\src\gl10_projekt\muz.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\muz.cpp.i
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\muz.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\muz.cpp.i
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/muz.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gl10_projekt.dir/src/gl10_projekt/muz.cpp.s"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Reposits\ppgso_projekt\src\gl10_projekt\muz.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\muz.cpp.s
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\muz.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\muz.cpp.s
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/slnko.cpp.obj: CMakeFiles/gl10_projekt.dir/flags.make
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/slnko.cpp.obj: CMakeFiles/gl10_projekt.dir/includes_CXX.rsp
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/slnko.cpp.obj: ../src/gl10_projekt/slnko.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Reposits\ppgso_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/slnko.cpp.obj"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\slnko.cpp.obj -c H:\Reposits\ppgso_projekt\src\gl10_projekt\slnko.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/slnko.cpp.obj"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\slnko.cpp.obj -c C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\slnko.cpp
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/slnko.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gl10_projekt.dir/src/gl10_projekt/slnko.cpp.i"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\Reposits\ppgso_projekt\src\gl10_projekt\slnko.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\slnko.cpp.i
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\slnko.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\slnko.cpp.i
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/slnko.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gl10_projekt.dir/src/gl10_projekt/slnko.cpp.s"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Reposits\ppgso_projekt\src\gl10_projekt\slnko.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\slnko.cpp.s
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\slnko.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\slnko.cpp.s
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lavicka.cpp.obj: CMakeFiles/gl10_projekt.dir/flags.make
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lavicka.cpp.obj: CMakeFiles/gl10_projekt.dir/includes_CXX.rsp
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lavicka.cpp.obj: ../src/gl10_projekt/lavicka.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Reposits\ppgso_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lavicka.cpp.obj"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\lavicka.cpp.obj -c H:\Reposits\ppgso_projekt\src\gl10_projekt\lavicka.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lavicka.cpp.obj"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\lavicka.cpp.obj -c C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\lavicka.cpp
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lavicka.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lavicka.cpp.i"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\Reposits\ppgso_projekt\src\gl10_projekt\lavicka.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\lavicka.cpp.i
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\lavicka.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\lavicka.cpp.i
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lavicka.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lavicka.cpp.s"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Reposits\ppgso_projekt\src\gl10_projekt\lavicka.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\lavicka.cpp.s
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\lavicka.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\lavicka.cpp.s
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/stol.cpp.obj: CMakeFiles/gl10_projekt.dir/flags.make
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/stol.cpp.obj: CMakeFiles/gl10_projekt.dir/includes_CXX.rsp
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/stol.cpp.obj: ../src/gl10_projekt/stol.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Reposits\ppgso_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/stol.cpp.obj"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\stol.cpp.obj -c H:\Reposits\ppgso_projekt\src\gl10_projekt\stol.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/stol.cpp.obj"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\stol.cpp.obj -c C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\stol.cpp
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/stol.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gl10_projekt.dir/src/gl10_projekt/stol.cpp.i"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\Reposits\ppgso_projekt\src\gl10_projekt\stol.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\stol.cpp.i
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\stol.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\stol.cpp.i
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/stol.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gl10_projekt.dir/src/gl10_projekt/stol.cpp.s"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Reposits\ppgso_projekt\src\gl10_projekt\stol.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\stol.cpp.s
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\stol.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\stol.cpp.s
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/luster.cpp.obj: CMakeFiles/gl10_projekt.dir/flags.make
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/luster.cpp.obj: CMakeFiles/gl10_projekt.dir/includes_CXX.rsp
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/luster.cpp.obj: ../src/gl10_projekt/luster.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=H:\Reposits\ppgso_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/luster.cpp.obj"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\luster.cpp.obj -c H:\Reposits\ppgso_projekt\src\gl10_projekt\luster.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/gl10_projekt.dir/src/gl10_projekt/luster.cpp.obj"
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\luster.cpp.obj -c C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\luster.cpp
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/luster.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gl10_projekt.dir/src/gl10_projekt/luster.cpp.i"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\Reposits\ppgso_projekt\src\gl10_projekt\luster.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\luster.cpp.i
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\luster.cpp > CMakeFiles\gl10_projekt.dir\src\gl10_projekt\luster.cpp.i
 
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/luster.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gl10_projekt.dir/src/gl10_projekt/luster.cpp.s"
-	H:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Reposits\ppgso_projekt\src\gl10_projekt\luster.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\luster.cpp.s
+	C:\mingw-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\src\gl10_projekt\luster.cpp -o CMakeFiles\gl10_projekt.dir\src\gl10_projekt\luster.cpp.s
 
 # Object files for target gl10_projekt
 gl10_projekt_OBJECTS = \
@@ -287,7 +287,7 @@ gl10_projekt.exe: ../dependencies/lib/mingw/libglew32.a
 gl10_projekt.exe: CMakeFiles/gl10_projekt.dir/linklibs.rsp
 gl10_projekt.exe: CMakeFiles/gl10_projekt.dir/objects1.rsp
 gl10_projekt.exe: CMakeFiles/gl10_projekt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=H:\Reposits\ppgso_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable gl10_projekt.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable gl10_projekt.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gl10_projekt.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -299,6 +299,6 @@ CMakeFiles/gl10_projekt.dir/clean:
 .PHONY : CMakeFiles/gl10_projekt.dir/clean
 
 CMakeFiles/gl10_projekt.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" H:\Reposits\ppgso_projekt H:\Reposits\ppgso_projekt H:\Reposits\ppgso_projekt\cmake-build-debug H:\Reposits\ppgso_projekt\cmake-build-debug H:\Reposits\ppgso_projekt\cmake-build-debug\CMakeFiles\gl10_projekt.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles\gl10_projekt.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gl10_projekt.dir/depend
 
