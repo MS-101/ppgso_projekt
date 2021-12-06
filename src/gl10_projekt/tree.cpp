@@ -22,8 +22,6 @@ Tree::Tree(glm::vec3 position_of_object) {
 }
 
 bool Tree::update(Scene &scene, float dt) {
-    //rotation.x += dt;
-    //std::cout << rotation.x << std::endl;
     generateModelMatrix();
     return true;
 }

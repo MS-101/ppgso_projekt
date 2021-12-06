@@ -14,7 +14,7 @@ private:
 
 public:
 
-    explicit Knaz(glm::vec3 position_of_object, std::string my_name);
+    explicit Knaz(glm::vec3 position_of_object, std::string my_name,glm::vec3 scale_priest);
 
     bool update(Scene &scene, float dt) override;
 

@@ -8,25 +8,30 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/camera.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/camera.cpp.obj"
-  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/carpet.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/carpet.cpp.obj"
-  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/floor.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/floor.cpp.obj"
-  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/gl10_scene.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.obj"
-  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/grass_plane.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/grass_plane.cpp.obj"
-  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/interier.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interier.cpp.obj"
-  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/knaz.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz.cpp.obj"
-  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/kostol.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kostol.cpp.obj"
-  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/lampa.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lampa.cpp.obj"
-  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/lavicka.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lavicka.cpp.obj"
-  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/luster.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/luster.cpp.obj"
-  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/muz.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/muz.cpp.obj"
-  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/object.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/object.cpp.obj"
-  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/path.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/path.cpp.obj"
-  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/scene.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene.cpp.obj"
-  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/skybox.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/skybox.cpp.obj"
-  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/slnko.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/slnko.cpp.obj"
-  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/stol.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/stol.cpp.obj"
-  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/tree.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/tree.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/camera.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/camera.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/carpet.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/carpet.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/dvere.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/dvere.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/flasa.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/flasa.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/floor.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/floor.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/gl10_scene.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/grass_plane.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/grass_plane.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/interier.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interier.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/knaz.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/kostol.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kostol.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/kriz.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kriz.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/lampa.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lampa.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/lavicka.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lavicka.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/luster.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/luster.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/ministrant.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/ministrant.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/muz.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/muz.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/object.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/object.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/path.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/path.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/piano.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/piano.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/scene.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/skybox.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/skybox.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/slnko.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/slnko.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/stol.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/stol.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/gl10_projekt/tree.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/tree.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -50,8 +55,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/ppgso.dir/DependInfo.cmake"
-  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/shaders.dir/DependInfo.cmake"
+  "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/DependInfo.cmake"
+  "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/shaders.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

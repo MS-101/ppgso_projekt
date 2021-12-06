@@ -1,11 +1,3 @@
-// Example gl_scene
-// - Introduces the concept of a dynamic scene of objects
-// - Uses abstract object interface for Update and Render steps
-// - Creates a simple game scene with Player, Asteroid and Space objects
-// - Contains a generator object that does not render but adds Asteroids to the scene
-// - Some objects use shared resources and all object deallocations are handled automatically
-// - Controls: LEFT, RIGHT, "R" to reset, SPACE to fire
-
 #include <iostream>
 #include <map>
 #include <list>
@@ -29,6 +21,11 @@
 #include "path.h"
 #include "carpet.h"
 #include "floor.h"
+#include "dvere.h"
+#include "kriz.h"
+#include "flasa.h"
+#include "piano.h"
+#include "ministrant.h"
 
 const unsigned int SIZE = 800;
 
@@ -56,7 +53,8 @@ private:
 
     if (active_scene == 1) {
         glm::vec3 position_priest = {0,0,-15};
-        auto knaz = std::make_unique<Knaz>(position_priest, "Dusan");
+        glm::vec3 scale_priest = {0.008,0.008,0.008};
+        auto knaz = std::make_unique<Knaz>(position_priest, "Dusan",scale_priest);
 
         auto path = std::make_unique<Path>();
         auto kostol = std::make_unique<Kostol>();
@@ -66,13 +64,15 @@ private:
         auto grass = std::make_unique<grass_plane>();
 
         glm::vec3 position_man = {1,0,-16};
-        auto man = std::make_unique<Muz>(position_man, "anon1");
+        glm::vec3 scale_man = {1.7,1.7,1.7};
+        glm::vec3 rotation_man = {0,0,0};
+        auto man = std::make_unique<Muz>(position_man, "anon1",scale_man,rotation_man);
         position_man = {-1,0,-16};
-        auto man2 = std::make_unique<Muz>(position_man, "anon2");
+        auto man2 = std::make_unique<Muz>(position_man, "anon2",scale_man,rotation_man);
         position_man = {1,0,-17};
-        auto man3 = std::make_unique<Muz>(position_man, "anon3");
+        auto man3 = std::make_unique<Muz>(position_man, "anon3",scale_man,rotation_man);
         position_man = {-1,0,-17};
-        auto man4 = std::make_unique<Muz>(position_man, "anon4");
+        auto man4 = std::make_unique<Muz>(position_man, "anon4",scale_man,rotation_man);
 
         glm::vec3 position_tree = {-10, 0, -5};
         auto tree1 = std::make_unique<Tree>(position_tree);
@@ -102,13 +102,34 @@ private:
         scene.objects.push_back(std::move(tree5));
     } else if (active_scene == 2) {
         glm::vec3 position_priest = {0,0,0};
-        auto knaz = std::make_unique<Knaz>(position_priest, "Dusan");
+        glm::vec3 scale_priest = {0.01,0.01,0.01};
+        auto knaz = std::make_unique<Knaz>(position_priest, "Dusan",scale_priest);
+
+        glm::vec3 position_ministrant = {2,1,0};
+        auto ministrant1 = std::make_unique<Ministrant>(position_ministrant, "Jano");
+
+        position_ministrant = {3,1,0};
+        auto ministrant2 = std::make_unique<Ministrant>(position_ministrant, "Robo");
+
+        position_ministrant = {4,1,0};
+        auto ministrant3 = std::make_unique<Ministrant>(position_ministrant, "Juro");
+
+        position_ministrant = {-3, 1, -2};
+        auto pianista = std::make_unique<Ministrant>(position_ministrant, "Pianista");
 
         auto stol = std::make_unique<Stol>();
         auto interier = std::make_unique<Interier>();
         auto luster = std::make_unique<Luster>();
         auto carpet = std::make_unique<Carpet>();
         auto floor = std::make_unique<Floor>();
+        auto lampa = std::make_unique<Lampa>();
+        auto dvere = std::make_unique<Dvere>();
+        auto kriz = std::make_unique<Kriz>();
+
+        glm::vec3 position_flasa = {0,1,4};
+        auto flasa = std::make_unique<Flasa>(position_flasa,"rizling");
+
+        auto piano = std::make_unique<Piano>();
 
         glm::vec3 position_lavicka = {3,0,7};
         auto lavicka = std::make_unique<Lavicka>(position_lavicka);
@@ -128,6 +149,17 @@ private:
         position_lavicka = {-3,0,11};
         auto lavicka6 = std::make_unique<Lavicka>(position_lavicka);
 
+        glm::vec3 position_man = {0,0,19};
+        glm::vec3 scale_man = {3.7,3.7,3.7};
+        glm::vec3 rotation_man = {0,0,3.14};
+        auto man = std::make_unique<Muz>(position_man, "veriaci1",scale_man,rotation_man);
+        position_man = {1,0,18};
+        auto man2 = std::make_unique<Muz>(position_man, "veriaci2",scale_man,rotation_man);
+        position_man = {-1,0,17};
+        auto man3 = std::make_unique<Muz>(position_man, "veriaci3",scale_man,rotation_man);
+        position_man = {1.5,0,16};
+        auto man4 = std::make_unique<Muz>(position_man, "veriaci4",scale_man,rotation_man);
+
         scene.objects.push_back(std::move(carpet));
         scene.objects.push_back(std::move(floor));
         scene.objects.push_back(std::move(interier));
@@ -142,6 +174,21 @@ private:
 
         scene.objects.push_back(std::move(knaz));
         scene.objects.push_back(std::move(luster));
+        scene.objects.push_back(std::move(dvere));
+        scene.objects.push_back(std::move(lampa));
+        scene.objects.push_back(std::move(kriz));
+        scene.objects.push_back(std::move(flasa));
+        scene.objects.push_back(std::move(piano));
+
+        scene.objects.push_back(std::move(ministrant1));
+        scene.objects.push_back(std::move(ministrant2));
+        scene.objects.push_back(std::move(ministrant3));
+        scene.objects.push_back(std::move(pianista));
+
+        scene.objects.push_back(std::move(man));
+        scene.objects.push_back(std::move(man2));
+        scene.objects.push_back(std::move(man3));
+        scene.objects.push_back(std::move(man4));
     }
   }
 

@@ -12,7 +12,6 @@ private:
     static std::unique_ptr<ppgso::Mesh> mesh;
     static std::unique_ptr<ppgso::Texture> texture;
 
-    glm::vec3 rotMomentum;
 public:
     Lampa();
 

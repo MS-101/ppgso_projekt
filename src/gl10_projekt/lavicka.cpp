@@ -16,7 +16,7 @@ Lavicka::Lavicka(glm::vec3 position_of_object) {
     if (!texture) texture = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("lavicka.bmp"));
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("lavicka.obj");
     position = position_of_object;
-    scale = {0.02,0.02,0.02};
+    scale = {0.02,0.025,0.02};
 }
 
 bool Lavicka::update(Scene &scene, float dt) {
