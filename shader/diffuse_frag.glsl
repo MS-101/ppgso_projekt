@@ -19,6 +19,7 @@ in vec4 normal;
 
 // The final color
 out vec4 FragmentColor;
+float l;
 
 void main() {
   // Compute diffuse lighting
@@ -28,4 +29,9 @@ void main() {
   // NOTE: Texture coordinate is inverted vertically for compatibility with OBJ
   FragmentColor = texture(Texture, vec2(texCoord.x, 1.0 - texCoord.y) + TextureOffset) * diffuse;
   FragmentColor.a = Transparency;
+
+  l = 0.3*FragmentColor.r + 0.59*FragmentColor.g + 0.11*FragmentColor.b;
+  FragmentColor.r = l;
+  FragmentColor.g = l;
+  FragmentColor.b = l;
 }
