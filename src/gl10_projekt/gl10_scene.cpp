@@ -122,9 +122,13 @@ private:
         auto luster = std::make_unique<Luster>();
         auto carpet = std::make_unique<Carpet>();
         auto floor = std::make_unique<Floor>();
-        auto lampa = std::make_unique<Lampa>();
         auto dvere = std::make_unique<Dvere>();
         auto kriz = std::make_unique<Kriz>();
+
+        glm::vec3 position_lampa = {3,0,3};
+        auto lampa1 = std::make_unique<Lampa>(position_lampa);
+        position_lampa = {-3,0,3};
+        auto lampa2 = std::make_unique<Lampa>(position_lampa);
 
         glm::vec3 position_flasa = {0,1,4};
         auto flasa = std::make_unique<Flasa>(position_flasa,"rizling");
@@ -175,7 +179,8 @@ private:
         scene.objects.push_back(std::move(knaz));
         scene.objects.push_back(std::move(luster));
         scene.objects.push_back(std::move(dvere));
-        scene.objects.push_back(std::move(lampa));
+        scene.objects.push_back(std::move(lampa1));
+        scene.objects.push_back(std::move(lampa2));
         scene.objects.push_back(std::move(kriz));
         scene.objects.push_back(std::move(flasa));
         scene.objects.push_back(std::move(piano));

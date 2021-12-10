@@ -11,7 +11,7 @@ std::unique_ptr<ppgso::Mesh> Lampa::mesh;
 std::unique_ptr<ppgso::Shader> Lampa::shader;
 std::unique_ptr<ppgso::Texture> Lampa::texture;
 
-Lampa::Lampa() {
+Lampa::Lampa(glm::vec3 position_of_object) {
     // Initialize static resources if needed
     if (!shader) shader = std::make_unique<ppgso::Shader>(diffuse_vert_glsl, diffuse_frag_glsl);
     if (!texture) texture = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("lampa.bmp"));
@@ -19,6 +19,7 @@ Lampa::Lampa() {
     scale = {0.015,0.015,0.015};
     rotation = {-1.57,0,0};
     position = {3, 0, 3};
+    position = position_of_object;
 }
 
 bool Lampa::update(Scene &scene, float dt) {
@@ -38,6 +39,7 @@ void Lampa::render(Scene &scene) {
     // use camera
     shader->setUniform("ProjectionMatrix", scene.camera->projectionMatrix);
     shader->setUniform("ViewMatrix", scene.camera->viewMatrix);
+    shader->setUniform("viewPos",scene.camera->position);
 
     // render mesh
     shader->setUniform("ModelMatrix", modelMatrix);

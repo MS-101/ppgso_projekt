@@ -28,18 +28,10 @@ class Scene {
     // All objects to be rendered in scene
     std::list< std::unique_ptr<Object> > objects;
 
-    // Keyboard state
-    std::map< int, int > keyboard;
-
     // Lights, in this case using only simple directional diffuse lighting
     glm::vec3 lightDirection{-1.0f, -1.0f, -1.0f};
-    glm::vec3 skyLight{-19,20,0};
+    glm::vec3 ambientLight{0.1f, 0.1f, 0.1f};
 
-    // Store cursor state
-    struct {
-      double x, y;
-      bool left, right;
-    } cursor;
 };
 
 #endif // _PPGSO_SCENE_H

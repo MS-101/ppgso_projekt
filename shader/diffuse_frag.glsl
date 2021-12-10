@@ -21,10 +21,26 @@ in vec4 normal;
 out vec4 FragmentColor;
 float l;
 
-void main() {
-  float diffuse = max(dot(normal, vec4(normalize(LightDirection), 1.0f)), 0.0f);
+float specularStrength = 0.5;
+vec3 lightColor = {0.1,0.1,0.1};
+uniform vec3 viewPos;
+in vec3 FragPos;
+float ambientStrength = 0.1;
+in vec3 norm;
 
-  FragmentColor = texture(Texture, vec2(texCoord.x, 1.0 - texCoord.y) + TextureOffset) * diffuse;
+void main() {
+
+  float diffuse = max(dot(normal, vec4(normalize(LightDirection), 1.0f)), 0.0f);
+  vec3 viewDir = normalize(viewPos - FragPos);
+  vec3 reflectDir = reflect(-LightDirection, norm);
+  float spec = pow(max(dot(viewDir, reflectDir), 0.0), 32);
+  vec3 specular = specularStrength * spec * lightColor;
+  vec3 ambient = ambientStrength * lightColor;
+
+  vec3 result = (ambient + diffuse + specular);
+  FragmentColor = texture(Texture, vec2(texCoord.x, 1.0 - texCoord.y) + TextureOffset) * vec4(result, 1.0);
+
+  //FragmentColor = texture(Texture, vec2(texCoord.x, 1.0 - texCoord.y) + TextureOffset) * diffuse;
 
   //greyscale
   //l = 0.3*FragmentColor.r + 0.59*FragmentColor.g + 0.11*FragmentColor.b;

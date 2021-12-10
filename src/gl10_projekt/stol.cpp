@@ -33,6 +33,7 @@ void Stol::render(Scene &scene) {
     // use camera
     shader->setUniform("ProjectionMatrix", scene.camera->projectionMatrix);
     shader->setUniform("ViewMatrix", scene.camera->viewMatrix);
+    shader->setUniform("viewPos",scene.camera->position);
 
     // render mesh
     shader->setUniform("ModelMatrix", modelMatrix);
