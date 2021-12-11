@@ -218,8 +218,8 @@ public:
 
       // scena 1 je v exterieri kostola
       if (active_scene == 1) {
-          float time_1 = 5;
-          float time_2 = 3;
+          float time_1 = 20;
+          float time_2 = 5;
           float time_3 = 5;
 
           // otacanie kamery okolo kostola

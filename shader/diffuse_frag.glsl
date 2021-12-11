@@ -29,9 +29,9 @@ in vec3 FragPos;
 float ambientStrength = 0.1;
 in vec3 norm;
 
-float constant = 9.0f;
-float linear = 0.5f;
-float quadratic = 0.5f;
+float constant = 1.0f;
+float linear = 0.09f;
+float quadratic = 0.032f;
 
 uniform vec3 position1 = {3, 3, 3};
 uniform vec3 position2 = {-3, 3, 3};
@@ -50,8 +50,7 @@ vec3 CalcPointLight(vec3 position, vec3 norm, vec3 FragPos, vec3 viewDir)
   vec3 reflectDir = reflect(-lightDir, norm);
   float spec = pow(max(dot(viewDir, reflectDir), 0.0), 5);
   float distance    = length(position - FragPos);
-  float attenuation = 1.0 / (constant + linear * distance +
-  quadratic * (distance * distance));
+  float attenuation = 1.0 / (constant + linear * distance + quadratic * (distance * distance));
 
   vec3 ambient  = ambient  * vec3(texture(Texture, vec2(texCoord.x, 1.0 - texCoord.y) + TextureOffset));
   vec3 diffuse  = diffuse  * diffuseDir *  vec3(texture(Texture, vec2(texCoord.x, 1.0 - texCoord.y) + TextureOffset));
@@ -73,10 +72,11 @@ void main() {
   vec3 specular = specularStrength * spec * lightColor;
   vec3 ambient = ambientStrength * lightColor;
 
-  vec3 result = (ambient + diffuse + specular);
+  vec3 result;
   result += CalcPointLight(position1, norm, FragPos, viewDir);
   result += CalcPointLight(position2, norm, FragPos, viewDir);
   result += CalcPointLight(position3, norm, FragPos, viewDir);
+  result += CalcPointLight(positionSlnko, norm, FragPos, viewDir);
   FragmentColor = texture(Texture, vec2(texCoord.x, 1.0 - texCoord.y) + TextureOffset) * vec4(result, 1.0);
 
   //greyscale
