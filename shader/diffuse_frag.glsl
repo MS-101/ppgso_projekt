@@ -48,16 +48,13 @@ uniform PointLight pointLights[NR_POINT_LIGHTS];
 vec3 CalcPointLight(PointLight light, vec3 norm, vec3 FragPos, vec3 viewDir)
 {
   vec3 lightDir = normalize(light.position - FragPos);
-  // diffuse shading
   float diffuseDir = max(dot(normal, vec4(normalize(LightDirection), 1.0f)), 0.0f);
-  // specular shading
   vec3 reflectDir = reflect(-LightDirection, norm);
   float spec = pow(max(dot(viewDir, reflectDir), 0.0), 32);
-  // attenuation
   float distance    = length(light.position - FragPos);
   float attenuation = 1.0 / (light.constant + light.linear * distance +
   light.quadratic * (distance * distance));
-  // combine results
+
   vec3 ambient  = light.ambient  * vec3(texture(Texture, vec2(texCoord.x, 1.0 - texCoord.y) + TextureOffset));
   vec3 diffuse  = light.diffuse  * diffuseDir *  vec3(texture(Texture, vec2(texCoord.x, 1.0 - texCoord.y) + TextureOffset));
   vec3 specular = light.specular * spec *  vec3(texture(Texture, vec2(texCoord.x, 1.0 - texCoord.y) + TextureOffset));
