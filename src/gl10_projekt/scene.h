@@ -29,15 +29,8 @@ class Scene {
     std::list< std::unique_ptr<Object> > objects;
 
     // Lights, in this case using only simple directional diffuse lighting
-    glm::vec3 lightDirection{-1.0f, -1.0f, -1.0f};
-    glm::vec3 ambientLight{0.1f, 0.1f, 0.1f};
-    glm::vec3 pointLightPositions[3] = {
-            glm::vec3(3, 0, 3),
-            glm::vec3( 3, 0, 3),
-            glm::vec3(0,10,0)
-    };
-
-
+    glm::vec3 lightDirectionUp{1.0f, 1.0f, 1.0f};
+    glm::vec3 lightDirectionDown{-1.0f, -1.0f, -1.0f};
 
 };
 

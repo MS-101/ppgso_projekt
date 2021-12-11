@@ -2844,8 +2844,8 @@ CMakeFiles/gl10_projekt.dir/src/gl10_projekt/stol.cpp.obj: \
  ../src/gl10_projekt/scene.h \
  ../src/gl10_projekt/stol.cpp \
  ../src/gl10_projekt/stol.h \
- shaders/texture_frag_glsl.h \
- shaders/texture_vert_glsl.h
+ shaders/diffuse_frag_glsl.h \
+ shaders/diffuse_vert_glsl.h
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/tree.cpp.obj: \
  ../dependencies/include/GL/glew.h \
  ../dependencies/include/GLFW/glfw3.h \
