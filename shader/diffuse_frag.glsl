@@ -19,8 +19,9 @@ in vec4 normal;
 
 // The final color
 out vec4 FragmentColor;
+//premenna pre greyscale
 float l;
-
+//premenne pre vypocet directionLight
 float specularStrength = 0.5;
 vec3 lightColor = {0.1,0.1,0.1};
 uniform vec3 viewPos;
@@ -28,8 +29,47 @@ in vec3 FragPos;
 float ambientStrength = 0.1;
 in vec3 norm;
 
-void main() {
+//struktura pre pointLight
+struct PointLight {
+  vec3 position;
 
+  float constant;
+  float linear;
+  float quadratic;
+
+  vec3 ambient;
+  vec3 diffuse;
+  vec3 specular;
+};
+#define NR_POINT_LIGHTS 3
+uniform PointLight pointLights[NR_POINT_LIGHTS];
+
+//vypocet pointlight
+vec3 CalcPointLight(PointLight light, vec3 norm, vec3 FragPos, vec3 viewDir)
+{
+  vec3 lightDir = normalize(light.position - FragPos);
+  // diffuse shading
+  float diffuseDir = max(dot(normal, vec4(normalize(LightDirection), 1.0f)), 0.0f);
+  // specular shading
+  vec3 reflectDir = reflect(-LightDirection, norm);
+  float spec = pow(max(dot(viewDir, reflectDir), 0.0), 32);
+  // attenuation
+  float distance    = length(light.position - FragPos);
+  float attenuation = 1.0 / (light.constant + light.linear * distance +
+  light.quadratic * (distance * distance));
+  // combine results
+  vec3 ambient  = light.ambient  * vec3(texture(Texture, vec2(texCoord.x, 1.0 - texCoord.y) + TextureOffset));
+  vec3 diffuse  = light.diffuse  * diffuseDir *  vec3(texture(Texture, vec2(texCoord.x, 1.0 - texCoord.y) + TextureOffset));
+  vec3 specular = light.specular * spec *  vec3(texture(Texture, vec2(texCoord.x, 1.0 - texCoord.y) + TextureOffset));
+  ambient  *= attenuation;
+  diffuse  *= attenuation;
+  specular *= attenuation;
+  return (ambient + diffuse + specular);
+}
+
+
+void main() {
+  //directional light
   float diffuse = max(dot(normal, vec4(normalize(LightDirection), 1.0f)), 0.0f);
   vec3 viewDir = normalize(viewPos - FragPos);
   vec3 reflectDir = reflect(-LightDirection, norm);
@@ -38,9 +78,10 @@ void main() {
   vec3 ambient = ambientStrength * lightColor;
 
   vec3 result = (ambient + diffuse + specular);
+  for(int i = 0; i < NR_POINT_LIGHTS; i++){
+    result += CalcPointLight(pointLights[i], norm, FragPos, viewDir);
+  }
   FragmentColor = texture(Texture, vec2(texCoord.x, 1.0 - texCoord.y) + TextureOffset) * vec4(result, 1.0);
-
-  //FragmentColor = texture(Texture, vec2(texCoord.x, 1.0 - texCoord.y) + TextureOffset) * diffuse;
 
   //greyscale
   //l = 0.3*FragmentColor.r + 0.59*FragmentColor.g + 0.11*FragmentColor.b;
@@ -48,6 +89,7 @@ void main() {
   //FragmentColor.g = l;
   //FragmentColor.b = l;
 
+  //convolution
   //float[25] kernel = float[] (
   //0.0,  1.0,  1.0,  1.0, 1.0,
   //-1.0,  0.0,  1.0,  1.0, 1.0,

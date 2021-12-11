@@ -18,7 +18,6 @@ Lampa::Lampa(glm::vec3 position_of_object) {
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("lampa.obj");
     scale = {0.015,0.015,0.015};
     rotation = {-1.57,0,0};
-    position = {3, 0, 3};
     position = position_of_object;
 }
 
@@ -40,6 +39,28 @@ void Lampa::render(Scene &scene) {
     shader->setUniform("ProjectionMatrix", scene.camera->projectionMatrix);
     shader->setUniform("ViewMatrix", scene.camera->viewMatrix);
     shader->setUniform("viewPos",scene.camera->position);
+
+    shader->setUniform("pointLights[0].constant", 9.0f);
+    shader->setUniform("pointLights[1].constant", 9.0f);
+    shader->setUniform("pointLights[2].constant", 9.0f);
+    shader->setUniform("pointLights[0].linear", 0.5f);
+    shader->setUniform("pointLights[1].linear", 0.5f);
+    shader->setUniform("pointLights[2].linear", 0.5f);
+    shader->setUniform("pointLights[0].quadratic", 0.5f);
+    shader->setUniform("pointLights[1].quadratic", 0.5f);
+    shader->setUniform("pointLights[2].quadratic", 0.5f);
+
+    shader->setUniform("pointLights[0].diffuse", {1.0f, 1.0f, 1.0f});
+    shader->setUniform("pointLights[1].diffuse", {1.0f, 1.0f, 1.0f});
+    shader->setUniform("pointLights[2].diffuse", {1.0f, 1.0f, 1.0f});
+
+    shader->setUniform("pointLights[0].specular", {0.5f, 0.5f, 0.5f});
+    shader->setUniform("pointLights[1].specular", {0.5f, 0.5f, 0.5f});
+    shader->setUniform("pointLights[2].specular", {0.5f, 0.5f, 0.5f});
+
+    shader->setUniform("pointLights[0].ambient", {0.1f, 0.1f, 0.1f});
+    shader->setUniform("pointLights[1].ambient", {0.1f, 0.1f, 0.1f});
+    shader->setUniform("pointLights[2].ambient", {0.1f, 0.1f, 0.1f});
 
     // render mesh
     shader->setUniform("ModelMatrix", modelMatrix);
