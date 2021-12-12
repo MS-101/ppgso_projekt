@@ -31,6 +31,7 @@ class Scene {
     // Lights, in this case using only simple directional diffuse lighting
     glm::vec3 lightDirectionUp{1.0f, 1.0f, 1.0f};
     glm::vec3 lightDirectionDown{-1.0f, -1.0f, -1.0f};
+    float ActivateFilter = 1.0f;
 
 };
 

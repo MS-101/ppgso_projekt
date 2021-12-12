@@ -29,12 +29,13 @@ bool Kostol::update(Scene &scene, float dt) {
 void Kostol::render(Scene &scene) {
     shader->use();
     // Set up light
-    shader->setUniform("LightDirection", scene.lightDirectionUp);
+    shader->setUniform("LightDirection", scene.lightDirectionDown);
 
     // use camera
     shader->setUniform("ProjectionMatrix", scene.camera->projectionMatrix);
     shader->setUniform("ViewMatrix", scene.camera->viewMatrix);
     shader->setUniform("viewPos",scene.camera->position);
+    //shader->setUniform("ActivateFilter",scene.ActivateFilter);
 
     // render mesh
     shader->setUniform("ModelMatrix", modelMatrix);

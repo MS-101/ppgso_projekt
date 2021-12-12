@@ -242,8 +242,8 @@ CMakeFiles/gl10_projekt.dir/src/gl10_projekt/carpet.cpp.obj: \
  ../src/gl10_projekt/carpet.h \
  ../src/gl10_projekt/object.h \
  ../src/gl10_projekt/scene.h \
- shaders/texture_frag_glsl.h \
- shaders/texture_vert_glsl.h
+ shaders/diffuse_frag_glsl.h \
+ shaders/diffuse_vert_glsl.h
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/dvere.cpp.obj: \
  ../dependencies/include/GL/glew.h \
  ../dependencies/include/GLFW/glfw3.h \
@@ -879,8 +879,8 @@ CMakeFiles/gl10_projekt.dir/src/gl10_projekt/grass_plane.cpp.obj: \
  ../src/gl10_projekt/grass_plane.h \
  ../src/gl10_projekt/object.h \
  ../src/gl10_projekt/scene.h \
- shaders/texture_frag_glsl.h \
- shaders/texture_vert_glsl.h
+ shaders/diffuse_frag_glsl.h \
+ shaders/diffuse_vert_glsl.h
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interier.cpp.obj: \
  ../dependencies/include/GL/glew.h \
  ../dependencies/include/GLFW/glfw3.h \
@@ -1003,8 +1003,8 @@ CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interier.cpp.obj: \
  ../src/gl10_projekt/interier.h \
  ../src/gl10_projekt/object.h \
  ../src/gl10_projekt/scene.h \
- shaders/texture_frag_glsl.h \
- shaders/texture_vert_glsl.h
+ shaders/diffuse_frag_glsl.h \
+ shaders/diffuse_vert_glsl.h
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz.cpp.obj: \
  ../dependencies/include/GL/glew.h \
  ../dependencies/include/GLFW/glfw3.h \
@@ -2227,8 +2227,8 @@ CMakeFiles/gl10_projekt.dir/src/gl10_projekt/path.cpp.obj: \
  ../src/gl10_projekt/path.cpp \
  ../src/gl10_projekt/path.h \
  ../src/gl10_projekt/scene.h \
- shaders/texture_frag_glsl.h \
- shaders/texture_vert_glsl.h
+ shaders/diffuse_frag_glsl.h \
+ shaders/diffuse_vert_glsl.h
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/piano.cpp.obj: \
  ../dependencies/include/GL/glew.h \
  ../dependencies/include/GLFW/glfw3.h \
