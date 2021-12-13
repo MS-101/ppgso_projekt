@@ -16,7 +16,7 @@ Flasa::Flasa(glm::vec3 position_of_object, std::string my_name) {
     if (!shader) shader = std::make_unique<ppgso::Shader>(diffuse_vert_glsl, diffuse_frag_glsl);
     if (!texture) texture = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("flasa.bmp"));
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("flasa.obj");
-    position = {0,1,4};
+    position = position_of_object;
     scale = {2,2,2};
     rotation = {3.14,3.14,0};
     name = std::move(my_name);

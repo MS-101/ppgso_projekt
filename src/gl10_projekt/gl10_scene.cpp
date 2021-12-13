@@ -215,6 +215,12 @@ public:
       auto current_time = (float) glfwGetTime();
       float dt =  current_time - last_time;
       last_time = current_time;
+      //gravitacia
+      float acceleration = -9.8;
+      float velocity;
+      float position;
+      velocity += acceleration * dt;
+      position += velocity * dt;
 
       // scena 1 je v exterieri kostola
       if (active_scene == 1) {
