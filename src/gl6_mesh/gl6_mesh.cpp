@@ -22,7 +22,6 @@ private:
 
   ppgso::Texture sphereTexture = {ppgso::image::loadBMP("sphere.bmp")};
   ppgso::Texture cursorTexture = {ppgso::image::loadBMP("lena.bmp")};
-  ppgso::Texture lampaTexture = {ppgso::image::loadBMP("lampa.bmp")};
 
   ppgso::Mesh sphere = {"sphere.obj"};
   ppgso::Mesh cursor = {"quad.obj"};
@@ -98,9 +97,6 @@ public:
 
     // Update camera position with perspective projection
     program.setUniform("ProjectionMatrix", glm::perspective((ppgso::PI / 180.f) * 60.0f, 1.0f, 0.1f, 10.0f));
-
-    // Render objects
-    program.setUniform("Texture", lampaTexture);
 
     // Central box
     program.setUniform("ModelMatrix", cubeMat);

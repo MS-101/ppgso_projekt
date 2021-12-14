@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/raw1_gradient/raw1_gradient.cpp" "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/raw1_gradient.dir/src/raw1_gradient/raw1_gradient.cpp.obj"
+  "H:/Reposits/ppgso_projekt/src/raw1_gradient/raw1_gradient.cpp" "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/raw1_gradient.dir/src/raw1_gradient/raw1_gradient.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -32,7 +32,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug/CMakeFiles/ppgso.dir/DependInfo.cmake"
+  "H:/Reposits/ppgso_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

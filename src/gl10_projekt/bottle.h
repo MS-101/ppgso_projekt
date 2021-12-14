@@ -10,6 +10,10 @@ private:
     static std::unique_ptr<ppgso::Shader> shader;
     static std::unique_ptr<ppgso::Mesh> mesh;
     static std::unique_ptr<ppgso::Texture> texture;
+    float acc;
+    glm::vec3 velocity;
+    glm::vec3 push;
+    float drag;
 
 public:
 
