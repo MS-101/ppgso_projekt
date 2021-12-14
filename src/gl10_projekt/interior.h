@@ -5,7 +5,7 @@
 #include <ppgso/ppgso.h>
 #include "object.h"
 
-class Interier final : public Object {
+class Interior final : public Object {
 private:
     static std::unique_ptr<ppgso::Shader> shader;
     static std::unique_ptr<ppgso::Mesh> mesh;
@@ -13,7 +13,7 @@ private:
 
 public:
 
-    Interier();
+    Interior();
 
     bool update(Scene &scene, float dt) override;
 

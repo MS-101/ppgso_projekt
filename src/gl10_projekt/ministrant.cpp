@@ -10,13 +10,14 @@ std::unique_ptr<ppgso::Mesh> Ministrant::mesh;
 std::unique_ptr<ppgso::Shader> Ministrant::shader;
 std::unique_ptr<ppgso::Texture> Ministrant::texture;
 
-Ministrant::Ministrant(glm::vec3 position_of_object, std::string my_name) {
+Ministrant::Ministrant(glm::vec3 position_of_object, std::string my_name, glm::vec3 rotation_object, glm::vec3 scale_object) {
     // Initialize static resources if needed
     if (!shader) shader = std::make_unique<ppgso::Shader>(diffuse_vert_glsl, diffuse_frag_glsl);
     if (!texture) texture = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("ministrant.bmp"));
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("ministrant.obj");
     position = position_of_object;
-    scale = {4,4,4};
+    rotation = rotation_object;
+    scale = scale_object;
     name = std::move(my_name);
 }
 
@@ -37,7 +38,6 @@ void Ministrant::render(Scene &scene) {
     // use camera
     shader->setUniform("ProjectionMatrix", scene.camera->projectionMatrix);
     shader->setUniform("ViewMatrix", scene.camera->viewMatrix);
-    shader->setUniform("viewPos",scene.camera->position);
 
     // render mesh
     shader->setUniform("ModelMatrix", modelMatrix);

@@ -1,1 +1,1 @@
--IH:/Reposits/ppgso_projekt/ppgso -IH:/Reposits/ppgso_projekt/dependencies/include -IH:/Reposits/ppgso_projekt -IH:/Reposits/ppgso_projekt/cmake-build-debug
+-IC:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/ppgso -IC:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/dependencies/include -IC:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso -IC:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/cmake-build-debug

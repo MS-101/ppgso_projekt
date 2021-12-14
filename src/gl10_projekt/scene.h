@@ -33,6 +33,7 @@ class Scene {
     glm::vec3 lightDirectionDown{-1.0f, -1.0f, -1.0f};
     float ActivateFilter = 1.0f;
 
+    Object *findObjectByName(const std::string& name);
 };
 
 #endif // _PPGSO_SCENE_H

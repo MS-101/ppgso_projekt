@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = H:\Reposits\ppgso_projekt
+CMAKE_SOURCE_DIR = C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = H:\Reposits\ppgso_projekt\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = H:\Reposits\ppgso_projekt\cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,7 +86,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -96,44 +96,44 @@ edit_cache/fast: edit_cache
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"H:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start H:\Reposits\ppgso_projekt\cmake-build-debug\CMakeFiles H:\Reposits\ppgso_projekt\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start H:\Reposits\ppgso_projekt\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marti\Desktop\School\semester_5\PPGSO\Projekt\ppgso\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -856,6 +856,126 @@ shaders/texture_vert_glsl.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\shaders.dir\build.make CMakeFiles/shaders.dir/shaders/texture_vert_glsl.cpp.s
 .PHONY : shaders/texture_vert_glsl.cpp.s
 
+src/gl10_projekt/altar.obj: src/gl10_projekt/altar.cpp.obj
+.PHONY : src/gl10_projekt/altar.obj
+
+# target to build an object file
+src/gl10_projekt/altar.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/altar.cpp.obj
+.PHONY : src/gl10_projekt/altar.cpp.obj
+
+src/gl10_projekt/altar.i: src/gl10_projekt/altar.cpp.i
+.PHONY : src/gl10_projekt/altar.i
+
+# target to preprocess a source file
+src/gl10_projekt/altar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/altar.cpp.i
+.PHONY : src/gl10_projekt/altar.cpp.i
+
+src/gl10_projekt/altar.s: src/gl10_projekt/altar.cpp.s
+.PHONY : src/gl10_projekt/altar.s
+
+# target to generate assembly for a file
+src/gl10_projekt/altar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/altar.cpp.s
+.PHONY : src/gl10_projekt/altar.cpp.s
+
+src/gl10_projekt/animationHandler.obj: src/gl10_projekt/animationHandler.cpp.obj
+.PHONY : src/gl10_projekt/animationHandler.obj
+
+# target to build an object file
+src/gl10_projekt/animationHandler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/animationHandler.cpp.obj
+.PHONY : src/gl10_projekt/animationHandler.cpp.obj
+
+src/gl10_projekt/animationHandler.i: src/gl10_projekt/animationHandler.cpp.i
+.PHONY : src/gl10_projekt/animationHandler.i
+
+# target to preprocess a source file
+src/gl10_projekt/animationHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/animationHandler.cpp.i
+.PHONY : src/gl10_projekt/animationHandler.cpp.i
+
+src/gl10_projekt/animationHandler.s: src/gl10_projekt/animationHandler.cpp.s
+.PHONY : src/gl10_projekt/animationHandler.s
+
+# target to generate assembly for a file
+src/gl10_projekt/animationHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/animationHandler.cpp.s
+.PHONY : src/gl10_projekt/animationHandler.cpp.s
+
+src/gl10_projekt/believer.obj: src/gl10_projekt/believer.cpp.obj
+.PHONY : src/gl10_projekt/believer.obj
+
+# target to build an object file
+src/gl10_projekt/believer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/believer.cpp.obj
+.PHONY : src/gl10_projekt/believer.cpp.obj
+
+src/gl10_projekt/believer.i: src/gl10_projekt/believer.cpp.i
+.PHONY : src/gl10_projekt/believer.i
+
+# target to preprocess a source file
+src/gl10_projekt/believer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/believer.cpp.i
+.PHONY : src/gl10_projekt/believer.cpp.i
+
+src/gl10_projekt/believer.s: src/gl10_projekt/believer.cpp.s
+.PHONY : src/gl10_projekt/believer.s
+
+# target to generate assembly for a file
+src/gl10_projekt/believer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/believer.cpp.s
+.PHONY : src/gl10_projekt/believer.cpp.s
+
+src/gl10_projekt/bench.obj: src/gl10_projekt/bench.cpp.obj
+.PHONY : src/gl10_projekt/bench.obj
+
+# target to build an object file
+src/gl10_projekt/bench.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/bench.cpp.obj
+.PHONY : src/gl10_projekt/bench.cpp.obj
+
+src/gl10_projekt/bench.i: src/gl10_projekt/bench.cpp.i
+.PHONY : src/gl10_projekt/bench.i
+
+# target to preprocess a source file
+src/gl10_projekt/bench.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/bench.cpp.i
+.PHONY : src/gl10_projekt/bench.cpp.i
+
+src/gl10_projekt/bench.s: src/gl10_projekt/bench.cpp.s
+.PHONY : src/gl10_projekt/bench.s
+
+# target to generate assembly for a file
+src/gl10_projekt/bench.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/bench.cpp.s
+.PHONY : src/gl10_projekt/bench.cpp.s
+
+src/gl10_projekt/bottle.obj: src/gl10_projekt/bottle.cpp.obj
+.PHONY : src/gl10_projekt/bottle.obj
+
+# target to build an object file
+src/gl10_projekt/bottle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/bottle.cpp.obj
+.PHONY : src/gl10_projekt/bottle.cpp.obj
+
+src/gl10_projekt/bottle.i: src/gl10_projekt/bottle.cpp.i
+.PHONY : src/gl10_projekt/bottle.i
+
+# target to preprocess a source file
+src/gl10_projekt/bottle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/bottle.cpp.i
+.PHONY : src/gl10_projekt/bottle.cpp.i
+
+src/gl10_projekt/bottle.s: src/gl10_projekt/bottle.cpp.s
+.PHONY : src/gl10_projekt/bottle.s
+
+# target to generate assembly for a file
+src/gl10_projekt/bottle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/bottle.cpp.s
+.PHONY : src/gl10_projekt/bottle.cpp.s
+
 src/gl10_projekt/camera.obj: src/gl10_projekt/camera.cpp.obj
 .PHONY : src/gl10_projekt/camera.obj
 
@@ -879,6 +999,30 @@ src/gl10_projekt/camera.s: src/gl10_projekt/camera.cpp.s
 src/gl10_projekt/camera.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/camera.cpp.s
 .PHONY : src/gl10_projekt/camera.cpp.s
+
+src/gl10_projekt/cameraKeyframe.obj: src/gl10_projekt/cameraKeyframe.cpp.obj
+.PHONY : src/gl10_projekt/cameraKeyframe.obj
+
+# target to build an object file
+src/gl10_projekt/cameraKeyframe.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/cameraKeyframe.cpp.obj
+.PHONY : src/gl10_projekt/cameraKeyframe.cpp.obj
+
+src/gl10_projekt/cameraKeyframe.i: src/gl10_projekt/cameraKeyframe.cpp.i
+.PHONY : src/gl10_projekt/cameraKeyframe.i
+
+# target to preprocess a source file
+src/gl10_projekt/cameraKeyframe.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/cameraKeyframe.cpp.i
+.PHONY : src/gl10_projekt/cameraKeyframe.cpp.i
+
+src/gl10_projekt/cameraKeyframe.s: src/gl10_projekt/cameraKeyframe.cpp.s
+.PHONY : src/gl10_projekt/cameraKeyframe.s
+
+# target to generate assembly for a file
+src/gl10_projekt/cameraKeyframe.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/cameraKeyframe.cpp.s
+.PHONY : src/gl10_projekt/cameraKeyframe.cpp.s
 
 src/gl10_projekt/carpet.obj: src/gl10_projekt/carpet.cpp.obj
 .PHONY : src/gl10_projekt/carpet.obj
@@ -904,293 +1048,197 @@ src/gl10_projekt/carpet.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/carpet.cpp.s
 .PHONY : src/gl10_projekt/carpet.cpp.s
 
-src/gl10_projekt/dvere.obj: src/gl10_projekt/dvere.cpp.obj
-.PHONY : src/gl10_projekt/dvere.obj
+src/gl10_projekt/chandelier.obj: src/gl10_projekt/chandelier.cpp.obj
+.PHONY : src/gl10_projekt/chandelier.obj
 
 # target to build an object file
-src/gl10_projekt/dvere.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/dvere.cpp.obj
-.PHONY : src/gl10_projekt/dvere.cpp.obj
+src/gl10_projekt/chandelier.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/chandelier.cpp.obj
+.PHONY : src/gl10_projekt/chandelier.cpp.obj
 
-src/gl10_projekt/dvere.i: src/gl10_projekt/dvere.cpp.i
-.PHONY : src/gl10_projekt/dvere.i
+src/gl10_projekt/chandelier.i: src/gl10_projekt/chandelier.cpp.i
+.PHONY : src/gl10_projekt/chandelier.i
 
 # target to preprocess a source file
-src/gl10_projekt/dvere.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/dvere.cpp.i
-.PHONY : src/gl10_projekt/dvere.cpp.i
+src/gl10_projekt/chandelier.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/chandelier.cpp.i
+.PHONY : src/gl10_projekt/chandelier.cpp.i
 
-src/gl10_projekt/dvere.s: src/gl10_projekt/dvere.cpp.s
-.PHONY : src/gl10_projekt/dvere.s
+src/gl10_projekt/chandelier.s: src/gl10_projekt/chandelier.cpp.s
+.PHONY : src/gl10_projekt/chandelier.s
 
 # target to generate assembly for a file
-src/gl10_projekt/dvere.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/dvere.cpp.s
-.PHONY : src/gl10_projekt/dvere.cpp.s
+src/gl10_projekt/chandelier.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/chandelier.cpp.s
+.PHONY : src/gl10_projekt/chandelier.cpp.s
 
-src/gl10_projekt/flasa.obj: src/gl10_projekt/flasa.cpp.obj
-.PHONY : src/gl10_projekt/flasa.obj
+src/gl10_projekt/church.obj: src/gl10_projekt/church.cpp.obj
+.PHONY : src/gl10_projekt/church.obj
 
 # target to build an object file
-src/gl10_projekt/flasa.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/flasa.cpp.obj
-.PHONY : src/gl10_projekt/flasa.cpp.obj
+src/gl10_projekt/church.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/church.cpp.obj
+.PHONY : src/gl10_projekt/church.cpp.obj
 
-src/gl10_projekt/flasa.i: src/gl10_projekt/flasa.cpp.i
-.PHONY : src/gl10_projekt/flasa.i
+src/gl10_projekt/church.i: src/gl10_projekt/church.cpp.i
+.PHONY : src/gl10_projekt/church.i
 
 # target to preprocess a source file
-src/gl10_projekt/flasa.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/flasa.cpp.i
-.PHONY : src/gl10_projekt/flasa.cpp.i
+src/gl10_projekt/church.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/church.cpp.i
+.PHONY : src/gl10_projekt/church.cpp.i
 
-src/gl10_projekt/flasa.s: src/gl10_projekt/flasa.cpp.s
-.PHONY : src/gl10_projekt/flasa.s
+src/gl10_projekt/church.s: src/gl10_projekt/church.cpp.s
+.PHONY : src/gl10_projekt/church.s
 
 # target to generate assembly for a file
-src/gl10_projekt/flasa.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/flasa.cpp.s
-.PHONY : src/gl10_projekt/flasa.cpp.s
+src/gl10_projekt/church.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/church.cpp.s
+.PHONY : src/gl10_projekt/church.cpp.s
 
-src/gl10_projekt/floor.obj: src/gl10_projekt/floor.cpp.obj
-.PHONY : src/gl10_projekt/floor.obj
+src/gl10_projekt/cross.obj: src/gl10_projekt/cross.cpp.obj
+.PHONY : src/gl10_projekt/cross.obj
 
 # target to build an object file
-src/gl10_projekt/floor.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/floor.cpp.obj
-.PHONY : src/gl10_projekt/floor.cpp.obj
+src/gl10_projekt/cross.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/cross.cpp.obj
+.PHONY : src/gl10_projekt/cross.cpp.obj
 
-src/gl10_projekt/floor.i: src/gl10_projekt/floor.cpp.i
-.PHONY : src/gl10_projekt/floor.i
+src/gl10_projekt/cross.i: src/gl10_projekt/cross.cpp.i
+.PHONY : src/gl10_projekt/cross.i
 
 # target to preprocess a source file
-src/gl10_projekt/floor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/floor.cpp.i
-.PHONY : src/gl10_projekt/floor.cpp.i
+src/gl10_projekt/cross.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/cross.cpp.i
+.PHONY : src/gl10_projekt/cross.cpp.i
 
-src/gl10_projekt/floor.s: src/gl10_projekt/floor.cpp.s
-.PHONY : src/gl10_projekt/floor.s
+src/gl10_projekt/cross.s: src/gl10_projekt/cross.cpp.s
+.PHONY : src/gl10_projekt/cross.s
 
 # target to generate assembly for a file
-src/gl10_projekt/floor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/floor.cpp.s
-.PHONY : src/gl10_projekt/floor.cpp.s
+src/gl10_projekt/cross.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/cross.cpp.s
+.PHONY : src/gl10_projekt/cross.cpp.s
 
-src/gl10_projekt/gl10_scene.obj: src/gl10_projekt/gl10_scene.cpp.obj
-.PHONY : src/gl10_projekt/gl10_scene.obj
+src/gl10_projekt/door.obj: src/gl10_projekt/door.cpp.obj
+.PHONY : src/gl10_projekt/door.obj
 
 # target to build an object file
-src/gl10_projekt/gl10_scene.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.obj
-.PHONY : src/gl10_projekt/gl10_scene.cpp.obj
+src/gl10_projekt/door.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/door.cpp.obj
+.PHONY : src/gl10_projekt/door.cpp.obj
 
-src/gl10_projekt/gl10_scene.i: src/gl10_projekt/gl10_scene.cpp.i
-.PHONY : src/gl10_projekt/gl10_scene.i
+src/gl10_projekt/door.i: src/gl10_projekt/door.cpp.i
+.PHONY : src/gl10_projekt/door.i
 
 # target to preprocess a source file
-src/gl10_projekt/gl10_scene.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.i
-.PHONY : src/gl10_projekt/gl10_scene.cpp.i
+src/gl10_projekt/door.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/door.cpp.i
+.PHONY : src/gl10_projekt/door.cpp.i
 
-src/gl10_projekt/gl10_scene.s: src/gl10_projekt/gl10_scene.cpp.s
-.PHONY : src/gl10_projekt/gl10_scene.s
+src/gl10_projekt/door.s: src/gl10_projekt/door.cpp.s
+.PHONY : src/gl10_projekt/door.s
 
 # target to generate assembly for a file
-src/gl10_projekt/gl10_scene.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.s
-.PHONY : src/gl10_projekt/gl10_scene.cpp.s
+src/gl10_projekt/door.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/door.cpp.s
+.PHONY : src/gl10_projekt/door.cpp.s
 
-src/gl10_projekt/grass_plane.obj: src/gl10_projekt/grass_plane.cpp.obj
-.PHONY : src/gl10_projekt/grass_plane.obj
+src/gl10_projekt/indoorFloor.obj: src/gl10_projekt/indoorFloor.cpp.obj
+.PHONY : src/gl10_projekt/indoorFloor.obj
 
 # target to build an object file
-src/gl10_projekt/grass_plane.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/grass_plane.cpp.obj
-.PHONY : src/gl10_projekt/grass_plane.cpp.obj
+src/gl10_projekt/indoorFloor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/indoorFloor.cpp.obj
+.PHONY : src/gl10_projekt/indoorFloor.cpp.obj
 
-src/gl10_projekt/grass_plane.i: src/gl10_projekt/grass_plane.cpp.i
-.PHONY : src/gl10_projekt/grass_plane.i
+src/gl10_projekt/indoorFloor.i: src/gl10_projekt/indoorFloor.cpp.i
+.PHONY : src/gl10_projekt/indoorFloor.i
 
 # target to preprocess a source file
-src/gl10_projekt/grass_plane.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/grass_plane.cpp.i
-.PHONY : src/gl10_projekt/grass_plane.cpp.i
+src/gl10_projekt/indoorFloor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/indoorFloor.cpp.i
+.PHONY : src/gl10_projekt/indoorFloor.cpp.i
 
-src/gl10_projekt/grass_plane.s: src/gl10_projekt/grass_plane.cpp.s
-.PHONY : src/gl10_projekt/grass_plane.s
+src/gl10_projekt/indoorFloor.s: src/gl10_projekt/indoorFloor.cpp.s
+.PHONY : src/gl10_projekt/indoorFloor.s
 
 # target to generate assembly for a file
-src/gl10_projekt/grass_plane.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/grass_plane.cpp.s
-.PHONY : src/gl10_projekt/grass_plane.cpp.s
+src/gl10_projekt/indoorFloor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/indoorFloor.cpp.s
+.PHONY : src/gl10_projekt/indoorFloor.cpp.s
 
-src/gl10_projekt/interier.obj: src/gl10_projekt/interier.cpp.obj
-.PHONY : src/gl10_projekt/interier.obj
+src/gl10_projekt/interior.obj: src/gl10_projekt/interior.cpp.obj
+.PHONY : src/gl10_projekt/interior.obj
 
 # target to build an object file
-src/gl10_projekt/interier.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interier.cpp.obj
-.PHONY : src/gl10_projekt/interier.cpp.obj
+src/gl10_projekt/interior.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interior.cpp.obj
+.PHONY : src/gl10_projekt/interior.cpp.obj
 
-src/gl10_projekt/interier.i: src/gl10_projekt/interier.cpp.i
-.PHONY : src/gl10_projekt/interier.i
+src/gl10_projekt/interior.i: src/gl10_projekt/interior.cpp.i
+.PHONY : src/gl10_projekt/interior.i
 
 # target to preprocess a source file
-src/gl10_projekt/interier.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interier.cpp.i
-.PHONY : src/gl10_projekt/interier.cpp.i
+src/gl10_projekt/interior.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interior.cpp.i
+.PHONY : src/gl10_projekt/interior.cpp.i
 
-src/gl10_projekt/interier.s: src/gl10_projekt/interier.cpp.s
-.PHONY : src/gl10_projekt/interier.s
+src/gl10_projekt/interior.s: src/gl10_projekt/interior.cpp.s
+.PHONY : src/gl10_projekt/interior.s
 
 # target to generate assembly for a file
-src/gl10_projekt/interier.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interier.cpp.s
-.PHONY : src/gl10_projekt/interier.cpp.s
+src/gl10_projekt/interior.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interior.cpp.s
+.PHONY : src/gl10_projekt/interior.cpp.s
 
-src/gl10_projekt/knaz.obj: src/gl10_projekt/knaz.cpp.obj
-.PHONY : src/gl10_projekt/knaz.obj
+src/gl10_projekt/lamp.obj: src/gl10_projekt/lamp.cpp.obj
+.PHONY : src/gl10_projekt/lamp.obj
 
 # target to build an object file
-src/gl10_projekt/knaz.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz.cpp.obj
-.PHONY : src/gl10_projekt/knaz.cpp.obj
+src/gl10_projekt/lamp.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lamp.cpp.obj
+.PHONY : src/gl10_projekt/lamp.cpp.obj
 
-src/gl10_projekt/knaz.i: src/gl10_projekt/knaz.cpp.i
-.PHONY : src/gl10_projekt/knaz.i
+src/gl10_projekt/lamp.i: src/gl10_projekt/lamp.cpp.i
+.PHONY : src/gl10_projekt/lamp.i
 
 # target to preprocess a source file
-src/gl10_projekt/knaz.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz.cpp.i
-.PHONY : src/gl10_projekt/knaz.cpp.i
+src/gl10_projekt/lamp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lamp.cpp.i
+.PHONY : src/gl10_projekt/lamp.cpp.i
 
-src/gl10_projekt/knaz.s: src/gl10_projekt/knaz.cpp.s
-.PHONY : src/gl10_projekt/knaz.s
+src/gl10_projekt/lamp.s: src/gl10_projekt/lamp.cpp.s
+.PHONY : src/gl10_projekt/lamp.s
 
 # target to generate assembly for a file
-src/gl10_projekt/knaz.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz.cpp.s
-.PHONY : src/gl10_projekt/knaz.cpp.s
+src/gl10_projekt/lamp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lamp.cpp.s
+.PHONY : src/gl10_projekt/lamp.cpp.s
 
-src/gl10_projekt/kostol.obj: src/gl10_projekt/kostol.cpp.obj
-.PHONY : src/gl10_projekt/kostol.obj
+src/gl10_projekt/main.obj: src/gl10_projekt/main.cpp.obj
+.PHONY : src/gl10_projekt/main.obj
 
 # target to build an object file
-src/gl10_projekt/kostol.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kostol.cpp.obj
-.PHONY : src/gl10_projekt/kostol.cpp.obj
+src/gl10_projekt/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/main.cpp.obj
+.PHONY : src/gl10_projekt/main.cpp.obj
 
-src/gl10_projekt/kostol.i: src/gl10_projekt/kostol.cpp.i
-.PHONY : src/gl10_projekt/kostol.i
-
-# target to preprocess a source file
-src/gl10_projekt/kostol.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kostol.cpp.i
-.PHONY : src/gl10_projekt/kostol.cpp.i
-
-src/gl10_projekt/kostol.s: src/gl10_projekt/kostol.cpp.s
-.PHONY : src/gl10_projekt/kostol.s
-
-# target to generate assembly for a file
-src/gl10_projekt/kostol.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kostol.cpp.s
-.PHONY : src/gl10_projekt/kostol.cpp.s
-
-src/gl10_projekt/kriz.obj: src/gl10_projekt/kriz.cpp.obj
-.PHONY : src/gl10_projekt/kriz.obj
-
-# target to build an object file
-src/gl10_projekt/kriz.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kriz.cpp.obj
-.PHONY : src/gl10_projekt/kriz.cpp.obj
-
-src/gl10_projekt/kriz.i: src/gl10_projekt/kriz.cpp.i
-.PHONY : src/gl10_projekt/kriz.i
+src/gl10_projekt/main.i: src/gl10_projekt/main.cpp.i
+.PHONY : src/gl10_projekt/main.i
 
 # target to preprocess a source file
-src/gl10_projekt/kriz.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kriz.cpp.i
-.PHONY : src/gl10_projekt/kriz.cpp.i
+src/gl10_projekt/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/main.cpp.i
+.PHONY : src/gl10_projekt/main.cpp.i
 
-src/gl10_projekt/kriz.s: src/gl10_projekt/kriz.cpp.s
-.PHONY : src/gl10_projekt/kriz.s
-
-# target to generate assembly for a file
-src/gl10_projekt/kriz.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kriz.cpp.s
-.PHONY : src/gl10_projekt/kriz.cpp.s
-
-src/gl10_projekt/lampa.obj: src/gl10_projekt/lampa.cpp.obj
-.PHONY : src/gl10_projekt/lampa.obj
-
-# target to build an object file
-src/gl10_projekt/lampa.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lampa.cpp.obj
-.PHONY : src/gl10_projekt/lampa.cpp.obj
-
-src/gl10_projekt/lampa.i: src/gl10_projekt/lampa.cpp.i
-.PHONY : src/gl10_projekt/lampa.i
-
-# target to preprocess a source file
-src/gl10_projekt/lampa.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lampa.cpp.i
-.PHONY : src/gl10_projekt/lampa.cpp.i
-
-src/gl10_projekt/lampa.s: src/gl10_projekt/lampa.cpp.s
-.PHONY : src/gl10_projekt/lampa.s
+src/gl10_projekt/main.s: src/gl10_projekt/main.cpp.s
+.PHONY : src/gl10_projekt/main.s
 
 # target to generate assembly for a file
-src/gl10_projekt/lampa.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lampa.cpp.s
-.PHONY : src/gl10_projekt/lampa.cpp.s
-
-src/gl10_projekt/lavicka.obj: src/gl10_projekt/lavicka.cpp.obj
-.PHONY : src/gl10_projekt/lavicka.obj
-
-# target to build an object file
-src/gl10_projekt/lavicka.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lavicka.cpp.obj
-.PHONY : src/gl10_projekt/lavicka.cpp.obj
-
-src/gl10_projekt/lavicka.i: src/gl10_projekt/lavicka.cpp.i
-.PHONY : src/gl10_projekt/lavicka.i
-
-# target to preprocess a source file
-src/gl10_projekt/lavicka.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lavicka.cpp.i
-.PHONY : src/gl10_projekt/lavicka.cpp.i
-
-src/gl10_projekt/lavicka.s: src/gl10_projekt/lavicka.cpp.s
-.PHONY : src/gl10_projekt/lavicka.s
-
-# target to generate assembly for a file
-src/gl10_projekt/lavicka.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lavicka.cpp.s
-.PHONY : src/gl10_projekt/lavicka.cpp.s
-
-src/gl10_projekt/luster.obj: src/gl10_projekt/luster.cpp.obj
-.PHONY : src/gl10_projekt/luster.obj
-
-# target to build an object file
-src/gl10_projekt/luster.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/luster.cpp.obj
-.PHONY : src/gl10_projekt/luster.cpp.obj
-
-src/gl10_projekt/luster.i: src/gl10_projekt/luster.cpp.i
-.PHONY : src/gl10_projekt/luster.i
-
-# target to preprocess a source file
-src/gl10_projekt/luster.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/luster.cpp.i
-.PHONY : src/gl10_projekt/luster.cpp.i
-
-src/gl10_projekt/luster.s: src/gl10_projekt/luster.cpp.s
-.PHONY : src/gl10_projekt/luster.s
-
-# target to generate assembly for a file
-src/gl10_projekt/luster.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/luster.cpp.s
-.PHONY : src/gl10_projekt/luster.cpp.s
+src/gl10_projekt/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/main.cpp.s
+.PHONY : src/gl10_projekt/main.cpp.s
 
 src/gl10_projekt/ministrant.obj: src/gl10_projekt/ministrant.cpp.obj
 .PHONY : src/gl10_projekt/ministrant.obj
@@ -1216,30 +1264,6 @@ src/gl10_projekt/ministrant.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/ministrant.cpp.s
 .PHONY : src/gl10_projekt/ministrant.cpp.s
 
-src/gl10_projekt/muz.obj: src/gl10_projekt/muz.cpp.obj
-.PHONY : src/gl10_projekt/muz.obj
-
-# target to build an object file
-src/gl10_projekt/muz.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/muz.cpp.obj
-.PHONY : src/gl10_projekt/muz.cpp.obj
-
-src/gl10_projekt/muz.i: src/gl10_projekt/muz.cpp.i
-.PHONY : src/gl10_projekt/muz.i
-
-# target to preprocess a source file
-src/gl10_projekt/muz.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/muz.cpp.i
-.PHONY : src/gl10_projekt/muz.cpp.i
-
-src/gl10_projekt/muz.s: src/gl10_projekt/muz.cpp.s
-.PHONY : src/gl10_projekt/muz.s
-
-# target to generate assembly for a file
-src/gl10_projekt/muz.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/muz.cpp.s
-.PHONY : src/gl10_projekt/muz.cpp.s
-
 src/gl10_projekt/object.obj: src/gl10_projekt/object.cpp.obj
 .PHONY : src/gl10_projekt/object.obj
 
@@ -1263,6 +1287,54 @@ src/gl10_projekt/object.s: src/gl10_projekt/object.cpp.s
 src/gl10_projekt/object.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/object.cpp.s
 .PHONY : src/gl10_projekt/object.cpp.s
+
+src/gl10_projekt/objectKeyframe.obj: src/gl10_projekt/objectKeyframe.cpp.obj
+.PHONY : src/gl10_projekt/objectKeyframe.obj
+
+# target to build an object file
+src/gl10_projekt/objectKeyframe.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/objectKeyframe.cpp.obj
+.PHONY : src/gl10_projekt/objectKeyframe.cpp.obj
+
+src/gl10_projekt/objectKeyframe.i: src/gl10_projekt/objectKeyframe.cpp.i
+.PHONY : src/gl10_projekt/objectKeyframe.i
+
+# target to preprocess a source file
+src/gl10_projekt/objectKeyframe.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/objectKeyframe.cpp.i
+.PHONY : src/gl10_projekt/objectKeyframe.cpp.i
+
+src/gl10_projekt/objectKeyframe.s: src/gl10_projekt/objectKeyframe.cpp.s
+.PHONY : src/gl10_projekt/objectKeyframe.s
+
+# target to generate assembly for a file
+src/gl10_projekt/objectKeyframe.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/objectKeyframe.cpp.s
+.PHONY : src/gl10_projekt/objectKeyframe.cpp.s
+
+src/gl10_projekt/outdoorFloor.obj: src/gl10_projekt/outdoorFloor.cpp.obj
+.PHONY : src/gl10_projekt/outdoorFloor.obj
+
+# target to build an object file
+src/gl10_projekt/outdoorFloor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/outdoorFloor.cpp.obj
+.PHONY : src/gl10_projekt/outdoorFloor.cpp.obj
+
+src/gl10_projekt/outdoorFloor.i: src/gl10_projekt/outdoorFloor.cpp.i
+.PHONY : src/gl10_projekt/outdoorFloor.i
+
+# target to preprocess a source file
+src/gl10_projekt/outdoorFloor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/outdoorFloor.cpp.i
+.PHONY : src/gl10_projekt/outdoorFloor.cpp.i
+
+src/gl10_projekt/outdoorFloor.s: src/gl10_projekt/outdoorFloor.cpp.s
+.PHONY : src/gl10_projekt/outdoorFloor.s
+
+# target to generate assembly for a file
+src/gl10_projekt/outdoorFloor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/outdoorFloor.cpp.s
+.PHONY : src/gl10_projekt/outdoorFloor.cpp.s
 
 src/gl10_projekt/path.obj: src/gl10_projekt/path.cpp.obj
 .PHONY : src/gl10_projekt/path.obj
@@ -1288,6 +1360,78 @@ src/gl10_projekt/path.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/path.cpp.s
 .PHONY : src/gl10_projekt/path.cpp.s
 
+src/gl10_projekt/pianist_body.obj: src/gl10_projekt/pianist_body.cpp.obj
+.PHONY : src/gl10_projekt/pianist_body.obj
+
+# target to build an object file
+src/gl10_projekt/pianist_body.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/pianist_body.cpp.obj
+.PHONY : src/gl10_projekt/pianist_body.cpp.obj
+
+src/gl10_projekt/pianist_body.i: src/gl10_projekt/pianist_body.cpp.i
+.PHONY : src/gl10_projekt/pianist_body.i
+
+# target to preprocess a source file
+src/gl10_projekt/pianist_body.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/pianist_body.cpp.i
+.PHONY : src/gl10_projekt/pianist_body.cpp.i
+
+src/gl10_projekt/pianist_body.s: src/gl10_projekt/pianist_body.cpp.s
+.PHONY : src/gl10_projekt/pianist_body.s
+
+# target to generate assembly for a file
+src/gl10_projekt/pianist_body.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/pianist_body.cpp.s
+.PHONY : src/gl10_projekt/pianist_body.cpp.s
+
+src/gl10_projekt/pianist_hat.obj: src/gl10_projekt/pianist_hat.cpp.obj
+.PHONY : src/gl10_projekt/pianist_hat.obj
+
+# target to build an object file
+src/gl10_projekt/pianist_hat.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/pianist_hat.cpp.obj
+.PHONY : src/gl10_projekt/pianist_hat.cpp.obj
+
+src/gl10_projekt/pianist_hat.i: src/gl10_projekt/pianist_hat.cpp.i
+.PHONY : src/gl10_projekt/pianist_hat.i
+
+# target to preprocess a source file
+src/gl10_projekt/pianist_hat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/pianist_hat.cpp.i
+.PHONY : src/gl10_projekt/pianist_hat.cpp.i
+
+src/gl10_projekt/pianist_hat.s: src/gl10_projekt/pianist_hat.cpp.s
+.PHONY : src/gl10_projekt/pianist_hat.s
+
+# target to generate assembly for a file
+src/gl10_projekt/pianist_hat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/pianist_hat.cpp.s
+.PHONY : src/gl10_projekt/pianist_hat.cpp.s
+
+src/gl10_projekt/pianist_head.obj: src/gl10_projekt/pianist_head.cpp.obj
+.PHONY : src/gl10_projekt/pianist_head.obj
+
+# target to build an object file
+src/gl10_projekt/pianist_head.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/pianist_head.cpp.obj
+.PHONY : src/gl10_projekt/pianist_head.cpp.obj
+
+src/gl10_projekt/pianist_head.i: src/gl10_projekt/pianist_head.cpp.i
+.PHONY : src/gl10_projekt/pianist_head.i
+
+# target to preprocess a source file
+src/gl10_projekt/pianist_head.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/pianist_head.cpp.i
+.PHONY : src/gl10_projekt/pianist_head.cpp.i
+
+src/gl10_projekt/pianist_head.s: src/gl10_projekt/pianist_head.cpp.s
+.PHONY : src/gl10_projekt/pianist_head.s
+
+# target to generate assembly for a file
+src/gl10_projekt/pianist_head.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/pianist_head.cpp.s
+.PHONY : src/gl10_projekt/pianist_head.cpp.s
+
 src/gl10_projekt/piano.obj: src/gl10_projekt/piano.cpp.obj
 .PHONY : src/gl10_projekt/piano.obj
 
@@ -1311,6 +1455,30 @@ src/gl10_projekt/piano.s: src/gl10_projekt/piano.cpp.s
 src/gl10_projekt/piano.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/piano.cpp.s
 .PHONY : src/gl10_projekt/piano.cpp.s
+
+src/gl10_projekt/priest.obj: src/gl10_projekt/priest.cpp.obj
+.PHONY : src/gl10_projekt/priest.obj
+
+# target to build an object file
+src/gl10_projekt/priest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/priest.cpp.obj
+.PHONY : src/gl10_projekt/priest.cpp.obj
+
+src/gl10_projekt/priest.i: src/gl10_projekt/priest.cpp.i
+.PHONY : src/gl10_projekt/priest.i
+
+# target to preprocess a source file
+src/gl10_projekt/priest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/priest.cpp.i
+.PHONY : src/gl10_projekt/priest.cpp.i
+
+src/gl10_projekt/priest.s: src/gl10_projekt/priest.cpp.s
+.PHONY : src/gl10_projekt/priest.s
+
+# target to generate assembly for a file
+src/gl10_projekt/priest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/priest.cpp.s
+.PHONY : src/gl10_projekt/priest.cpp.s
 
 src/gl10_projekt/scene.obj: src/gl10_projekt/scene.cpp.obj
 .PHONY : src/gl10_projekt/scene.obj
@@ -1336,6 +1504,54 @@ src/gl10_projekt/scene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene.cpp.s
 .PHONY : src/gl10_projekt/scene.cpp.s
 
+src/gl10_projekt/scene1Handler.obj: src/gl10_projekt/scene1Handler.cpp.obj
+.PHONY : src/gl10_projekt/scene1Handler.obj
+
+# target to build an object file
+src/gl10_projekt/scene1Handler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene1Handler.cpp.obj
+.PHONY : src/gl10_projekt/scene1Handler.cpp.obj
+
+src/gl10_projekt/scene1Handler.i: src/gl10_projekt/scene1Handler.cpp.i
+.PHONY : src/gl10_projekt/scene1Handler.i
+
+# target to preprocess a source file
+src/gl10_projekt/scene1Handler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene1Handler.cpp.i
+.PHONY : src/gl10_projekt/scene1Handler.cpp.i
+
+src/gl10_projekt/scene1Handler.s: src/gl10_projekt/scene1Handler.cpp.s
+.PHONY : src/gl10_projekt/scene1Handler.s
+
+# target to generate assembly for a file
+src/gl10_projekt/scene1Handler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene1Handler.cpp.s
+.PHONY : src/gl10_projekt/scene1Handler.cpp.s
+
+src/gl10_projekt/scene2Handler.obj: src/gl10_projekt/scene2Handler.cpp.obj
+.PHONY : src/gl10_projekt/scene2Handler.obj
+
+# target to build an object file
+src/gl10_projekt/scene2Handler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene2Handler.cpp.obj
+.PHONY : src/gl10_projekt/scene2Handler.cpp.obj
+
+src/gl10_projekt/scene2Handler.i: src/gl10_projekt/scene2Handler.cpp.i
+.PHONY : src/gl10_projekt/scene2Handler.i
+
+# target to preprocess a source file
+src/gl10_projekt/scene2Handler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene2Handler.cpp.i
+.PHONY : src/gl10_projekt/scene2Handler.cpp.i
+
+src/gl10_projekt/scene2Handler.s: src/gl10_projekt/scene2Handler.cpp.s
+.PHONY : src/gl10_projekt/scene2Handler.s
+
+# target to generate assembly for a file
+src/gl10_projekt/scene2Handler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene2Handler.cpp.s
+.PHONY : src/gl10_projekt/scene2Handler.cpp.s
+
 src/gl10_projekt/skybox.obj: src/gl10_projekt/skybox.cpp.obj
 .PHONY : src/gl10_projekt/skybox.obj
 
@@ -1360,53 +1576,29 @@ src/gl10_projekt/skybox.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/skybox.cpp.s
 .PHONY : src/gl10_projekt/skybox.cpp.s
 
-src/gl10_projekt/slnko.obj: src/gl10_projekt/slnko.cpp.obj
-.PHONY : src/gl10_projekt/slnko.obj
+src/gl10_projekt/sun.obj: src/gl10_projekt/sun.cpp.obj
+.PHONY : src/gl10_projekt/sun.obj
 
 # target to build an object file
-src/gl10_projekt/slnko.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/slnko.cpp.obj
-.PHONY : src/gl10_projekt/slnko.cpp.obj
+src/gl10_projekt/sun.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/sun.cpp.obj
+.PHONY : src/gl10_projekt/sun.cpp.obj
 
-src/gl10_projekt/slnko.i: src/gl10_projekt/slnko.cpp.i
-.PHONY : src/gl10_projekt/slnko.i
-
-# target to preprocess a source file
-src/gl10_projekt/slnko.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/slnko.cpp.i
-.PHONY : src/gl10_projekt/slnko.cpp.i
-
-src/gl10_projekt/slnko.s: src/gl10_projekt/slnko.cpp.s
-.PHONY : src/gl10_projekt/slnko.s
-
-# target to generate assembly for a file
-src/gl10_projekt/slnko.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/slnko.cpp.s
-.PHONY : src/gl10_projekt/slnko.cpp.s
-
-src/gl10_projekt/stol.obj: src/gl10_projekt/stol.cpp.obj
-.PHONY : src/gl10_projekt/stol.obj
-
-# target to build an object file
-src/gl10_projekt/stol.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/stol.cpp.obj
-.PHONY : src/gl10_projekt/stol.cpp.obj
-
-src/gl10_projekt/stol.i: src/gl10_projekt/stol.cpp.i
-.PHONY : src/gl10_projekt/stol.i
+src/gl10_projekt/sun.i: src/gl10_projekt/sun.cpp.i
+.PHONY : src/gl10_projekt/sun.i
 
 # target to preprocess a source file
-src/gl10_projekt/stol.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/stol.cpp.i
-.PHONY : src/gl10_projekt/stol.cpp.i
+src/gl10_projekt/sun.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/sun.cpp.i
+.PHONY : src/gl10_projekt/sun.cpp.i
 
-src/gl10_projekt/stol.s: src/gl10_projekt/stol.cpp.s
-.PHONY : src/gl10_projekt/stol.s
+src/gl10_projekt/sun.s: src/gl10_projekt/sun.cpp.s
+.PHONY : src/gl10_projekt/sun.s
 
 # target to generate assembly for a file
-src/gl10_projekt/stol.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/stol.cpp.s
-.PHONY : src/gl10_projekt/stol.cpp.s
+src/gl10_projekt/sun.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gl10_projekt.dir\build.make CMakeFiles/gl10_projekt.dir/src/gl10_projekt/sun.cpp.s
+.PHONY : src/gl10_projekt/sun.cpp.s
 
 src/gl10_projekt/tree.obj: src/gl10_projekt/tree.cpp.obj
 .PHONY : src/gl10_projekt/tree.obj
@@ -2236,75 +2428,99 @@ help:
 	@echo ... shaders/texture_vert_glsl.obj
 	@echo ... shaders/texture_vert_glsl.i
 	@echo ... shaders/texture_vert_glsl.s
+	@echo ... src/gl10_projekt/altar.obj
+	@echo ... src/gl10_projekt/altar.i
+	@echo ... src/gl10_projekt/altar.s
+	@echo ... src/gl10_projekt/animationHandler.obj
+	@echo ... src/gl10_projekt/animationHandler.i
+	@echo ... src/gl10_projekt/animationHandler.s
+	@echo ... src/gl10_projekt/believer.obj
+	@echo ... src/gl10_projekt/believer.i
+	@echo ... src/gl10_projekt/believer.s
+	@echo ... src/gl10_projekt/bench.obj
+	@echo ... src/gl10_projekt/bench.i
+	@echo ... src/gl10_projekt/bench.s
+	@echo ... src/gl10_projekt/bottle.obj
+	@echo ... src/gl10_projekt/bottle.i
+	@echo ... src/gl10_projekt/bottle.s
 	@echo ... src/gl10_projekt/camera.obj
 	@echo ... src/gl10_projekt/camera.i
 	@echo ... src/gl10_projekt/camera.s
+	@echo ... src/gl10_projekt/cameraKeyframe.obj
+	@echo ... src/gl10_projekt/cameraKeyframe.i
+	@echo ... src/gl10_projekt/cameraKeyframe.s
 	@echo ... src/gl10_projekt/carpet.obj
 	@echo ... src/gl10_projekt/carpet.i
 	@echo ... src/gl10_projekt/carpet.s
-	@echo ... src/gl10_projekt/dvere.obj
-	@echo ... src/gl10_projekt/dvere.i
-	@echo ... src/gl10_projekt/dvere.s
-	@echo ... src/gl10_projekt/flasa.obj
-	@echo ... src/gl10_projekt/flasa.i
-	@echo ... src/gl10_projekt/flasa.s
-	@echo ... src/gl10_projekt/floor.obj
-	@echo ... src/gl10_projekt/floor.i
-	@echo ... src/gl10_projekt/floor.s
-	@echo ... src/gl10_projekt/gl10_scene.obj
-	@echo ... src/gl10_projekt/gl10_scene.i
-	@echo ... src/gl10_projekt/gl10_scene.s
-	@echo ... src/gl10_projekt/grass_plane.obj
-	@echo ... src/gl10_projekt/grass_plane.i
-	@echo ... src/gl10_projekt/grass_plane.s
-	@echo ... src/gl10_projekt/interier.obj
-	@echo ... src/gl10_projekt/interier.i
-	@echo ... src/gl10_projekt/interier.s
-	@echo ... src/gl10_projekt/knaz.obj
-	@echo ... src/gl10_projekt/knaz.i
-	@echo ... src/gl10_projekt/knaz.s
-	@echo ... src/gl10_projekt/kostol.obj
-	@echo ... src/gl10_projekt/kostol.i
-	@echo ... src/gl10_projekt/kostol.s
-	@echo ... src/gl10_projekt/kriz.obj
-	@echo ... src/gl10_projekt/kriz.i
-	@echo ... src/gl10_projekt/kriz.s
-	@echo ... src/gl10_projekt/lampa.obj
-	@echo ... src/gl10_projekt/lampa.i
-	@echo ... src/gl10_projekt/lampa.s
-	@echo ... src/gl10_projekt/lavicka.obj
-	@echo ... src/gl10_projekt/lavicka.i
-	@echo ... src/gl10_projekt/lavicka.s
-	@echo ... src/gl10_projekt/luster.obj
-	@echo ... src/gl10_projekt/luster.i
-	@echo ... src/gl10_projekt/luster.s
+	@echo ... src/gl10_projekt/chandelier.obj
+	@echo ... src/gl10_projekt/chandelier.i
+	@echo ... src/gl10_projekt/chandelier.s
+	@echo ... src/gl10_projekt/church.obj
+	@echo ... src/gl10_projekt/church.i
+	@echo ... src/gl10_projekt/church.s
+	@echo ... src/gl10_projekt/cross.obj
+	@echo ... src/gl10_projekt/cross.i
+	@echo ... src/gl10_projekt/cross.s
+	@echo ... src/gl10_projekt/door.obj
+	@echo ... src/gl10_projekt/door.i
+	@echo ... src/gl10_projekt/door.s
+	@echo ... src/gl10_projekt/indoorFloor.obj
+	@echo ... src/gl10_projekt/indoorFloor.i
+	@echo ... src/gl10_projekt/indoorFloor.s
+	@echo ... src/gl10_projekt/interior.obj
+	@echo ... src/gl10_projekt/interior.i
+	@echo ... src/gl10_projekt/interior.s
+	@echo ... src/gl10_projekt/lamp.obj
+	@echo ... src/gl10_projekt/lamp.i
+	@echo ... src/gl10_projekt/lamp.s
+	@echo ... src/gl10_projekt/main.obj
+	@echo ... src/gl10_projekt/main.i
+	@echo ... src/gl10_projekt/main.s
 	@echo ... src/gl10_projekt/ministrant.obj
 	@echo ... src/gl10_projekt/ministrant.i
 	@echo ... src/gl10_projekt/ministrant.s
-	@echo ... src/gl10_projekt/muz.obj
-	@echo ... src/gl10_projekt/muz.i
-	@echo ... src/gl10_projekt/muz.s
 	@echo ... src/gl10_projekt/object.obj
 	@echo ... src/gl10_projekt/object.i
 	@echo ... src/gl10_projekt/object.s
+	@echo ... src/gl10_projekt/objectKeyframe.obj
+	@echo ... src/gl10_projekt/objectKeyframe.i
+	@echo ... src/gl10_projekt/objectKeyframe.s
+	@echo ... src/gl10_projekt/outdoorFloor.obj
+	@echo ... src/gl10_projekt/outdoorFloor.i
+	@echo ... src/gl10_projekt/outdoorFloor.s
 	@echo ... src/gl10_projekt/path.obj
 	@echo ... src/gl10_projekt/path.i
 	@echo ... src/gl10_projekt/path.s
+	@echo ... src/gl10_projekt/pianist_body.obj
+	@echo ... src/gl10_projekt/pianist_body.i
+	@echo ... src/gl10_projekt/pianist_body.s
+	@echo ... src/gl10_projekt/pianist_hat.obj
+	@echo ... src/gl10_projekt/pianist_hat.i
+	@echo ... src/gl10_projekt/pianist_hat.s
+	@echo ... src/gl10_projekt/pianist_head.obj
+	@echo ... src/gl10_projekt/pianist_head.i
+	@echo ... src/gl10_projekt/pianist_head.s
 	@echo ... src/gl10_projekt/piano.obj
 	@echo ... src/gl10_projekt/piano.i
 	@echo ... src/gl10_projekt/piano.s
+	@echo ... src/gl10_projekt/priest.obj
+	@echo ... src/gl10_projekt/priest.i
+	@echo ... src/gl10_projekt/priest.s
 	@echo ... src/gl10_projekt/scene.obj
 	@echo ... src/gl10_projekt/scene.i
 	@echo ... src/gl10_projekt/scene.s
+	@echo ... src/gl10_projekt/scene1Handler.obj
+	@echo ... src/gl10_projekt/scene1Handler.i
+	@echo ... src/gl10_projekt/scene1Handler.s
+	@echo ... src/gl10_projekt/scene2Handler.obj
+	@echo ... src/gl10_projekt/scene2Handler.i
+	@echo ... src/gl10_projekt/scene2Handler.s
 	@echo ... src/gl10_projekt/skybox.obj
 	@echo ... src/gl10_projekt/skybox.i
 	@echo ... src/gl10_projekt/skybox.s
-	@echo ... src/gl10_projekt/slnko.obj
-	@echo ... src/gl10_projekt/slnko.i
-	@echo ... src/gl10_projekt/slnko.s
-	@echo ... src/gl10_projekt/stol.obj
-	@echo ... src/gl10_projekt/stol.i
-	@echo ... src/gl10_projekt/stol.s
+	@echo ... src/gl10_projekt/sun.obj
+	@echo ... src/gl10_projekt/sun.i
+	@echo ... src/gl10_projekt/sun.s
 	@echo ... src/gl10_projekt/tree.obj
 	@echo ... src/gl10_projekt/tree.i
 	@echo ... src/gl10_projekt/tree.s

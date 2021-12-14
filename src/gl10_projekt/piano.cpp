@@ -16,7 +16,7 @@ Piano::Piano() {
     if (!shader) shader = std::make_unique<ppgso::Shader>(diffuse_vert_glsl, diffuse_frag_glsl);
     if (!texture) texture = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("piano.bmp"));
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("piano.obj");
-    position = {-5, 0, 2};
+    position = {5, 0, 2};
     scale = {6.5,6.5,6.5};
     rotation = {3.14,3.14,0};
 }

@@ -23,7 +23,7 @@ out vec4 FragmentColor;
 float l;
 //premenne pre vypocet directionLight
 float specularStrength = 0.5;
-vec3 lightColor = {0.1,0.1,0.1};
+uniform vec3 lightColor = {0.1,0.1,0.1};
 uniform vec3 viewPos;
 in vec3 FragPos;
 float ambientStrength = 0.1;
@@ -35,10 +35,10 @@ float constant = 1.0;
 float linear = 0.14;
 float quadratic = 0.07;
 
-vec3 position1 = {3, 0, 3};
-vec3 position2 = {-3, 0, 3};
-vec3 position3 = {0, 8, 0};
-vec3 positionSlnko = {-10,7,0};
+uniform vec3 position1 = {3, 0, 3};
+uniform vec3 position2 = {-3, 0, 3};
+uniform vec3 position3 = {0, 8, 0};
+uniform vec3 positionSlnko = {-10,7,0};
 
 float ambientBase = 0.7f;
 float diffuseBase = 0.1f;

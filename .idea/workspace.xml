@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="ppgso" targetName="gl10_projekt" />
+      <config projectName="ppgso" targetName="gl2_texture" />
+      <config projectName="ppgso" targetName="task7_particles" />
+      <config projectName="ppgso" targetName="playground" />
+      <config projectName="ppgso" targetName="gl8_framebuffer" />
+      <config projectName="ppgso" targetName="task3_bezier" />
+      <config projectName="ppgso" targetName="task5_3d_origin" />
+      <config projectName="ppgso" targetName="task4_2dshapes" />
+      <config projectName="ppgso" targetName="gl7_diffuse" />
+      <config projectName="ppgso" targetName="raw4_raster" />
+      <config projectName="ppgso" targetName="gl6_mesh" />
+      <config projectName="ppgso" targetName="raw2_raycast" />
+      <config projectName="ppgso" targetName="raw3_raytrace" />
+      <config projectName="ppgso" targetName="task1_filter" />
+      <config projectName="ppgso" targetName="task6_bezier_surface" />
+      <config projectName="ppgso" targetName="gl5_projection" />
+      <config projectName="ppgso" targetName="gl4_transform" />
+      <config projectName="ppgso" targetName="shaders" />
+      <config projectName="ppgso" targetName="ppgso" />
+      <config projectName="ppgso" targetName="gl1_gradient" />
+      <config projectName="ppgso" targetName="gl3_animate" />
+      <config projectName="ppgso" targetName="gl9_scene" />
+      <config projectName="ppgso" targetName="task2_bresenham" />
+      <config projectName="ppgso" targetName="raw1_gradient" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b04ded57-e30a-4306-9d52-ca76d587b9ec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/gl10_projekt/animationHandler.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gl10_projekt/animationHandler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gl10_projekt/cameraKeyframe.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gl10_projekt/cameraKeyframe.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gl10_projekt/objectKeyframe.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gl10_projekt/objectKeyframe.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gl10_projekt/pianist_body.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gl10_projekt/pianist_body.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gl10_projekt/pianist_hat.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gl10_projekt/pianist_hat.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gl10_projekt/pianist_head.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gl10_projekt/pianist_head.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gl10_projekt/scene1Handler.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gl10_projekt/scene1Handler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gl10_projekt/scene2Handler.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gl10_projekt/scene2Handler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ppgso-public.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeRCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindOpenMP/ompver_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindOpenMP/ompver_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/camera.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/camera.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/carpet.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/carpet.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/floor.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/gl10_scene.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/grass_plane.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interier.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/knaz.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/kostol.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lampa.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lavicka.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/luster.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/muz.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/object.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/object.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/path.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/path.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/scene.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/skybox.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/skybox.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/slnko.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/stol.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/tree.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/src/gl10_projekt/tree.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl1_gradient.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl1_gradient.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl1_gradient.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl1_gradient.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl1_gradient.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl1_gradient.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl1_gradient.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl1_gradient.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl1_gradient.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl1_gradient.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl1_gradient.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl1_gradient.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl2_texture.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl2_texture.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl2_texture.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl2_texture.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl2_texture.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl2_texture.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl2_texture.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl2_texture.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl2_texture.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl2_texture.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl2_texture.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl2_texture.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl3_animate.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl3_animate.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl3_animate.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl3_animate.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl3_animate.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl3_animate.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl3_animate.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl3_animate.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl3_animate.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl3_animate.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl3_animate.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl3_animate.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl4_transform.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl4_transform.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl4_transform.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl4_transform.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl4_transform.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl4_transform.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl4_transform.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl4_transform.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl4_transform.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl4_transform.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl4_transform.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl4_transform.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl5_projection.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl5_projection.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl5_projection.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl5_projection.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl5_projection.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl5_projection.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl5_projection.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl5_projection.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl5_projection.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl5_projection.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl5_projection.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl5_projection.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl6_mesh.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl6_mesh.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl6_mesh.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl6_mesh.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl6_mesh.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl6_mesh.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl6_mesh.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl6_mesh.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl6_mesh.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl6_mesh.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl6_mesh.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl6_mesh.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl7_diffuse.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl7_diffuse.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl7_diffuse.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl7_diffuse.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl7_diffuse.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl7_diffuse.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl7_diffuse.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl7_diffuse.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl7_diffuse.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl7_diffuse.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl7_diffuse.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl7_diffuse.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl8_framebuffer.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl8_framebuffer.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl8_framebuffer.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl8_framebuffer.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl8_framebuffer.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl8_framebuffer.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl8_framebuffer.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl8_framebuffer.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl8_framebuffer.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl8_framebuffer.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl8_framebuffer.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl8_framebuffer.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl9_scene.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl9_scene.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl9_scene.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl9_scene.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl9_scene.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl9_scene.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl9_scene.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl9_scene.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl9_scene.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl9_scene.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl9_scene.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl9_scene.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playground.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/image.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/image.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/image_bmp.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/image_bmp.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/image_raw.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/image_raw.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/mesh.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/mesh.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/shader.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/shader.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/texture.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/texture.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/tiny_obj_loader.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/tiny_obj_loader.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/window.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/window.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw1_gradient.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw1_gradient.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw1_gradient.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw1_gradient.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw1_gradient.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw1_gradient.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw1_gradient.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw1_gradient.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw1_gradient.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw1_gradient.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw1_gradient.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw1_gradient.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw2_raycast.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw2_raycast.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw2_raycast.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw2_raycast.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw2_raycast.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw2_raycast.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw2_raycast.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw2_raycast.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw2_raycast.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw2_raycast.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw2_raycast.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw2_raycast.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw3_raytrace.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw3_raytrace.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw3_raytrace.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw3_raytrace.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw3_raytrace.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw3_raytrace.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw3_raytrace.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw3_raytrace.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw3_raytrace.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw3_raytrace.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw3_raytrace.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw3_raytrace.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw4_raster.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw4_raster.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw4_raster.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw4_raster.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw4_raster.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw4_raster.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw4_raster.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw4_raster.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw4_raster.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw4_raster.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw4_raster.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/raw4_raster.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/shaders/color_frag_glsl.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/shaders/color_frag_glsl.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/shaders/color_vert_glsl.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/shaders/color_vert_glsl.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/shaders/convolution_frag_glsl.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/shaders/convolution_frag_glsl.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/shaders/convolution_vert_glsl.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/shaders/convolution_vert_glsl.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/shaders/diffuse_frag_glsl.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/shaders/diffuse_frag_glsl.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/shaders/diffuse_vert_glsl.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/shaders/diffuse_vert_glsl.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/shaders/texture_frag_glsl.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/shaders/texture_frag_glsl.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/shaders/texture_vert_glsl.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/shaders/texture_vert_glsl.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task1_filter.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task1_filter.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task1_filter.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task1_filter.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task1_filter.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task1_filter.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task1_filter.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task1_filter.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task1_filter.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task1_filter.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task2_bresenham.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task2_bresenham.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task2_bresenham.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task2_bresenham.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task2_bresenham.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task2_bresenham.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task2_bresenham.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task2_bresenham.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task2_bresenham.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task2_bresenham.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task2_bresenham.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task2_bresenham.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task3_bezier.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task3_bezier.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task3_bezier.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task3_bezier.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task3_bezier.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task3_bezier.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task3_bezier.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task3_bezier.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task3_bezier.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task3_bezier.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task4_2dshapes.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task4_2dshapes.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task4_2dshapes.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task4_2dshapes.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task4_2dshapes.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task4_2dshapes.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task4_2dshapes.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task4_2dshapes.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task4_2dshapes.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task4_2dshapes.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task5_3d_origin.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task5_3d_origin.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task5_3d_origin.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task5_3d_origin.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task5_3d_origin.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task5_3d_origin.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task5_3d_origin.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task5_3d_origin.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task5_3d_origin.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task5_3d_origin.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task6_bezier_surface.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task6_bezier_surface.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task6_bezier_surface.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task6_bezier_surface.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task6_bezier_surface.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task6_bezier_surface.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task6_bezier_surface.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task6_bezier_surface.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task6_bezier_surface.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task6_bezier_surface.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task7_particles.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task7_particles.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task7_particles.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task7_particles.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task7_particles.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task7_particles.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task7_particles.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task7_particles.dir/includes_CXX.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task7_particles.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/task7_particles.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/asteroid.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/asteroid.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/corsair.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/corsair.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cube.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cube.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dvere.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dvere.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/flasa.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/flasa.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/gl10_projekt.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/gl10_projekt.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/kengura.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/kengura.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/knaz.mtl" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/knaz.mtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/kostol.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/kostol.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/kriz.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/kriz.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lampa.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lampa.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lavicka.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lavicka.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libppgso.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libppgso.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libshaders.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libshaders.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/luster.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/luster.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/man.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/man.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ministrant.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ministrant.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/missile.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/missile.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/piano.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/piano.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ppgso.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ppgso.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/quad.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/quad.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/shaders/color_frag_glsl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/shaders/color_frag_glsl.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/shaders/color_frag_glsl.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/shaders/color_frag_glsl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/shaders/color_vert_glsl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/shaders/color_vert_glsl.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/shaders/color_vert_glsl.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/shaders/color_vert_glsl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/shaders/convolution_frag_glsl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/shaders/convolution_frag_glsl.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/shaders/convolution_frag_glsl.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/shaders/convolution_frag_glsl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/shaders/convolution_vert_glsl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/shaders/convolution_vert_glsl.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/shaders/convolution_vert_glsl.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/shaders/convolution_vert_glsl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/shaders/diffuse_frag_glsl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/shaders/diffuse_frag_glsl.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/shaders/diffuse_vert_glsl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/shaders/diffuse_vert_glsl.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/shaders/diffuse_vert_glsl.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/shaders/diffuse_vert_glsl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/shaders/texture_frag_glsl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/shaders/texture_frag_glsl.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/shaders/texture_frag_glsl.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/shaders/texture_frag_glsl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/shaders/texture_vert_glsl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/shaders/texture_vert_glsl.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/shaders/texture_vert_glsl.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/shaders/texture_vert_glsl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/skybox.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/skybox.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/sphere.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/sphere.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/stol.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/stol.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tree.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tree.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake/FindGLEW.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake/FindGLEW.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake/FindGLFW3.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake/FindGLFW3.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake/FindGLM.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake/FindGLM.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake/add_resources.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake/add_resources.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake/bin2c.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake/bin2c.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/asteroid.obj" beforeDir="false" afterPath="$PROJECT_DIR$/data/asteroid.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/corsair.obj" beforeDir="false" afterPath="$PROJECT_DIR$/data/corsair.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cube.obj" beforeDir="false" afterPath="$PROJECT_DIR$/data/cube.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/missile.obj" beforeDir="false" afterPath="$PROJECT_DIR$/data/missile.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/quad.obj" beforeDir="false" afterPath="$PROJECT_DIR$/data/quad.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/sphere.obj" beforeDir="false" afterPath="$PROJECT_DIR$/data/sphere.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/copying_glew.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/copying_glew.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/copying_glfw.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/copying_glfw.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/copying_glm.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/copying_glm.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/GL/eglew.h" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/GL/eglew.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/GL/glew.h" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/GL/glew.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/GL/glxew.h" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/GL/glxew.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/GL/wglew.h" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/GL/wglew.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/GLFW/glfw3.h" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/GLFW/glfw3.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/GLFW/glfw3native.h" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/GLFW/glfw3native.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/common.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/common.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/_features.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/_features.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/_fixes.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/_fixes.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/_noise.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/_noise.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/_swizzle.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/_swizzle.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/_swizzle_func.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/_swizzle_func.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/_vectorize.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/_vectorize.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/dummy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/dummy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/func_common.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/func_common.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/func_common.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/func_common.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/func_common_simd.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/func_common_simd.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/func_exponential.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/func_exponential.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/func_exponential.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/func_exponential.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/func_exponential_simd.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/func_exponential_simd.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/func_geometric.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/func_geometric.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/func_geometric.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/func_geometric.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/func_geometric_simd.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/func_geometric_simd.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/func_integer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/func_integer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/func_integer.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/func_integer.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/func_integer_simd.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/func_integer_simd.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/func_matrix.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/func_matrix.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/func_matrix.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/func_matrix.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/func_matrix_simd.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/func_matrix_simd.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/func_packing.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/func_packing.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/func_packing.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/func_packing.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/func_packing_simd.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/func_packing_simd.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/func_trigonometric.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/func_trigonometric.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/func_trigonometric.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/func_trigonometric.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/func_vector_relational.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/func_vector_relational.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/func_vector_relational.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/func_vector_relational.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/func_vector_relational_simd.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/func_vector_relational_simd.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/glm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/glm.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/precision.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/precision.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/setup.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/setup.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_float.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_float.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_gentype.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_gentype.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_gentype.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_gentype.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_half.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_half.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_half.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_half.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_int.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_int.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat2x2.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat2x2.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat2x2.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat2x2.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat2x3.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat2x3.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat2x3.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat2x3.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat2x4.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat2x4.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat2x4.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat2x4.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat3x2.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat3x2.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat3x2.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat3x2.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat3x3.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat3x3.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat3x3.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat3x3.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat3x4.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat3x4.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat3x4.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat3x4.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat4x2.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat4x2.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat4x2.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat4x2.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat4x3.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat4x3.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat4x3.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat4x3.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat4x4.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat4x4.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat4x4.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat4x4.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat4x4_simd.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_mat4x4_simd.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_vec.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_vec.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_vec.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_vec.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_vec1.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_vec1.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_vec1.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_vec1.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_vec2.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_vec2.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_vec2.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_vec2.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_vec3.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_vec3.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_vec3.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_vec3.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_vec4.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_vec4.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_vec4.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_vec4.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/detail/type_vec4_simd.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/detail/type_vec4_simd.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/exponential.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/exponential.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/ext.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/ext.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/fwd.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/fwd.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/geometric.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/geometric.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/glm.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/glm.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/bitfield.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/bitfield.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/bitfield.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/bitfield.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/color_encoding.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/color_encoding.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/color_space.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/color_space.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/color_space.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/color_space.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/constants.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/constants.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/constants.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/constants.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/epsilon.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/epsilon.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/epsilon.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/epsilon.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/functions.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/functions.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/functions.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/functions.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/integer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/integer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/integer.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/integer.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/matrix_access.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/matrix_access.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/matrix_access.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/matrix_access.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/matrix_integer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/matrix_integer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/matrix_inverse.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/matrix_inverse.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/matrix_inverse.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/matrix_inverse.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/matrix_transform.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/matrix_transform.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/matrix_transform.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/matrix_transform.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/noise.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/noise.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/noise.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/noise.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/packing.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/packing.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/packing.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/packing.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/quaternion.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/quaternion.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/quaternion.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/quaternion.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/quaternion_simd.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/quaternion_simd.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/random.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/random.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/random.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/random.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/reciprocal.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/reciprocal.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/reciprocal.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/reciprocal.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/round.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/round.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/round.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/round.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/type_aligned.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/type_aligned.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/type_precision.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/type_precision.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/type_precision.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/type_precision.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/type_ptr.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/type_ptr.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/type_ptr.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/type_ptr.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/ulp.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/ulp.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/ulp.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/ulp.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/vec1.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/vec1.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtc/vec1.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtc/vec1.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/associated_min_max.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/associated_min_max.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/associated_min_max.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/associated_min_max.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/bit.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/bit.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/bit.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/bit.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/closest_point.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/closest_point.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/closest_point.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/closest_point.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/color_space.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/color_space.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/color_space.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/color_space.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/color_space_YCoCg.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/color_space_YCoCg.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/color_space_YCoCg.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/color_space_YCoCg.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/common.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/common.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/common.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/common.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/compatibility.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/compatibility.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/compatibility.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/compatibility.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/component_wise.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/component_wise.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/component_wise.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/component_wise.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/dual_quaternion.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/dual_quaternion.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/dual_quaternion.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/dual_quaternion.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/euler_angles.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/euler_angles.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/euler_angles.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/euler_angles.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/extend.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/extend.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/extend.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/extend.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/extended_min_max.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/extended_min_max.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/extended_min_max.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/extended_min_max.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/fast_exponential.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/fast_exponential.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/fast_exponential.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/fast_exponential.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/fast_square_root.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/fast_square_root.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/fast_square_root.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/fast_square_root.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/fast_trigonometry.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/fast_trigonometry.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/fast_trigonometry.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/fast_trigonometry.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/float_notmalize.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/float_notmalize.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/gradient_paint.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/gradient_paint.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/gradient_paint.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/gradient_paint.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/handed_coordinate_space.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/handed_coordinate_space.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/handed_coordinate_space.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/handed_coordinate_space.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/hash.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/hash.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/hash.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/hash.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/integer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/integer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/integer.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/integer.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/intersect.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/intersect.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/intersect.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/intersect.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/io.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/io.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/io.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/io.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/log_base.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/log_base.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/log_base.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/log_base.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_cross_product.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_cross_product.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_cross_product.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_cross_product.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_decompose.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_decompose.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_decompose.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_decompose.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_interpolation.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_interpolation.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_interpolation.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_interpolation.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_major_storage.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_major_storage.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_major_storage.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_major_storage.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_operation.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_operation.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_operation.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_operation.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_query.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_query.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_query.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_query.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_transform_2d.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_transform_2d.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_transform_2d.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/matrix_transform_2d.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/mixed_product.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/mixed_product.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/mixed_product.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/mixed_product.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/norm.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/norm.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/norm.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/norm.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/normal.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/normal.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/normal.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/normal.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/normalize_dot.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/normalize_dot.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/normalize_dot.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/normalize_dot.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/number_precision.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/number_precision.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/number_precision.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/number_precision.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/optimum_pow.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/optimum_pow.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/optimum_pow.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/optimum_pow.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/orthonormalize.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/orthonormalize.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/orthonormalize.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/orthonormalize.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/perpendicular.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/perpendicular.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/perpendicular.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/perpendicular.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/polar_coordinates.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/polar_coordinates.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/polar_coordinates.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/polar_coordinates.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/projection.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/projection.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/projection.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/projection.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/quaternion.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/quaternion.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/quaternion.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/quaternion.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/range.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/range.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/raw_data.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/raw_data.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/raw_data.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/raw_data.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/rotate_normalized_axis.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/rotate_normalized_axis.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/rotate_normalized_axis.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/rotate_normalized_axis.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/rotate_vector.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/rotate_vector.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/rotate_vector.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/rotate_vector.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/scalar_multiplication.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/scalar_multiplication.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/scalar_relational.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/scalar_relational.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/scalar_relational.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/scalar_relational.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/simd_mat4.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/simd_mat4.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/simd_mat4.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/simd_mat4.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/simd_quat.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/simd_quat.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/simd_quat.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/simd_quat.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/simd_vec4.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/simd_vec4.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/simd_vec4.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/simd_vec4.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/spline.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/spline.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/spline.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/spline.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/std_based_type.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/std_based_type.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/std_based_type.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/std_based_type.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/string_cast.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/string_cast.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/string_cast.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/string_cast.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/transform.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/transform.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/transform.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/transform.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/transform2.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/transform2.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/transform2.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/transform2.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/type_aligned.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/type_aligned.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/type_aligned.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/type_aligned.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/type_trait.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/type_trait.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/vector_angle.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/vector_angle.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/vector_angle.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/vector_angle.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/vector_query.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/vector_query.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/vector_query.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/vector_query.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/wrap.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/wrap.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/gtx/wrap.inl" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/gtx/wrap.inl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/integer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/integer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/mat2x2.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/mat2x2.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/mat2x3.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/mat2x3.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/mat2x4.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/mat2x4.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/mat3x2.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/mat3x2.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/mat3x3.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/mat3x3.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/mat3x4.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/mat3x4.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/mat4x2.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/mat4x2.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/mat4x3.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/mat4x3.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/mat4x4.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/mat4x4.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/matrix.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/matrix.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/packing.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/packing.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/simd/common.h" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/simd/common.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/simd/exponential.h" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/simd/exponential.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/simd/geometric.h" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/simd/geometric.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/simd/integer.h" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/simd/integer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/simd/matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/simd/matrix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/simd/packing.h" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/simd/packing.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/simd/platform.h" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/simd/platform.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/simd/trigonometric.h" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/simd/trigonometric.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/simd/vector_relational.h" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/simd/vector_relational.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/trigonometric.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/trigonometric.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/vec2.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/vec2.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/vec3.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/vec3.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/vec4.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/vec4.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies/include/glm/vector_relational.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies/include/glm/vector_relational.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppgso/image.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ppgso/image.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppgso/image.h" beforeDir="false" afterPath="$PROJECT_DIR$/ppgso/image.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppgso/image_bmp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ppgso/image_bmp.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppgso/image_bmp.h" beforeDir="false" afterPath="$PROJECT_DIR$/ppgso/image_bmp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppgso/image_raw.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ppgso/image_raw.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppgso/image_raw.h" beforeDir="false" afterPath="$PROJECT_DIR$/ppgso/image_raw.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppgso/mesh.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ppgso/mesh.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppgso/mesh.h" beforeDir="false" afterPath="$PROJECT_DIR$/ppgso/mesh.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppgso/ppgso.h" beforeDir="false" afterPath="$PROJECT_DIR$/ppgso/ppgso.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppgso/shader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ppgso/shader.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppgso/shader.h" beforeDir="false" afterPath="$PROJECT_DIR$/ppgso/shader.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppgso/texture.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ppgso/texture.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppgso/texture.h" beforeDir="false" afterPath="$PROJECT_DIR$/ppgso/texture.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppgso/tiny_obj_loader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ppgso/tiny_obj_loader.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppgso/tiny_obj_loader.h" beforeDir="false" afterPath="$PROJECT_DIR$/ppgso/tiny_obj_loader.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppgso/window.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ppgso/window.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppgso/window.h" beforeDir="false" afterPath="$PROJECT_DIR$/ppgso/window.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shader/color_frag.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/shader/color_frag.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shader/color_vert.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/shader/color_vert.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shader/convolution_frag.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/shader/convolution_frag.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shader/convolution_vert.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/shader/convolution_vert.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shader/diffuse_frag.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/shader/diffuse_frag.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shader/diffuse_vert.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/shader/diffuse_vert.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shader/texture_frag.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/shader/texture_frag.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shader/texture_vert.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/shader/texture_vert.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/.idea/gl10_projekt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/.idea/gl10_projekt.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/camera.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/camera.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/camera.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/camera.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/carpet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/carpet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/carpet.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/carpet.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/dvere.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/door.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/dvere.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/door.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/flasa.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/bottle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/flasa.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/bottle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/floor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/indoorFloor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/floor.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/indoorFloor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/gl10_scene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/grass_plane.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/outdoorFloor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/grass_plane.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/outdoorFloor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/interier.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/interier.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/interior.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/interior.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/interior.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/interior.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/knaz.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/priest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/knaz.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/priest.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/kostol.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/church.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/kostol.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/church.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/kriz.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/cross.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/kriz.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/cross.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/lampa.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/lamp.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/lampa.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/lamp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/lavicka.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/bench.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/lavicka.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/bench.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/luster.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/chandelier.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/luster.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/chandelier.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/ministrant.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/ministrant.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/ministrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/ministrant.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/muz.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/believer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/muz.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/believer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/object.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/object.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/object.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/object.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/path.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/path.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/path.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/path.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/piano.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/piano.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/piano.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/piano.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/scene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/scene.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/scene.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/scene.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/skybox.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/skybox.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/skybox.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/skybox.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/slnko.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/sun.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/slnko.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/sun.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/stol.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/altar.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/stol.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/altar.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/tree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/tree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl1_gradient/gl1_gradient.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl1_gradient/gl1_gradient.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl2_texture/gl2_texture.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl2_texture/gl2_texture.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl3_animate/gl3_animate.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl3_animate/gl3_animate.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl4_transform/gl4_transform.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl4_transform/gl4_transform.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl5_projection/gl5_projection.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl5_projection/gl5_projection.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl6_mesh/gl6_mesh.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl6_mesh/gl6_mesh.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl7_diffuse/gl7_diffuse.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl7_diffuse/gl7_diffuse.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl8_framebuffer/gl8_framebuffer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl8_framebuffer/gl8_framebuffer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl9_scene/asteroid.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl9_scene/asteroid.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl9_scene/asteroid.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl9_scene/asteroid.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl9_scene/camera.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl9_scene/camera.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl9_scene/camera.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl9_scene/camera.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl9_scene/explosion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl9_scene/explosion.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl9_scene/explosion.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl9_scene/explosion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl9_scene/generator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl9_scene/generator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl9_scene/generator.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl9_scene/generator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl9_scene/gl9_scene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl9_scene/gl9_scene.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl9_scene/object.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl9_scene/object.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl9_scene/object.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl9_scene/object.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl9_scene/player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl9_scene/player.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl9_scene/player.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl9_scene/player.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl9_scene/projectile.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl9_scene/projectile.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl9_scene/projectile.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl9_scene/projectile.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl9_scene/scene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl9_scene/scene.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl9_scene/scene.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl9_scene/scene.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl9_scene/space.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl9_scene/space.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gl9_scene/space.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl9_scene/space.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/playground.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/playground/playground.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/raw1_gradient/raw1_gradient.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/raw1_gradient/raw1_gradient.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/raw2_raycast/raw2_raycast.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/raw2_raycast/raw2_raycast.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/raw3_raytrace/raw3_raytrace.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/raw3_raytrace/raw3_raytrace.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/raw4_raster/raw4_raster.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/raw4_raster/raw4_raster.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1_filter/task1_filter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1_filter/task1_filter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task2_bresenham/task2_bresenham.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/task2_bresenham/task2_bresenham.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task3_bezier/task3_bezier.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/task3_bezier/task3_bezier.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task4_2dshapes/task4_2dshapes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/task4_2dshapes/task4_2dshapes.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task5_3d_origin/task5_3d_origin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/task5_3d_origin/task5_3d_origin.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task6_bezier_surface/task6_bezier_surface.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/task6_bezier_surface/task6_bezier_surface.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task7_particles/task7_particles.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/task7_particles/task7_particles.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="22HB4eHeWHAqbtmQ8OdfQGRUae0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+  </component>
+  <component name="RunManager" selected="CMake Application.gl10_projekt">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gl10_projekt" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppgso" TARGET_NAME="gl10_projekt" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ppgso" RUN_TARGET_NAME="gl10_projekt">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gl1_gradient" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppgso" TARGET_NAME="gl1_gradient" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ppgso" RUN_TARGET_NAME="gl1_gradient">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gl2_texture" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppgso" TARGET_NAME="gl2_texture" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ppgso" RUN_TARGET_NAME="gl2_texture">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gl3_animate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppgso" TARGET_NAME="gl3_animate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ppgso" RUN_TARGET_NAME="gl3_animate">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gl4_transform" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppgso" TARGET_NAME="gl4_transform" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ppgso" RUN_TARGET_NAME="gl4_transform">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gl5_projection" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppgso" TARGET_NAME="gl5_projection" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ppgso" RUN_TARGET_NAME="gl5_projection">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gl6_mesh" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppgso" TARGET_NAME="gl6_mesh" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ppgso" RUN_TARGET_NAME="gl6_mesh">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gl7_diffuse" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppgso" TARGET_NAME="gl7_diffuse" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ppgso" RUN_TARGET_NAME="gl7_diffuse">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gl8_framebuffer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppgso" TARGET_NAME="gl8_framebuffer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ppgso" RUN_TARGET_NAME="gl8_framebuffer">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gl9_scene" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppgso" TARGET_NAME="gl9_scene" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ppgso" RUN_TARGET_NAME="gl9_scene">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="playground" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppgso" TARGET_NAME="playground" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ppgso" RUN_TARGET_NAME="playground">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ppgso" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppgso" TARGET_NAME="ppgso" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="raw1_gradient" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppgso" TARGET_NAME="raw1_gradient" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ppgso" RUN_TARGET_NAME="raw1_gradient">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="raw2_raycast" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppgso" TARGET_NAME="raw2_raycast" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ppgso" RUN_TARGET_NAME="raw2_raycast">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="raw3_raytrace" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppgso" TARGET_NAME="raw3_raytrace" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ppgso" RUN_TARGET_NAME="raw3_raytrace">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="raw4_raster" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppgso" TARGET_NAME="raw4_raster" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ppgso" RUN_TARGET_NAME="raw4_raster">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="shaders" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppgso" TARGET_NAME="shaders" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task1_filter" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppgso" TARGET_NAME="task1_filter" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ppgso" RUN_TARGET_NAME="task1_filter">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task2_bresenham" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppgso" TARGET_NAME="task2_bresenham" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ppgso" RUN_TARGET_NAME="task2_bresenham">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task3_bezier" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppgso" TARGET_NAME="task3_bezier" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ppgso" RUN_TARGET_NAME="task3_bezier">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task4_2dshapes" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppgso" TARGET_NAME="task4_2dshapes" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ppgso" RUN_TARGET_NAME="task4_2dshapes">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task5_3d_origin" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppgso" TARGET_NAME="task5_3d_origin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ppgso" RUN_TARGET_NAME="task5_3d_origin">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task6_bezier_surface" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppgso" TARGET_NAME="task6_bezier_surface" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ppgso" RUN_TARGET_NAME="task6_bezier_surface">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task7_particles" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppgso" TARGET_NAME="task7_particles" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ppgso" RUN_TARGET_NAME="task7_particles">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.gl10_projekt" />
+      <item itemvalue="CMake Application.gl1_gradient" />
+      <item itemvalue="CMake Application.gl2_texture" />
+      <item itemvalue="CMake Application.gl3_animate" />
+      <item itemvalue="CMake Application.gl4_transform" />
+      <item itemvalue="CMake Application.gl5_projection" />
+      <item itemvalue="CMake Application.gl6_mesh" />
+      <item itemvalue="CMake Application.gl7_diffuse" />
+      <item itemvalue="CMake Application.gl8_framebuffer" />
+      <item itemvalue="CMake Application.gl9_scene" />
+      <item itemvalue="CMake Application.playground" />
+      <item itemvalue="CMake Application.ppgso" />
+      <item itemvalue="CMake Application.raw1_gradient" />
+      <item itemvalue="CMake Application.raw2_raycast" />
+      <item itemvalue="CMake Application.raw3_raytrace" />
+      <item itemvalue="CMake Application.raw4_raster" />
+      <item itemvalue="CMake Application.shaders" />
+      <item itemvalue="CMake Application.task1_filter" />
+      <item itemvalue="CMake Application.task2_bresenham" />
+      <item itemvalue="CMake Application.task3_bezier" />
+      <item itemvalue="CMake Application.task4_2dshapes" />
+      <item itemvalue="CMake Application.task5_3d_origin" />
+      <item itemvalue="CMake Application.task6_bezier_surface" />
+      <item itemvalue="CMake Application.task7_particles" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b04ded57-e30a-4306-9d52-ca76d587b9ec" name="Changes" comment="" />
+      <created>1639484445684</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639484445684</updated>
+      <workItem from="1639484449193" duration="2817000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

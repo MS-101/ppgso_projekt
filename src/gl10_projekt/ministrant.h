@@ -13,7 +13,7 @@ private:
 
 public:
 
-    explicit Ministrant(glm::vec3 position_of_object, std::string my_name);
+    explicit Ministrant(glm::vec3 position_of_object, std::string my_name, glm::vec3 rotation_object, glm::vec3 scale_object);
 
     bool update(Scene &scene, float dt) override;
 

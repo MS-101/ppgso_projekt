@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ppgso-public.iml" filepath="$PROJECT_DIR$/.idea/ppgso-public.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ppgso.iml" filepath="$PROJECT_DIR$/.idea/ppgso.iml" />
     </modules>
   </component>
 </project>
