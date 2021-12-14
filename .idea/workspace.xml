@@ -36,10 +36,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b04ded57-e30a-4306-9d52-ca76d587b9ec" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/interior.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/interior.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/lamp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/lamp.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/lamp.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/lamp.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gl10_projekt/outdoorFloor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/outdoorFloor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/gl10_projekt.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/gl10_projekt.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gl10_projekt/scene2Handler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gl10_projekt/scene2Handler.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,9 +67,9 @@
     <property name="cmake.loaded.for.project" value="true" />
   </component>
   <component name="RunManager" selected="CMake Application.gl10_projekt">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="gl10_projekt" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppgso" TARGET_NAME="gl10_projekt" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ppgso" RUN_TARGET_NAME="gl10_projekt">
@@ -234,7 +232,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639484445684</updated>
-      <workItem from="1639484449193" duration="3254000" />
+      <workItem from="1639484449193" duration="3515000" />
+      <workItem from="1639489492462" duration="2002000" />
     </task>
     <servers />
   </component>
@@ -251,5 +250,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

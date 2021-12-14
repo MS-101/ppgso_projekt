@@ -95,7 +95,7 @@ void scene2Handler::createStaff() {
     auto priest = std::make_unique<Priest>(glm::vec3{-9, 0, -13}, "priest", glm::vec3{0.01,0.01,0.01}, glm::vec3{-1.57,0,-1.57 + 1.0/3.0 * M_PI});
     auto ministrant1 = std::make_unique<Ministrant>(glm::vec3{-10, 0.5, -15}, "ministrant1", rotationMinistrants, scaleMinistrants);
     auto ministrant2 = std::make_unique<Ministrant>(glm::vec3{-8, 0.5, -15}, "ministrant2", rotationMinistrants, scaleMinistrants);
-    auto pianist = std::make_unique<pianist_body>(glm::vec3{-9, 0, -13}, "pianist", glm::vec3{0, 0, 0}, glm::vec3{1, 1, 1});
+    auto pianist = std::make_unique<pianist_body>(glm::vec3{-9, 1.01, -13}, "pianist", glm::vec3{0, 0, 0}, glm::vec3{1, 1, 1});
     assignedScene->objects.push_back(std::move(priest));
     assignedScene->objects.push_back(std::move(ministrant1));
     assignedScene->objects.push_back(std::move(ministrant2));
@@ -320,8 +320,8 @@ bool scene2Handler::staffEnterChurch(float dt) {
 
         Object* pianist = assignedScene->findObjectByName("pianist");
         if (pianist != nullptr) {
-            keyframe1.setKeyframe(glm::vec3{-6, 1, -15}, {0,0, 1.0/3.0 * M_PI}, pianist->scale);
-            keyframe2.setKeyframe(glm::vec3{6, 1, -5}, {0,0,0}, pianist->scale);
+            keyframe1.setKeyframe(glm::vec3{-6, 1.01, -15}, {0,0, 1.0/3.0 * M_PI}, pianist->scale);
+            keyframe2.setKeyframe(glm::vec3{6, 1.01, -5}, {0,0,0}, pianist->scale);
             myAnimationHandler.addObject(pianist, keyframe1, keyframe2);
         }
 
@@ -629,8 +629,8 @@ bool scene2Handler::staffLeaveChurch(float dt) {
 
         Object* pianist = assignedScene->findObjectByName("pianist");
         if (pianist != nullptr) {
-            keyframe1.setKeyframe(glm::vec3{6, 1, -5}, {0,0, 0}, pianist->scale);
-            keyframe2.setKeyframe(glm::vec3{-6, 1, -15}, {0,0,-1.0/3.0 * M_PI}, pianist->scale);
+            keyframe1.setKeyframe(glm::vec3{6, 1.01, -5}, {0,0, 0}, pianist->scale);
+            keyframe2.setKeyframe(glm::vec3{-6, 1.01, -15}, {0,0,-1.0/3.0 * M_PI}, pianist->scale);
             myAnimationHandler.addObject(pianist, keyframe1, keyframe2);
         }
 

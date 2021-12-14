@@ -1080,31 +1080,11 @@ ppgso/ppgso.h
 object.h
 C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/object.h
 
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/interior.cpp
-interior.h
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/interior.h
-shaders/diffuse_frag_glsl.h
--
-shaders/diffuse_vert_glsl.h
--
-scene.h
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/scene.h
-
 C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/interior.h
 ppgso/ppgso.h
 -
 object.h
 C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/object.h
-
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/lamp.cpp
-lamp.h
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/lamp.h
-shaders/diffuse_vert_glsl.h
--
-shaders/diffuse_frag_glsl.h
--
-scene.h
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/scene.h
 
 C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/lamp.h
 ppgso/ppgso.h
@@ -1129,22 +1109,6 @@ glm/glm.hpp
 -
 
 C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/objectKeyframe.h
-ppgso/ppgso.h
--
-object.h
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/object.h
-
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/outdoorFloor.cpp
-outdoorFloor.h
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/outdoorFloor.h
-shaders/diffuse_frag_glsl.h
--
-shaders/diffuse_vert_glsl.h
--
-scene.h
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/scene.h
-
-C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/outdoorFloor.h
 ppgso/ppgso.h
 -
 object.h
@@ -1235,12 +1199,4 @@ animationHandler.h
 C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/animationHandler.h
 scene.h
 C:/Users/marti/Desktop/School/semester_5/PPGSO/Projekt/ppgso/src/gl10_projekt/scene.h
-
-shaders/diffuse_frag_glsl.h
-string
--
-
-shaders/diffuse_vert_glsl.h
-string
--
 
