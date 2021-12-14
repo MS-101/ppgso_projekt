@@ -11,14 +11,14 @@ std::unique_ptr<ppgso::Mesh> Lamp::mesh;
 std::unique_ptr<ppgso::Shader> Lamp::shader;
 std::unique_ptr<ppgso::Texture> Lamp::texture;
 
-Lamp::Lamp() {
+Lamp::Lamp(glm::vec3 object_position) {
     // Initialize static resources if needed
     if (!shader) shader = std::make_unique<ppgso::Shader>(diffuse_vert_glsl, diffuse_frag_glsl);
     if (!texture) texture = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("lampa.bmp"));
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("lampa.obj");
     scale = {0.015,0.015,0.015};
     rotation = {-1.57,0,0};
-    position = {-3, 0, 3};
+    position = object_position;
 }
 
 bool Lamp::update(Scene &scene, float dt) {

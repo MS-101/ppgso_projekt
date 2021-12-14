@@ -1724,8 +1724,8 @@ CMakeFiles/gl10_projekt.dir/src/gl10_projekt/interior.cpp.obj: \
  ../src/gl10_projekt/interior.h \
  ../src/gl10_projekt/object.h \
  ../src/gl10_projekt/scene.h \
- shaders/texture_frag_glsl.h \
- shaders/texture_vert_glsl.h
+ shaders/diffuse_frag_glsl.h \
+ shaders/diffuse_vert_glsl.h
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/lamp.cpp.obj: \
  ../dependencies/include/GL/glew.h \
  ../dependencies/include/GLFW/glfw3.h \
@@ -2450,8 +2450,8 @@ CMakeFiles/gl10_projekt.dir/src/gl10_projekt/outdoorFloor.cpp.obj: \
  ../src/gl10_projekt/outdoorFloor.cpp \
  ../src/gl10_projekt/outdoorFloor.h \
  ../src/gl10_projekt/scene.h \
- shaders/texture_frag_glsl.h \
- shaders/texture_vert_glsl.h
+ shaders/diffuse_frag_glsl.h \
+ shaders/diffuse_vert_glsl.h
 CMakeFiles/gl10_projekt.dir/src/gl10_projekt/path.cpp.obj: \
  ../dependencies/include/GL/glew.h \
  ../dependencies/include/GLFW/glfw3.h \

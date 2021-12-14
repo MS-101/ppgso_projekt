@@ -13,7 +13,7 @@ private:
     static std::unique_ptr<ppgso::Texture> texture;
 
 public:
-    Lamp();
+    Lamp(glm::vec3 object_position);
 
     bool update(Scene &scene, float dt) override;
 

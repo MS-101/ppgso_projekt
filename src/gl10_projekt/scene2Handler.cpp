@@ -65,9 +65,11 @@ void scene2Handler::initScene() {
 
     // osvetlenie
     auto chandelier = std::make_unique<Chandelier>();
-    auto lamp = std::make_unique<Lamp>();
+    auto lamp1 = std::make_unique<Lamp>(glm::vec3{-3, 0, 3});
+    auto lamp2 = std::make_unique<Lamp>(glm::vec3{3, 0, 3});
     assignedScene->objects.push_back(std::move(chandelier));
-    assignedScene->objects.push_back(std::move(lamp));
+    assignedScene->objects.push_back(std::move(lamp1));
+    assignedScene->objects.push_back(std::move(lamp2));
 
     // rozbitelna flasa
     auto bottle = std::make_unique<Bottle>(glm::vec3{0,1,4}, "rizling");
