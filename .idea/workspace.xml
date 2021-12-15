@@ -36,14 +36,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b04ded57-e30a-4306-9d52-ca76d587b9ec" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gl10_projekt.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/shaders/diffuse_frag_glsl.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/shaders/diffuse_frag_glsl.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/gl10_projekt.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/gl10_projekt.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libshaders.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libshaders.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/shaders/diffuse_frag_glsl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/shaders/diffuse_frag_glsl.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shader/diffuse_frag.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/shader/diffuse_frag.glsl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,11 +66,6 @@
     <property name="cmake.loaded.for.project" value="true" />
   </component>
   <component name="RunManager" selected="CMake Application.gl10_projekt">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="gl10_projekt" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppgso" TARGET_NAME="gl10_projekt" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ppgso" RUN_TARGET_NAME="gl10_projekt">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -241,6 +229,8 @@
       <workItem from="1639511295116" duration="1857000" />
       <workItem from="1639513335048" duration="2246000" />
       <workItem from="1639516018262" duration="209000" />
+      <workItem from="1639516409482" duration="15000" />
+      <workItem from="1639516441820" duration="17000" />
     </task>
     <servers />
   </component>

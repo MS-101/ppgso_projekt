@@ -81,7 +81,7 @@ vec3 CalcDirLight(vec3 norm, vec3 viewDir)
 
 void main() {
   //aktivacia filtra zmenou podmienky na 1.0f
-  if(ActivateFilter == 1.0f){
+  if(ActivateFilter == 0.0f){
     vec3 viewDir = normalize(viewPos - FragPos);
     vec3 lightDir = normalize(-LightDirection);
     vec3 reflectDir = reflect(-lightDir, norm);
